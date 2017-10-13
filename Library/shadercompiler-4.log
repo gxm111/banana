@@ -1,0 +1,23 @@
+Base path: I:/Program Files (x86)/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-4-9148
+Cmd: getPlatforms
+Cmd: compileSnippet
+  api=4 type=0 insize=5261 outsize=4223 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=5261 outsize=1027 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1583 outsize=453 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1449 outsize=1997 kw= ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=4499 outsize=1281 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF VERTEXLIGHT_ON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=867 outsize=502 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=5187 outsize=1446 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5187 outsize=1680 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Unhandled exception: Readfile from pipe failed. GLE=管道已结束。
+
+
+Quitting shader compiler process

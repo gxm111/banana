@@ -1,0 +1,1159 @@
+fileFormatVersion: 2
+guid: aa1129dcb37164d4182879981b66b118
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Area Light
+    100002: Directional Light
+    100004: //RootNode
+    100006: Liana
+    100008: Liana_10
+    100010: Liana_11
+    100012: Liana_12
+    100014: Liana_2
+    100016: Liana_3
+    100018: Liana_4
+    100020: Liana_5
+    100022: Liana_6
+    100024: Liana_7
+    100026: Liana_8
+    100028: Liana_9
+    100030: Texture Group_2
+    100032: Weight Container
+    100034: Weight Container_10
+    100036: Weight Container_2
+    100038: Weight Container_3
+    100040: Weight Container_4
+    100042: Weight Container_5
+    100044: Weight Container_6
+    100046: Weight Container_7
+    100048: Weight Container_8
+    100050: Weight Container_9
+    100052: Locator
+    100054: Skeleton_Liana
+    100056: Weight Container_11
+    100058: Liana_xxx
+    100060: 'Liana_xxx: Area Light'
+    100062: 'Liana_xxx: Directional Light'
+    100064: 'Liana_xxx: Liana'
+    100066: 'Liana_xxx: Liana_10'
+    100068: 'Liana_xxx: Liana_11'
+    100070: 'Liana_xxx: Liana_12'
+    100072: 'Liana_xxx: Liana_2'
+    100074: 'Liana_xxx: Liana_3'
+    100076: 'Liana_xxx: Liana_4'
+    100078: 'Liana_xxx: Liana_5'
+    100080: 'Liana_xxx: Liana_6'
+    100082: 'Liana_xxx: Liana_7'
+    100084: 'Liana_xxx: Liana_8'
+    100086: 'Liana_xxx: Liana_9'
+    100088: 'Liana_xxx: Texture Group_2'
+    100090: 'Liana_xxx: TextureGroup'
+    100092: 'Liana_xxx: Weight Container'
+    100094: 'Liana_xxx: Weight Container_10'
+    100096: 'Liana_xxx: Weight Container_2'
+    100098: 'Liana_xxx: Weight Container_3'
+    100100: 'Liana_xxx: Weight Container_4'
+    100102: 'Liana_xxx: Weight Container_5'
+    100104: 'Liana_xxx: Weight Container_6'
+    100106: 'Liana_xxx: Weight Container_7'
+    100108: 'Liana_xxx: Weight Container_8'
+    100110: 'Liana_xxx: Weight Container_9'
+    400000: Area Light
+    400002: Directional Light
+    400004: //RootNode
+    400006: Liana
+    400008: Liana_10
+    400010: Liana_11
+    400012: Liana_12
+    400014: Liana_2
+    400016: Liana_3
+    400018: Liana_4
+    400020: Liana_5
+    400022: Liana_6
+    400024: Liana_7
+    400026: Liana_8
+    400028: Liana_9
+    400030: Texture Group_2
+    400032: Weight Container
+    400034: Weight Container_10
+    400036: Weight Container_2
+    400038: Weight Container_3
+    400040: Weight Container_4
+    400042: Weight Container_5
+    400044: Weight Container_6
+    400046: Weight Container_7
+    400048: Weight Container_8
+    400050: Weight Container_9
+    400052: Locator
+    400054: Skeleton_Liana
+    400056: Weight Container_11
+    400058: Liana_xxx
+    400060: 'Liana_xxx: Area Light'
+    400062: 'Liana_xxx: Directional Light'
+    400064: 'Liana_xxx: Liana'
+    400066: 'Liana_xxx: Liana_10'
+    400068: 'Liana_xxx: Liana_11'
+    400070: 'Liana_xxx: Liana_12'
+    400072: 'Liana_xxx: Liana_2'
+    400074: 'Liana_xxx: Liana_3'
+    400076: 'Liana_xxx: Liana_4'
+    400078: 'Liana_xxx: Liana_5'
+    400080: 'Liana_xxx: Liana_6'
+    400082: 'Liana_xxx: Liana_7'
+    400084: 'Liana_xxx: Liana_8'
+    400086: 'Liana_xxx: Liana_9'
+    400088: 'Liana_xxx: Texture Group_2'
+    400090: 'Liana_xxx: TextureGroup'
+    400092: 'Liana_xxx: Weight Container'
+    400094: 'Liana_xxx: Weight Container_10'
+    400096: 'Liana_xxx: Weight Container_2'
+    400098: 'Liana_xxx: Weight Container_3'
+    400100: 'Liana_xxx: Weight Container_4'
+    400102: 'Liana_xxx: Weight Container_5'
+    400104: 'Liana_xxx: Weight Container_6'
+    400106: 'Liana_xxx: Weight Container_7'
+    400108: 'Liana_xxx: Weight Container_8'
+    400110: 'Liana_xxx: Weight Container_9'
+    4300000: Liana
+    4300002: 'Liana_xxx: Liana'
+    7400000: T-Pose
+    7400002: R_Hand_Fist
+    7400004: L_Hand_Fist
+    7400006: Glide_liana
+    7400008: Head_Pose
+    7400010: Start_Pose
+    7400012: Glide_liana_part1
+    7400014: Glide_liana_part2
+    7400016: Head_Pose
+    9500000: //RootNode
+    13700000: Liana
+    13700002: 'Liana_xxx: Liana'
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: T-Pose
+      takeName: T-Pose
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Area Light
+        weight: 1
+      - path: Directional Light
+        weight: 1
+      - path: Liana
+        weight: 1
+      - path: Liana_2
+        weight: 1
+      - path: Liana_2/Liana_3
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Liana_7
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Liana_7/Liana_8
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Liana_7/Liana_8/Liana_9
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Liana_7/Liana_8/Liana_9/Liana_10
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Liana_7/Liana_8/Liana_9/Liana_10/Liana_11
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Liana_7/Liana_8/Liana_9/Liana_10/Liana_11/Liana_12
+        weight: 1
+      - path: Texture Group_2
+        weight: 1
+      - path: Weight Container
+        weight: 1
+      - path: Weight Container_2
+        weight: 1
+      - path: Weight Container_3
+        weight: 1
+      - path: Weight Container_4
+        weight: 1
+      - path: Weight Container_5
+        weight: 1
+      - path: Weight Container_6
+        weight: 1
+      - path: Weight Container_7
+        weight: 1
+      - path: Weight Container_8
+        weight: 1
+      - path: Weight Container_9
+        weight: 1
+      - path: Weight Container_10
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: R_Hand_Fist
+      takeName: R_Hand_Fist
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Area Light
+        weight: 1
+      - path: Directional Light
+        weight: 1
+      - path: Liana
+        weight: 1
+      - path: Liana_2
+        weight: 1
+      - path: Liana_2/Liana_3
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Liana_7
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Liana_7/Liana_8
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Liana_7/Liana_8/Liana_9
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Liana_7/Liana_8/Liana_9/Liana_10
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Liana_7/Liana_8/Liana_9/Liana_10/Liana_11
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Liana_7/Liana_8/Liana_9/Liana_10/Liana_11/Liana_12
+        weight: 1
+      - path: Texture Group_2
+        weight: 1
+      - path: Weight Container
+        weight: 1
+      - path: Weight Container_2
+        weight: 1
+      - path: Weight Container_3
+        weight: 1
+      - path: Weight Container_4
+        weight: 1
+      - path: Weight Container_5
+        weight: 1
+      - path: Weight Container_6
+        weight: 1
+      - path: Weight Container_7
+        weight: 1
+      - path: Weight Container_8
+        weight: 1
+      - path: Weight Container_9
+        weight: 1
+      - path: Weight Container_10
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: L_Hand_Fist
+      takeName: L_Hand_Fist
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Area Light
+        weight: 1
+      - path: Directional Light
+        weight: 1
+      - path: Liana
+        weight: 1
+      - path: Liana_2
+        weight: 1
+      - path: Liana_2/Liana_3
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Liana_7
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Liana_7/Liana_8
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Liana_7/Liana_8/Liana_9
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Liana_7/Liana_8/Liana_9/Liana_10
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Liana_7/Liana_8/Liana_9/Liana_10/Liana_11
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Liana_7/Liana_8/Liana_9/Liana_10/Liana_11/Liana_12
+        weight: 1
+      - path: Texture Group_2
+        weight: 1
+      - path: Weight Container
+        weight: 1
+      - path: Weight Container_2
+        weight: 1
+      - path: Weight Container_3
+        weight: 1
+      - path: Weight Container_4
+        weight: 1
+      - path: Weight Container_5
+        weight: 1
+      - path: Weight Container_6
+        weight: 1
+      - path: Weight Container_7
+        weight: 1
+      - path: Weight Container_8
+        weight: 1
+      - path: Weight Container_9
+        weight: 1
+      - path: Weight Container_10
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Glide_liana
+      takeName: Glide_liana
+      firstFrame: 26
+      lastFrame: 96
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Area Light
+        weight: 1
+      - path: Directional Light
+        weight: 1
+      - path: Liana
+        weight: 1
+      - path: Liana_2
+        weight: 1
+      - path: Liana_2/Liana_3
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator/Liana_7
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator/Liana_7/Liana_9
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator/Liana_7/Liana_9/Liana_10
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator/Liana_7/Liana_9/Liana_10/Liana_11
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator/Liana_7/Liana_9/Liana_10/Liana_11/Liana_12
+        weight: 1
+      - path: Liana_xxx
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Area Light'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Directional Light'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7/Liana_xxx: Liana_8'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7/Liana_xxx: Liana_8/Liana_xxx:
+          Liana_9'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7/Liana_xxx: Liana_8/Liana_xxx:
+          Liana_9/Liana_xxx: Liana_10'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7/Liana_xxx: Liana_8/Liana_xxx:
+          Liana_9/Liana_xxx: Liana_10/Liana_xxx: Liana_11'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7/Liana_xxx: Liana_8/Liana_xxx:
+          Liana_9/Liana_xxx: Liana_10/Liana_xxx: Liana_11/Liana_xxx: Liana_12'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Texture Group_2'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: TextureGroup'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_2'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_3'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_4'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_5'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_6'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_7'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_8'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_9'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_10'
+        weight: 1
+      - path: Texture Group_2
+        weight: 1
+      - path: Weight Container
+        weight: 1
+      - path: Weight Container_2
+        weight: 1
+      - path: Weight Container_3
+        weight: 1
+      - path: Weight Container_4
+        weight: 1
+      - path: Weight Container_5
+        weight: 1
+      - path: Weight Container_6
+        weight: 1
+      - path: Weight Container_7
+        weight: 1
+      - path: Weight Container_8
+        weight: 1
+      - path: Weight Container_9
+        weight: 1
+      - path: Weight Container_10
+        weight: 1
+      - path: Weight Container_11
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Head_Pose
+      takeName: Glide_liana
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Area Light
+        weight: 1
+      - path: Directional Light
+        weight: 1
+      - path: Liana
+        weight: 1
+      - path: Liana_2
+        weight: 1
+      - path: Liana_2/Liana_3
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator/Liana_7
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator/Liana_7/Liana_9
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator/Liana_7/Liana_9/Liana_10
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator/Liana_7/Liana_9/Liana_10/Liana_11
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator/Liana_7/Liana_9/Liana_10/Liana_11/Liana_12
+        weight: 1
+      - path: Liana_xxx
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Area Light'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Directional Light'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7/Liana_xxx: Liana_8'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7/Liana_xxx: Liana_8/Liana_xxx:
+          Liana_9'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7/Liana_xxx: Liana_8/Liana_xxx:
+          Liana_9/Liana_xxx: Liana_10'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7/Liana_xxx: Liana_8/Liana_xxx:
+          Liana_9/Liana_xxx: Liana_10/Liana_xxx: Liana_11'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7/Liana_xxx: Liana_8/Liana_xxx:
+          Liana_9/Liana_xxx: Liana_10/Liana_xxx: Liana_11/Liana_xxx: Liana_12'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Texture Group_2'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: TextureGroup'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_2'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_3'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_4'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_5'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_6'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_7'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_8'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_9'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_10'
+        weight: 1
+      - path: Texture Group_2
+        weight: 1
+      - path: Weight Container
+        weight: 1
+      - path: Weight Container_2
+        weight: 1
+      - path: Weight Container_3
+        weight: 1
+      - path: Weight Container_4
+        weight: 1
+      - path: Weight Container_5
+        weight: 1
+      - path: Weight Container_6
+        weight: 1
+      - path: Weight Container_7
+        weight: 1
+      - path: Weight Container_8
+        weight: 1
+      - path: Weight Container_9
+        weight: 1
+      - path: Weight Container_10
+        weight: 1
+      - path: Weight Container_11
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Start_Pose
+      takeName: Start_Pose
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Area Light
+        weight: 1
+      - path: Directional Light
+        weight: 1
+      - path: Liana
+        weight: 1
+      - path: Liana_2
+        weight: 1
+      - path: Liana_2/Liana_3
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator/Liana_7
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator/Liana_7/Liana_9
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator/Liana_7/Liana_9/Liana_10
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator/Liana_7/Liana_9/Liana_10/Liana_11
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator/Liana_7/Liana_9/Liana_10/Liana_11/Liana_12
+        weight: 1
+      - path: Liana_xxx
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Area Light'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Directional Light'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7/Liana_xxx: Liana_8'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7/Liana_xxx: Liana_8/Liana_xxx:
+          Liana_9'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7/Liana_xxx: Liana_8/Liana_xxx:
+          Liana_9/Liana_xxx: Liana_10'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7/Liana_xxx: Liana_8/Liana_xxx:
+          Liana_9/Liana_xxx: Liana_10/Liana_xxx: Liana_11'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7/Liana_xxx: Liana_8/Liana_xxx:
+          Liana_9/Liana_xxx: Liana_10/Liana_xxx: Liana_11/Liana_xxx: Liana_12'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Texture Group_2'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: TextureGroup'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_2'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_3'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_4'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_5'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_6'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_7'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_8'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_9'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_10'
+        weight: 1
+      - path: Texture Group_2
+        weight: 1
+      - path: Weight Container
+        weight: 1
+      - path: Weight Container_2
+        weight: 1
+      - path: Weight Container_3
+        weight: 1
+      - path: Weight Container_4
+        weight: 1
+      - path: Weight Container_5
+        weight: 1
+      - path: Weight Container_6
+        weight: 1
+      - path: Weight Container_7
+        weight: 1
+      - path: Weight Container_8
+        weight: 1
+      - path: Weight Container_9
+        weight: 1
+      - path: Weight Container_10
+        weight: 1
+      - path: Weight Container_11
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Glide_liana_part1
+      takeName: Glide_liana
+      firstFrame: 24
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Area Light
+        weight: 1
+      - path: Directional Light
+        weight: 1
+      - path: Liana
+        weight: 1
+      - path: Liana_2
+        weight: 1
+      - path: Liana_2/Liana_3
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator/Liana_7
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator/Liana_7/Liana_9
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator/Liana_7/Liana_9/Liana_10
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator/Liana_7/Liana_9/Liana_10/Liana_11
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator/Liana_7/Liana_9/Liana_10/Liana_11/Liana_12
+        weight: 1
+      - path: Liana_xxx
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Area Light'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Directional Light'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7/Liana_xxx: Liana_8'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7/Liana_xxx: Liana_8/Liana_xxx:
+          Liana_9'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7/Liana_xxx: Liana_8/Liana_xxx:
+          Liana_9/Liana_xxx: Liana_10'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7/Liana_xxx: Liana_8/Liana_xxx:
+          Liana_9/Liana_xxx: Liana_10/Liana_xxx: Liana_11'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7/Liana_xxx: Liana_8/Liana_xxx:
+          Liana_9/Liana_xxx: Liana_10/Liana_xxx: Liana_11/Liana_xxx: Liana_12'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Texture Group_2'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: TextureGroup'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_2'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_3'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_4'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_5'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_6'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_7'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_8'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_9'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_10'
+        weight: 1
+      - path: Texture Group_2
+        weight: 1
+      - path: Weight Container
+        weight: 1
+      - path: Weight Container_2
+        weight: 1
+      - path: Weight Container_3
+        weight: 1
+      - path: Weight Container_4
+        weight: 1
+      - path: Weight Container_5
+        weight: 1
+      - path: Weight Container_6
+        weight: 1
+      - path: Weight Container_7
+        weight: 1
+      - path: Weight Container_8
+        weight: 1
+      - path: Weight Container_9
+        weight: 1
+      - path: Weight Container_10
+        weight: 1
+      - path: Weight Container_11
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Glide_liana_part2
+      takeName: Glide_liana
+      firstFrame: 45
+      lastFrame: 96
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Area Light
+        weight: 1
+      - path: Directional Light
+        weight: 1
+      - path: Liana
+        weight: 1
+      - path: Liana_2
+        weight: 1
+      - path: Liana_2/Liana_3
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator/Liana_7
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator/Liana_7/Liana_9
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator/Liana_7/Liana_9/Liana_10
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator/Liana_7/Liana_9/Liana_10/Liana_11
+        weight: 1
+      - path: Liana_2/Liana_3/Liana_4/Liana_5/Liana_6/Skeleton_Liana/Locator/Liana_7/Liana_9/Liana_10/Liana_11/Liana_12
+        weight: 1
+      - path: Liana_xxx
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Area Light'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Directional Light'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7/Liana_xxx: Liana_8'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7/Liana_xxx: Liana_8/Liana_xxx:
+          Liana_9'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7/Liana_xxx: Liana_8/Liana_xxx:
+          Liana_9/Liana_xxx: Liana_10'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7/Liana_xxx: Liana_8/Liana_xxx:
+          Liana_9/Liana_xxx: Liana_10/Liana_xxx: Liana_11'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Liana_2/Liana_xxx: Liana_3/Liana_xxx: Liana_4/Liana_xxx:
+          Liana_5/Liana_xxx: Liana_6/Liana_xxx: Liana_7/Liana_xxx: Liana_8/Liana_xxx:
+          Liana_9/Liana_xxx: Liana_10/Liana_xxx: Liana_11/Liana_xxx: Liana_12'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Texture Group_2'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: TextureGroup'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_2'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_3'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_4'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_5'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_6'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_7'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_8'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_9'
+        weight: 1
+      - path: 'Liana_xxx/Liana_xxx: Weight Container_10'
+        weight: 1
+      - path: Texture Group_2
+        weight: 1
+      - path: Weight Container
+        weight: 1
+      - path: Weight Container_2
+        weight: 1
+      - path: Weight Container_3
+        weight: 1
+      - path: Weight Container_4
+        weight: 1
+      - path: Weight Container_5
+        weight: 1
+      - path: Weight Container_6
+        weight: 1
+      - path: Weight Container_7
+        weight: 1
+      - path: Weight Container_8
+        weight: 1
+      - path: Weight Container_9
+        weight: 1
+      - path: Weight Container_10
+        weight: 1
+      - path: Weight Container_11
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0250000004
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

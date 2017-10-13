@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: 49b20c985d5de41a3bad935efc567fc2
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TipsAndTricks_Bg7
+    21300002: TipsAndTricks_Bg9
+    21300004: TipsAndTricks_Bg10
+    21300006: TipsAndTricks_Bg6
+    21300008: TipsAndTricks_Bg16
+    21300010: TipsAndTricks_Bg17
+    21300012: TipsAndTricks_Bg18
+    21300014: TipsAndTricks_Bg12
+    21300016: TipsAndTricks_Bg19
+    21300018: TipsAndTricks_Bg23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: TipsAndTricks_Bg7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 831
+        width: 508
+        height: 192
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TipsAndTricks_Bg9
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 831
+        width: 506
+        height: 191
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TipsAndTricks_Bg10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 638
+        width: 509
+        height: 190
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TipsAndTricks_Bg6
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 637
+        width: 507
+        height: 191
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TipsAndTricks_Bg16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 444
+        width: 509
+        height: 190
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TipsAndTricks_Bg17
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 443
+        width: 508
+        height: 191
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TipsAndTricks_Bg18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 248
+        width: 508
+        height: 191
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TipsAndTricks_Bg12
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 248
+        width: 508
+        height: 191
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TipsAndTricks_Bg19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 52
+        width: 509
+        height: 191
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TipsAndTricks_Bg23
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 51
+        width: 508
+        height: 192
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

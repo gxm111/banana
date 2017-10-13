@@ -1,0 +1,826 @@
+fileFormatVersion: 2
+guid: 1c8b4daacfe0646d6a7bf070aa3ffb67
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: B_donja_usna
+    100002: B_Glava
+    100004: B_gornja_usna
+    100006: B_grana_A
+    100008: B_grana_A_2
+    100010: B_grana_A_3
+    100012: B_grana_A_4
+    100014: B_grana_B
+    100016: B_grana_B_2
+    100018: B_grana_B_3
+    100020: B_grana_B_4
+    100022: B_grana_B_5
+    100024: B_grana_B_6
+    100026: B_grana_C
+    100028: B_grana_C_2
+    100030: B_grana_C_3
+    100032: B_grana_C_4
+    100034: B_grana_C_5
+    100036: B_list_D
+    100038: B_list_D_2
+    100040: B_list_D_3
+    100042: B_list_D_4
+    100044: B_list_D_5
+    100046: B_list_L
+    100048: B_list_L_2
+    100050: B_list_L_3
+    100052: B_list_L_4
+    100054: B_stablo
+    100056: B_stablo_3
+    100058: B_stablo_4
+    100060: B_stablo_5
+    100062: B_stablo_6
+    100064: B_stablo_7
+    100066: Biljka
+    100068: //RootNode
+    100070: Biljka_rig_ROOT
+    100072: Bird_Joint_11
+    100074: Bird_Joint_7
+    100076: Bird_Joint_9
+    100078: Camera
+    100080: Directional Light
+    100082: Mesh
+    100084: Texture Group
+    400000: B_donja_usna
+    400002: B_Glava
+    400004: B_gornja_usna
+    400006: B_grana_A
+    400008: B_grana_A_2
+    400010: B_grana_A_3
+    400012: B_grana_A_4
+    400014: B_grana_B
+    400016: B_grana_B_2
+    400018: B_grana_B_3
+    400020: B_grana_B_4
+    400022: B_grana_B_5
+    400024: B_grana_B_6
+    400026: B_grana_C
+    400028: B_grana_C_2
+    400030: B_grana_C_3
+    400032: B_grana_C_4
+    400034: B_grana_C_5
+    400036: B_list_D
+    400038: B_list_D_2
+    400040: B_list_D_3
+    400042: B_list_D_4
+    400044: B_list_D_5
+    400046: B_list_L
+    400048: B_list_L_2
+    400050: B_list_L_3
+    400052: B_list_L_4
+    400054: B_stablo
+    400056: B_stablo_3
+    400058: B_stablo_4
+    400060: B_stablo_5
+    400062: B_stablo_6
+    400064: B_stablo_7
+    400066: Biljka
+    400068: //RootNode
+    400070: Biljka_rig_ROOT
+    400072: Bird_Joint_11
+    400074: Bird_Joint_7
+    400076: Bird_Joint_9
+    400078: Camera
+    400080: Directional Light
+    400082: Mesh
+    400084: Texture Group
+    4300000: Biljka
+    7400000: Idle
+    7400002: Attack
+    7400004: Idle_2
+    7400006: Attack_2
+    7400008: Attack_3
+    7400010: Attack_4
+    9500000: //RootNode
+    13700000: Biljka
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: 0
+      lastFrame: 262
+      wrapMode: 0
+      orientationOffsetY: 90
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biljka
+        weight: 1
+      - path: Biljka_rig_ROOT
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D/B_list_D_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D/B_list_D_2/B_list_D_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D/B_list_D_2/B_list_D_3/B_list_D_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D/B_list_D_2/B_list_D_3/B_list_D_4/B_list_D_5
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_L
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_L/B_list_L_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_L/B_list_L_2/B_list_L_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_L/B_list_L_2/B_list_L_3/B_list_L_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_grana_A
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_grana_A/B_grana_A_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_grana_A/B_grana_A_2/B_grana_A_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_grana_A/B_grana_A_2/B_grana_A_3/B_grana_A_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2/B_grana_B_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2/B_grana_B_3/B_grana_B_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2/B_grana_B_3/B_grana_B_4/B_grana_B_5
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2/B_grana_B_3/B_grana_B_4/B_grana_B_5/B_grana_B_6
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C/B_grana_C_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C/B_grana_C_2/B_grana_C_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C/B_grana_C_2/B_grana_C_3/B_grana_C_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C/B_grana_C_2/B_grana_C_3/B_grana_C_4/B_grana_C_5
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/B_donja_usna
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/B_donja_usna/Bird_Joint_9
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/B_gornja_usna
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/B_gornja_usna/Bird_Joint_11
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/Bird_Joint_7
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Directional Light
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Texture Group
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack
+      takeName: Attack
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biljka
+        weight: 1
+      - path: Biljka_rig_ROOT
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D/B_list_D_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D/B_list_D_2/B_list_D_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D/B_list_D_2/B_list_D_3/B_list_D_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D/B_list_D_2/B_list_D_3/B_list_D_4/B_list_D_5
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_L
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_L/B_list_L_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_L/B_list_L_2/B_list_L_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_L/B_list_L_2/B_list_L_3/B_list_L_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_grana_A
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_grana_A/B_grana_A_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_grana_A/B_grana_A_2/B_grana_A_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_grana_A/B_grana_A_2/B_grana_A_3/B_grana_A_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2/B_grana_B_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2/B_grana_B_3/B_grana_B_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2/B_grana_B_3/B_grana_B_4/B_grana_B_5
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2/B_grana_B_3/B_grana_B_4/B_grana_B_5/B_grana_B_6
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C/B_grana_C_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C/B_grana_C_2/B_grana_C_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C/B_grana_C_2/B_grana_C_3/B_grana_C_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C/B_grana_C_2/B_grana_C_3/B_grana_C_4/B_grana_C_5
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/B_donja_usna
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/B_donja_usna/Bird_Joint_9
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/B_gornja_usna
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/B_gornja_usna/Bird_Joint_11
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/Bird_Joint_7
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Directional Light
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Texture Group
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle_2
+      takeName: Idle_2
+      firstFrame: 0
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biljka
+        weight: 1
+      - path: Biljka_rig_ROOT
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D/B_list_D_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D/B_list_D_2/B_list_D_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D/B_list_D_2/B_list_D_3/B_list_D_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D/B_list_D_2/B_list_D_3/B_list_D_4/B_list_D_5
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_L
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_L/B_list_L_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_L/B_list_L_2/B_list_L_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_L/B_list_L_2/B_list_L_3/B_list_L_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_grana_A
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_grana_A/B_grana_A_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_grana_A/B_grana_A_2/B_grana_A_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_grana_A/B_grana_A_2/B_grana_A_3/B_grana_A_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2/B_grana_B_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2/B_grana_B_3/B_grana_B_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2/B_grana_B_3/B_grana_B_4/B_grana_B_5
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2/B_grana_B_3/B_grana_B_4/B_grana_B_5/B_grana_B_6
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C/B_grana_C_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C/B_grana_C_2/B_grana_C_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C/B_grana_C_2/B_grana_C_3/B_grana_C_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C/B_grana_C_2/B_grana_C_3/B_grana_C_4/B_grana_C_5
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/B_donja_usna
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/B_donja_usna/Bird_Joint_9
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/B_gornja_usna
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/B_gornja_usna/Bird_Joint_11
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/Bird_Joint_7
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Directional Light
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Texture Group
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack_2
+      takeName: Attack_2
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biljka
+        weight: 1
+      - path: Biljka_rig_ROOT
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D/B_list_D_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D/B_list_D_2/B_list_D_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D/B_list_D_2/B_list_D_3/B_list_D_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D/B_list_D_2/B_list_D_3/B_list_D_4/B_list_D_5
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_L
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_L/B_list_L_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_L/B_list_L_2/B_list_L_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_L/B_list_L_2/B_list_L_3/B_list_L_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_grana_A
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_grana_A/B_grana_A_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_grana_A/B_grana_A_2/B_grana_A_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_grana_A/B_grana_A_2/B_grana_A_3/B_grana_A_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2/B_grana_B_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2/B_grana_B_3/B_grana_B_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2/B_grana_B_3/B_grana_B_4/B_grana_B_5
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2/B_grana_B_3/B_grana_B_4/B_grana_B_5/B_grana_B_6
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C/B_grana_C_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C/B_grana_C_2/B_grana_C_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C/B_grana_C_2/B_grana_C_3/B_grana_C_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C/B_grana_C_2/B_grana_C_3/B_grana_C_4/B_grana_C_5
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/B_donja_usna
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/B_donja_usna/Bird_Joint_9
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/B_gornja_usna
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/B_gornja_usna/Bird_Joint_11
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/Bird_Joint_7
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Directional Light
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Texture Group
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack_3
+      takeName: Attack_3
+      firstFrame: 0
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biljka
+        weight: 1
+      - path: Biljka_rig_ROOT
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D/B_list_D_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D/B_list_D_2/B_list_D_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D/B_list_D_2/B_list_D_3/B_list_D_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D/B_list_D_2/B_list_D_3/B_list_D_4/B_list_D_5
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_L
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_L/B_list_L_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_L/B_list_L_2/B_list_L_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_L/B_list_L_2/B_list_L_3/B_list_L_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_grana_A
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_grana_A/B_grana_A_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_grana_A/B_grana_A_2/B_grana_A_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_grana_A/B_grana_A_2/B_grana_A_3/B_grana_A_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2/B_grana_B_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2/B_grana_B_3/B_grana_B_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2/B_grana_B_3/B_grana_B_4/B_grana_B_5
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2/B_grana_B_3/B_grana_B_4/B_grana_B_5/B_grana_B_6
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C/B_grana_C_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C/B_grana_C_2/B_grana_C_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C/B_grana_C_2/B_grana_C_3/B_grana_C_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C/B_grana_C_2/B_grana_C_3/B_grana_C_4/B_grana_C_5
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/B_donja_usna
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/B_donja_usna/Bird_Joint_9
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/B_gornja_usna
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/B_gornja_usna/Bird_Joint_11
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/Bird_Joint_7
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Directional Light
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Texture Group
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack_4
+      takeName: Attack_4
+      firstFrame: 10
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 90
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biljka
+        weight: 1
+      - path: Biljka_rig_ROOT
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D/B_list_D_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D/B_list_D_2/B_list_D_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D/B_list_D_2/B_list_D_3/B_list_D_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_D/B_list_D_2/B_list_D_3/B_list_D_4/B_list_D_5
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_L
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_L/B_list_L_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_L/B_list_L_2/B_list_L_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_list_L/B_list_L_2/B_list_L_3/B_list_L_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_grana_A
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_grana_A/B_grana_A_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_grana_A/B_grana_A_2/B_grana_A_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_grana_A/B_grana_A_2/B_grana_A_3/B_grana_A_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2/B_grana_B_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2/B_grana_B_3/B_grana_B_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2/B_grana_B_3/B_grana_B_4/B_grana_B_5
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_grana_B/B_grana_B_2/B_grana_B_3/B_grana_B_4/B_grana_B_5/B_grana_B_6
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C/B_grana_C_2
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C/B_grana_C_2/B_grana_C_3
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C/B_grana_C_2/B_grana_C_3/B_grana_C_4
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_grana_C/B_grana_C_2/B_grana_C_3/B_grana_C_4/B_grana_C_5
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/B_donja_usna
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/B_donja_usna/Bird_Joint_9
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/B_gornja_usna
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/B_gornja_usna/Bird_Joint_11
+        weight: 1
+      - path: Biljka_rig_ROOT/B_stablo/B_stablo_3/B_stablo_4/B_stablo_5/B_stablo_6/B_stablo_7/B_Glava/Bird_Joint_7
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Directional Light
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Texture Group
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banana Island.Plugins", "Banana Island.Plugins.csproj", "{66647A62-F033-9585-F8B0-59A7D1EA0EEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banana Island", "Banana Island.csproj", "{F39FB3ED-EAB9-BC2D-EDFC-11E048703599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banana Island.Editor.Plugins", "Banana Island.Editor.Plugins.csproj", "{E0F1D0A8-57F8-ABDC-2389-858733D361DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banana Island.Editor", "Banana Island.Editor.csproj", "{D2EB01D1-56C0-2BCA-7C21-9B5C1C6AB8A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66647A62-F033-9585-F8B0-59A7D1EA0EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66647A62-F033-9585-F8B0-59A7D1EA0EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66647A62-F033-9585-F8B0-59A7D1EA0EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66647A62-F033-9585-F8B0-59A7D1EA0EEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F39FB3ED-EAB9-BC2D-EDFC-11E048703599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39FB3ED-EAB9-BC2D-EDFC-11E048703599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39FB3ED-EAB9-BC2D-EDFC-11E048703599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39FB3ED-EAB9-BC2D-EDFC-11E048703599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0F1D0A8-57F8-ABDC-2389-858733D361DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0F1D0A8-57F8-ABDC-2389-858733D361DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0F1D0A8-57F8-ABDC-2389-858733D361DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0F1D0A8-57F8-ABDC-2389-858733D361DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2EB01D1-56C0-2BCA-7C21-9B5C1C6AB8A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2EB01D1-56C0-2BCA-7C21-9B5C1C6AB8A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2EB01D1-56C0-2BCA-7C21-9B5C1C6AB8A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2EB01D1-56C0-2BCA-7C21-9B5C1C6AB8A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

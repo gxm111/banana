@@ -1,0 +1,322 @@
+fileFormatVersion: 2
+guid: 2cf2024a447b67649a311d6a7c337858
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: DiamondGreen_0
+    21300002: DiamondGreen_1
+    21300004: DiamondGreen_2
+    21300006: DiamondGreen_3
+    21300008: DiamondGreen_4
+    21300010: DiamondGreen_5
+    21300012: DiamondGreen_6
+    21300014: DiamondGreen_7
+    21300016: DiamondGreen_8
+    21300018: DiamondGreen_9
+    21300020: DiamondGreen_10
+    21300022: DiamondGreen_11
+    21300024: DiamondGreen_12
+    21300026: DiamondGreen_13
+    21300028: DiamondGreen_14
+    21300030: DiamondGreen_15
+    21300032: DiamondGreen_16
+    21300034: DiamondGreen_17
+    21300036: DiamondGreen_18
+    21300038: DiamondGreen_19
+    21300040: DiamondGreen_20
+    21300042: DiamondGreen_21
+    21300044: DiamondGreen_22
+    21300046: DiamondGreen_23
+    21300048: DiamondGreen_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 256
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: DiamondGreen_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 410
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiamondGreen_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 410
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiamondGreen_2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 410
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiamondGreen_3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 410
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiamondGreen_4
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 410
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiamondGreen_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 308
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiamondGreen_6
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 308
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiamondGreen_7
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 308
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiamondGreen_8
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 308
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiamondGreen_9
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 308
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiamondGreen_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 206
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiamondGreen_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 206
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiamondGreen_12
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 206
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiamondGreen_13
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 206
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiamondGreen_14
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 206
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiamondGreen_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiamondGreen_16
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 104
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiamondGreen_17
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 104
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiamondGreen_18
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 104
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiamondGreen_19
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 104
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiamondGreen_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiamondGreen_21
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 2
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiamondGreen_22
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 2
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiamondGreen_23
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 2
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiamondGreen_24
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 2
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -1,0 +1,38 @@
+<xml>
+	<xml kategorija="Hats" coins="1000" banana="0" popust="0" usi="1" kosa ="0">維京頭盔</xml>
+	<xml kategorija="Hats" coins="2000" banana="0" popust="0" usi="1" kosa ="0">棒球帽</xml>
+	<xml kategorija="Hats" coins="3000" banana="0" popust="0" usi="1" kosa ="0">臟辮</xml>
+	<xml kategorija="Hats" coins="4000" banana="0" popust="0" usi="1" kosa ="1">太陽鏡</xml>
+	<xml kategorija="Hats" coins="5000" banana="0" popust="0" usi="1" kosa ="0">海盜頭巾</xml>
+	<xml kategorija="Hats" coins="6000" banana="0" popust="0" usi="1" kosa ="0">巫毒面具</xml>
+	<xml kategorija="Hats" coins="7000" banana="0" popust="0" usi="1" kosa ="0">牛仔帽</xml>
+	<xml kategorija="Hats" coins="8000" banana="0" popust="0" usi="1" kosa ="0">斗笠</xml>
+	<xml kategorija="Hats" coins="2000" banana="0" popust="0" usi="1" kosa ="0">船長猴子的面具</xml>
+	<xml kategorija="Hats" coins="3000" banana="0" popust="0" usi="1" kosa ="0">海盜帽子</xml>
+	<xml kategorija="Hats" coins="4000" banana="0" popust="0" usi="0" kosa ="0">騎士頭盔</xml>
+	<xml kategorija="Hats" coins="5000" banana="0" popust="0" usi="1" kosa ="0">大禮帽</xml>
+	<xml kategorija="Hats" coins="6000" banana="0" popust="0" usi="0" kosa ="0">面膜紙</xml>
+	<xml kategorija="Hats" coins="7000" banana="0" popust="0" usi="1" kosa ="0">女巫帽子</xml>
+	<xml kategorija="Hats" coins="8000" banana="0" popust="0" usi="0" kosa ="0">忍者面具</xml>
+	
+	<xml kategorija="Shirts" coins="1000" banana="0" popust="0">黑色T卹</xml>
+	<xml kategorija="Shirts" coins="2000" banana="0" popust="0">白色T卹</xml>
+	<xml kategorija="Shirts" coins="3000" banana="0" popust="0">黃色T卹</xml>
+	<xml kategorija="Shirts" coins="4000" banana="0" popust="0">紅色T卹</xml>
+	<xml kategorija="Shirts" coins="5000" banana="0" popust="0">藍色T卹</xml>
+	<xml kategorija="Shirts" coins="6000" banana="0" popust="0">綠色T卹</xml>
+	<xml kategorija="Shirts" coins="7000" banana="0" popust="0">香蕉T卹</xml>
+	<xml kategorija="Shirts" coins="8000" banana="0" popust="0">領帶T卹</xml>
+	
+	<xml kategorija="BackPack" coins="1000" banana="0" popust="0">天使的翅膀</xml>
+	<xml kategorija="BackPack" coins="2000" banana="0" popust="0">船長猴子的盾</xml>
+	<xml kategorija="BackPack" coins="3000" banana="0" popust="0">龜板</xml>
+	<xml kategorija="BackPack" coins="4000" banana="0" popust="0">蜂巢</xml>
+	<xml kategorija="BackPack" coins="5000" banana="0" popust="0">背包</xml>
+	<xml kategorija="BackPack" coins="6000" banana="0" popust="0">蝙蝠翅膀</xml>
+	
+	<xml kategorija="PowerUps" coins="300" popust="0">雙硬幣</xml>
+	<xml kategorija="PowerUps" coins="150" popust="0">硬幣磁鐵</xml>
+	<xml kategorija="PowerUps" coins="600" popust="0">盾</xml>
+	<xml kategorija="Banana" coins="2000" popust="0">香蕉</xml>
+</xml>

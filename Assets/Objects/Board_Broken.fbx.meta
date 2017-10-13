@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: 1e03e2cccb4f1d241b6e5dc7893550d5
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: 3_tip
+    100002: A1_wc
+    100004: A2_wc
+    100006: A3_wc
+    100008: A_1
+    100010: A_1_tip
+    100012: A_2
+    100014: A_2_tip
+    100016: A_3
+    100018: Barrel_DEM_wc
+    100020: //RootNode
+    100022: Board_Broken
+    100024: Rig
+    100026: Texture Group
+    400000: 3_tip
+    400002: A1_wc
+    400004: A2_wc
+    400006: A3_wc
+    400008: A_1
+    400010: A_1_tip
+    400012: A_2
+    400014: A_2_tip
+    400016: A_3
+    400018: Barrel_DEM_wc
+    400020: //RootNode
+    400022: Board_Broken
+    400024: Rig
+    400026: Texture Group
+    4300000: Board_Broken
+    7400000: Explode_1
+    9500000: //RootNode
+    13700000: Board_Broken
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Explode_1
+      takeName: Explode_1
+      firstFrame: 0
+      lastFrame: 37
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: A1_wc
+        weight: 1
+      - path: A2_wc
+        weight: 1
+      - path: A3_wc
+        weight: 1
+      - path: Barrel_DEM_wc
+        weight: 1
+      - path: Board_Broken
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/A_1
+        weight: 1
+      - path: Rig/A_1/A_1_tip
+        weight: 1
+      - path: Rig/A_2
+        weight: 1
+      - path: Rig/A_2/A_2_tip
+        weight: 1
+      - path: Rig/A_3
+        weight: 1
+      - path: Rig/A_3/3_tip
+        weight: 1
+      - path: Texture Group
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0299999993
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

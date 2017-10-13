@@ -1,0 +1,136 @@
+fileFormatVersion: 2
+guid: 5cc8fe9de1de24193b544e1641ec0c16
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Camera
+    100002: //RootNode
+    100004: Cocos
+    100006: Cocos_2
+    100008: Cocos_3
+    100010: Cocos_4
+    100012: Cocos_5
+    100014: Directional Light
+    100016: Texture Group
+    400000: Camera
+    400002: //RootNode
+    400004: Cocos
+    400006: Cocos_2
+    400008: Cocos_3
+    400010: Cocos_4
+    400012: Cocos_5
+    400014: Directional Light
+    400016: Texture Group
+    2300000: Cocos
+    2300002: Cocos_2
+    2300004: Cocos_3
+    2300006: Cocos_4
+    3300000: Cocos
+    3300002: Cocos_2
+    3300004: Cocos_3
+    3300006: Cocos_4
+    4300000: Cocos
+    4300002: Cocos_3
+    4300004: Cocos_4
+    4300006: Cocos_2
+    7400000: Jump_Cocos
+    7400002: Jump_Cocos0
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Jump_Cocos
+      takeName: Jump_Cocos
+      firstFrame: 0
+      lastFrame: 825
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Cocos_5
+        weight: 1
+      - path: Cocos_5/Cocos
+        weight: 1
+      - path: Cocos_5/Cocos_2
+        weight: 1
+      - path: Cocos_5/Cocos_3
+        weight: 1
+      - path: Cocos_5/Cocos_4
+        weight: 1
+      - path: Directional Light
+        weight: 1
+      - path: Texture Group
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0500000007
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

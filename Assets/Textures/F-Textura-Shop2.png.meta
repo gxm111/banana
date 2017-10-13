@@ -1,0 +1,575 @@
+fileFormatVersion: 2
+guid: 5b4ab2a89181a014db5233bf8f11b527
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Magnet Power
+    21300002: Shield Power
+    21300004: Double Coins Power
+    21300006: C - Viking Helmet
+    21300008: C - Cowboy Hat
+    21300010: C - Witch Hat
+    21300012: C - Knights Helmet
+    21300014: InnApp - Coins 1
+    21300016: InnApp - Coins 2
+    21300018: InnApp - Coins 3
+    21300020: InnApp - Coins 4
+    21300022: InnApp - Coins 5
+    21300024: 'Magic Box '
+    21300026: Magig Box Poklopac
+    21300028: Proba za spotlight
+    21300030: C - Baseball cap
+    21300032: C - Paper mask
+    21300034: C - Bamboo hat
+    21300036: C - Cylinder hat
+    21300038: C - Pirate bandana
+    21300040: C - Pirate hat
+    21300042: C - Ninja mask
+    21300044: C - Dreadlocks
+    21300046: C - Sunglasses
+    21300048: C - Captain Monkey's mask
+    21300050: C - Voodoo Mask
+    21300052: C - Black T-Shirt
+    21300054: C - Banana T-Shirt
+    21300056: C - Tie T-Shirt
+    21300058: C - White T-Shirt
+    21300060: C - Bat Wings
+    21300062: C - Backpack
+    21300064: C - Beehive
+    21300066: C - Angel Wings
+    21300068: C - Captain Monkey's Shield
+    21300070: C - Turtle Shell
+    21300072: HatsTab_Icon
+    21300074: T-ShirtsTab_Icon
+    21300076: BackPackTab_Icon
+    21300078: ItemsTab_bg
+    21300080: DailyRewardBackground
+    21300082: BananaLarge
+    21300084: BananaMedium
+    21300086: BananaSmall
+    21300088: StarterPAck
+    21300090: BobosChoice
+    21300092: RemoveAds
+    21300094: Restore
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Magnet Power
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 868
+        width: 146
+        height: 154
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shield Power
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 868
+        width: 149
+        height: 153
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Double Coins Power
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 866
+        width: 147
+        height: 156
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C - Viking Helmet
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 866
+        width: 161
+        height: 157
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C - Cowboy Hat
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 866
+        width: 189
+        height: 145
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C - Witch Hat
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 866
+        width: 168
+        height: 153
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C - Knights Helmet
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 706
+        width: 106
+        height: 155
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: InnApp - Coins 1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 8
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: InnApp - Coins 2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 5
+        width: 73
+        height: 68
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: InnApp - Coins 3
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 3
+        width: 77
+        height: 82
+      alignment: 9
+      pivot: {x: .499065369, y: .46790117}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: InnApp - Coins 4
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 2
+        width: 91
+        height: 90
+      alignment: 9
+      pivot: {x: .5, y: .422027498}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: InnApp - Coins 5
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 2
+        width: 101
+        height: 97
+      alignment: 9
+      pivot: {x: .503974974, y: .402722895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 'Magic Box '
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 0
+        width: 121
+        height: 82
+      alignment: 9
+      pivot: {x: .468956321, y: .289282858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Magig Box Poklopac
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 2
+        width: 129
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Proba za spotlight
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 50
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C - Baseball cap
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 706
+        width: 194
+        height: 158
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C - Paper mask
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 706
+        width: 147
+        height: 155
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C - Bamboo hat
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 712
+        width: 177
+        height: 147
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C - Cylinder hat
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 705
+        width: 159
+        height: 157
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C - Pirate bandana
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 724
+        width: 203
+        height: 119
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C - Pirate hat
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 586
+        width: 171
+        height: 115
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C - Ninja mask
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 573
+        width: 109
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C - Dreadlocks
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 574
+        width: 160
+        height: 128
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C - Sunglasses
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 576
+        width: 185
+        height: 118
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C - Captain Monkey's mask
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 571
+        width: 144
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C - Voodoo Mask
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 569
+        width: 112
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C - Black T-Shirt
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 414
+        width: 152
+        height: 153
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C - Banana T-Shirt
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 414
+        width: 152
+        height: 155
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C - Tie T-Shirt
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 416
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C - White T-Shirt
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 414
+        width: 152
+        height: 154
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C - Bat Wings
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 413
+        width: 220
+        height: 153
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C - Backpack
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 134
+        height: 171
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C - Beehive
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 246
+        width: 139
+        height: 166
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C - Angel Wings
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 246
+        width: 158
+        height: 165
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C - Captain Monkey's Shield
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 249
+        width: 160
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C - Turtle Shell
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 246
+        width: 149
+        height: 165
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HatsTab_Icon
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 0
+        width: 137
+        height: 179
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: T-ShirtsTab_Icon
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 181
+        width: 137
+        height: 178
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackTab_Icon
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 360
+        width: 137
+        height: 191
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ItemsTab_bg
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 252
+        width: 124
+        height: 152
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DailyRewardBackground
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 7
+        width: 107
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BananaLarge
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 97
+        width: 127
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BananaMedium
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 96
+        width: 103
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BananaSmall
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 105
+        width: 104
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: StarterPAck
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 99
+        width: 145
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BobosChoice
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 95
+        width: 122
+        height: 125
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RemoveAds
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 158
+        width: 115
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Restore
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 138
+        width: 108
+        height: 107
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

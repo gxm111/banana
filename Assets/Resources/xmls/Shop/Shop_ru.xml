@@ -1,0 +1,38 @@
+<xml>
+	<xml kategorija="Hats" coins="1000" banana="0" popust="0" usi="1" kosa ="0">Шлем викинга</xml>
+	<xml kategorija="Hats" coins="2000" banana="0" popust="0" usi="1" kosa ="0">Бейсболка</xml>
+	<xml kategorija="Hats" coins="3000" banana="0" popust="0" usi="1" kosa ="0">Дреды</xml>
+	<xml kategorija="Hats" coins="4000" banana="0" popust="0" usi="1" kosa ="1">Солнечные очки</xml>
+	<xml kategorija="Hats" coins="5000" banana="0" popust="0" usi="1" kosa ="0">Пиратская бандана</xml>
+	<xml kategorija="Hats" coins="6000" banana="0" popust="0" usi="1" kosa ="0">Маска вуду</xml>
+	<xml kategorija="Hats" coins="7000" banana="0" popust="0" usi="1" kosa ="0">Ковбойская шляпа</xml>
+	<xml kategorija="Hats" coins="8000" banana="0" popust="0" usi="1" kosa ="0">Бамбуковая шляпа</xml>
+	<xml kategorija="Hats" coins="2000" banana="0" popust="0" usi="1" kosa ="0">Маска капитана Обезьяны</xml>
+	<xml kategorija="Hats" coins="3000" banana="0" popust="0" usi="1" kosa ="0">Пиратская шляпа</xml>
+	<xml kategorija="Hats" coins="4000" banana="0" popust="0" usi="0" kosa ="0">Шлем рыцаря</xml>
+	<xml kategorija="Hats" coins="5000" banana="0" popust="0" usi="1" kosa ="0">Цилиндр</xml>
+	<xml kategorija="Hats" coins="6000" banana="0" popust="0" usi="0" kosa ="0">Бумажная маска</xml>
+	<xml kategorija="Hats" coins="7000" banana="0" popust="0" usi="1" kosa ="0">Шляпа ведьмы</xml>
+	<xml kategorija="Hats" coins="8000" banana="0" popust="0" usi="0" kosa ="0">Маска ниндзя</xml>
+	
+	<xml kategorija="Shirts" coins="1000" banana="0" popust="0">Черная футболка</xml>
+	<xml kategorija="Shirts" coins="2000" banana="0" popust="0">Белая футболка</xml>
+	<xml kategorija="Shirts" coins="3000" banana="0" popust="0">Желтая футболка</xml>
+	<xml kategorija="Shirts" coins="4000" banana="0" popust="0">Красная футболка</xml>
+	<xml kategorija="Shirts" coins="5000" banana="0" popust="0">Синяя футболка</xml>
+	<xml kategorija="Shirts" coins="6000" banana="0" popust="0">Зеленая футболка</xml>
+	<xml kategorija="Shirts" coins="7000" banana="0" popust="0">Банановая футболка</xml>
+	<xml kategorija="Shirts" coins="8000" banana="0" popust="0">Футболка с галстуком</xml>
+	
+	<xml kategorija="BackPack" coins="1000" banana="0" popust="0">Крылья ангела</xml>
+	<xml kategorija="BackPack" coins="2000" banana="0" popust="0">Щит капитана Обезьяны</xml>
+	<xml kategorija="BackPack" coins="3000" banana="0" popust="0">Панцирь черепахи</xml>
+	<xml kategorija="BackPack" coins="4000" banana="0" popust="0">Улей</xml>
+	<xml kategorija="BackPack" coins="5000" banana="0" popust="0">Рюкзак</xml>
+	<xml kategorija="BackPack" coins="6000" banana="0" popust="0">Крылья летучей мыши</xml>
+	
+	<xml kategorija="PowerUps" coins="300" popust="0">Двойные монеты</xml>
+	<xml kategorija="PowerUps" coins="150" popust="0">Магнит для монет</xml>
+	<xml kategorija="PowerUps" coins="600" popust="0">Щит</xml>
+	<xml kategorija="Banana" coins="2000" popust="0">Банан</xml>
+</xml>

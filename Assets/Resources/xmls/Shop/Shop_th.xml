@@ -1,0 +1,38 @@
+<xml>
+	<xml kategorija="Hats" coins="1000" banana="0" popust="0" usi="1" kosa ="0">หมวกไวกิ้ง</xml>
+	<xml kategorija="Hats" coins="2000" banana="0" popust="0" usi="1" kosa ="0">หมวกเบสบอล</xml>
+	<xml kategorija="Hats" coins="3000" banana="0" popust="0" usi="1" kosa ="0">ทรงเดรดล็อค</xml>
+	<xml kategorija="Hats" coins="4000" banana="0" popust="0" usi="1" kosa ="1">แว่นกันแดด</xml>
+	<xml kategorija="Hats" coins="5000" banana="0" popust="0" usi="1" kosa ="0">ผ้าโพกโจรสลัด</xml>
+	<xml kategorija="Hats" coins="6000" banana="0" popust="0" usi="1" kosa ="0">หน้ากากวูดู</xml>
+	<xml kategorija="Hats" coins="7000" banana="0" popust="0" usi="1" kosa ="0">หมวกคาวบอย</xml>
+	<xml kategorija="Hats" coins="8000" banana="0" popust="0" usi="1" kosa ="0">หมวกไม้ไผ่</xml>
+	<xml kategorija="Hats" coins="2000" banana="0" popust="0" usi="1" kosa ="0">หน้ากากกัปตันมั้งกี้</xml>
+	<xml kategorija="Hats" coins="3000" banana="0" popust="0" usi="1" kosa ="0">หมวกโจรสลัด</xml>
+	<xml kategorija="Hats" coins="4000" banana="0" popust="0" usi="0" kosa ="0">หมวกอัศวิน</xml>
+	<xml kategorija="Hats" coins="5000" banana="0" popust="0" usi="1" kosa ="0">หมวกทรงกระบอก</xml>
+	<xml kategorija="Hats" coins="6000" banana="0" popust="0" usi="0" kosa ="0">หน้ากากกระดาษ</xml>
+	<xml kategorija="Hats" coins="7000" banana="0" popust="0" usi="1" kosa ="0">หมวกแม่มด</xml>
+	<xml kategorija="Hats" coins="8000" banana="0" popust="0" usi="0" kosa ="0">หน้ากากนินจา</xml>
+	
+	<xml kategorija="Shirts" coins="1000" banana="0" popust="0">เสื้อยืดสีดำ</xml>
+	<xml kategorija="Shirts" coins="2000" banana="0" popust="0">เสื้อยืดสีขาว</xml>
+	<xml kategorija="Shirts" coins="3000" banana="0" popust="0">เสื้อยืดสีเหลือง</xml>
+	<xml kategorija="Shirts" coins="4000" banana="0" popust="0">เสื้อยืดสีแดง</xml>
+	<xml kategorija="Shirts" coins="5000" banana="0" popust="0">เสื้อยืดสีน้ำเงิน</xml>
+	<xml kategorija="Shirts" coins="6000" banana="0" popust="0">เสื้อยืดสีเขียว</xml>
+	<xml kategorija="Shirts" coins="7000" banana="0" popust="0">เสื้อยืดลายกล้วย</xml>
+	<xml kategorija="Shirts" coins="8000" banana="0" popust="0">เสื้อยืดผูก</xml>
+	
+	<xml kategorija="BackPack" coins="1000" banana="0" popust="0">ปีกนางฟ้า</xml>
+	<xml kategorija="BackPack" coins="2000" banana="0" popust="0">โล่กัปตันมั้งกี้</xml>
+	<xml kategorija="BackPack" coins="3000" banana="0" popust="0">กระดองเต่า</xml>
+	<xml kategorija="BackPack" coins="4000" banana="0" popust="0">รังผึ้ง</xml>
+	<xml kategorija="BackPack" coins="5000" banana="0" popust="0">กระเป๋าสะพายหลัง</xml>
+	<xml kategorija="BackPack" coins="6000" banana="0" popust="0">ปีกค้างคาว</xml>
+	
+	<xml kategorija="PowerUps" coins="300" popust="0">เหรียญคูณสอง</xml>
+	<xml kategorija="PowerUps" coins="150" popust="0">แม่เหล็กดูดเหรียญ</xml>
+	<xml kategorija="PowerUps" coins="600" popust="0">โล่</xml>
+	<xml kategorija="Banana" coins="2000" popust="0">กล้วย</xml>
+</xml>

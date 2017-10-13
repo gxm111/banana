@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#Runs post-process build scripts.
+#Must follow naming convention PostprocessBuildPlayer_* and be kept in the Assets/Editor folder.
+
+PWD=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+for script in `/bin/ls -1 "$PWD" | grep -i ^postprocessbuildplayer_ | grep -v [.]meta$`; do
+    chmod +x "$PWD"/"$script"
+    "$PWD"/"$script" "$@"
+done

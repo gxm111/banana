@@ -1,0 +1,38 @@
+<xml>
+	<xml kategorija="Hats" coins="1000" banana="0" popust="0" usi="1" kosa ="0">Viking helmet</xml>
+	<xml kategorija="Hats" coins="2000" banana="0" popust="0" usi="1" kosa ="0">Baseball cap</xml>
+	<xml kategorija="Hats" coins="3000" banana="0" popust="0" usi="1" kosa ="0">Dreadlocks</xml>
+	<xml kategorija="Hats" coins="4000" banana="0" popust="0" usi="1" kosa ="1">Sunglasses</xml>
+	<xml kategorija="Hats" coins="5000" banana="0" popust="0" usi="1" kosa ="0">Pirate bandana</xml>
+	<xml kategorija="Hats" coins="6000" banana="0" popust="0" usi="1" kosa ="0">Voodoo mask</xml>
+	<xml kategorija="Hats" coins="7000" banana="0" popust="0" usi="1" kosa ="0">Cowboy hat</xml>
+	<xml kategorija="Hats" coins="8000" banana="0" popust="0" usi="1" kosa ="0">Bamboo hat</xml>
+	<xml kategorija="Hats" coins="2000" banana="0" popust="0" usi="1" kosa ="0">Captain Monkey's mask</xml>
+	<xml kategorija="Hats" coins="3000" banana="0" popust="0" usi="1" kosa ="0">Pirate hat</xml>
+	<xml kategorija="Hats" coins="4000" banana="0" popust="0" usi="0" kosa ="0">Knight helmet</xml>
+	<xml kategorija="Hats" coins="5000" banana="0" popust="0" usi="1" kosa ="0">Cylinder hat</xml>
+	<xml kategorija="Hats" coins="6000" banana="0" popust="0" usi="0" kosa ="0">Paper mask</xml>
+	<xml kategorija="Hats" coins="7000" banana="0" popust="0" usi="1" kosa ="0">Witch hat</xml>
+	<xml kategorija="Hats" coins="8000" banana="0" popust="0" usi="0" kosa ="0">Ninja mask</xml>
+	
+	<xml kategorija="Shirts" coins="1000" banana="0" popust="0">Black T-Shirt</xml>
+	<xml kategorija="Shirts" coins="2000" banana="0" popust="0">White T-shirt</xml>
+	<xml kategorija="Shirts" coins="3000" banana="0" popust="0">Yellow T-shirt</xml>
+	<xml kategorija="Shirts" coins="4000" banana="0" popust="0">Red T-shirt</xml>
+	<xml kategorija="Shirts" coins="5000" banana="0" popust="0">Blue T-shirt</xml>
+	<xml kategorija="Shirts" coins="6000" banana="0" popust="0">Green T-shirt</xml>
+	<xml kategorija="Shirts" coins="7000" banana="0" popust="0">Banana T-shirt</xml>
+	<xml kategorija="Shirts" coins="8000" banana="0" popust="0">Tie T-shirt</xml>
+	
+	<xml kategorija="BackPack" coins="1000" banana="0" popust="0">Angel Wings</xml>
+	<xml kategorija="BackPack" coins="2000" banana="0" popust="0">Captain Monkey's Shield</xml>
+	<xml kategorija="BackPack" coins="3000" banana="0" popust="0">Turtle Shell</xml>
+	<xml kategorija="BackPack" coins="4000" banana="0" popust="0">Beehive </xml>
+	<xml kategorija="BackPack" coins="5000" banana="0" popust="0">Backpack</xml>
+	<xml kategorija="BackPack" coins="6000" banana="0" popust="0">Bat Wings</xml>
+	
+	<xml kategorija="PowerUps" coins="300" popust="0">Double Coins</xml>
+	<xml kategorija="PowerUps" coins="150" popust="0">Magnet</xml>
+	<xml kategorija="PowerUps" coins="600" popust="0">Shield</xml>
+	<xml kategorija="Banana" coins="2000" popust="0">Banana</xml>
+</xml>

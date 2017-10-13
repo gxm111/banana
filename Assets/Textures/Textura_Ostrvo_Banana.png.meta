@@ -1,0 +1,502 @@
+fileFormatVersion: 2
+guid: d9327700073ad4bfc944f5e36a01b91e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Drvo1
+    21300002: Zbun 1
+    21300004: Zbun 1 Blur
+    21300006: Drvo2
+    21300008: Pecurka
+    21300010: Panj
+    21300012: Strelice Panj
+    21300014: Finish Natpis
+    21300016: Platforma Kamena
+    21300018: Kamen 1
+    21300020: Zbun leteci
+    21300022: Drvo VELIKO
+    21300024: Listici 1
+    21300026: Listici 3
+    21300028: Listici 2
+    21300030: Teren Platforma 1
+    21300032: Teren Platforma 2 manja
+    21300034: Lijana pozadina
+    21300036: Teren sa strane
+    21300038: 'Zbun 2 '
+    21300040: Zbun 2 Blur
+    21300042: Kamen 2
+    21300044: Zbun 3
+    21300046: Listici 4
+    21300048: Teren Nepropusno
+    21300050: Teren Gore Propusno
+    21300052: Teren Dole Propusno
+    21300054: Senka 1
+    21300056: Lijana razvucena 1
+    21300058: Lijana razvucena 2
+    21300060: Lijana i lisce razvuceno
+    21300062: Cvet Crveni
+    21300064: Cvet Ljubicasti
+    21300066: Cvet Plavi
+    21300068: Cvet Beli
+    21300070: Cvet Drska 1
+    21300072: Cvet Drska 2
+    21300074: Most
+    21300076: Most Drvo
+    21300078: Most Drvo 2
+    21300080: WhiteGradientBananaTexture
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: 54
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 20
+  alphaIsTransparency: 1
+  textureType: 5
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: 33
+    compressionQuality: 100
+  spriteSheet:
+    sprites:
+    - name: Drvo1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 669
+        width: 386
+        height: 355
+      alignment: 9
+      pivot: {x: .495126903, y: .0275136176}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zbun 1
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 930
+        width: 176
+        height: 94
+      alignment: 9
+      pivot: {x: .541814625, y: .512526512}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zbun 1 Blur
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 833
+        width: 174
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Drvo2
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 670
+        width: 455
+        height: 353
+      alignment: 9
+      pivot: {x: .244005278, y: .0199877173}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pecurka
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 693
+        width: 177
+        height: 138
+      alignment: 9
+      pivot: {x: .440066934, y: .134345457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Panj
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 169
+        height: 92
+      alignment: 9
+      pivot: {x: .533911228, y: .24192743}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Strelice Panj
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 574
+        width: 67
+        height: 95
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Finish Natpis
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 563
+        width: 61
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Platforma Kamena
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 597
+        width: 175
+        height: 95
+      alignment: 9
+      pivot: {x: .492908061, y: .613722622}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kamen 1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 445
+        width: 212
+        height: 113
+      alignment: 9
+      pivot: {x: .417936146, y: .326464623}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zbun leteci
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 443
+        width: 135
+        height: 113
+      alignment: 9
+      pivot: {x: .514532268, y: .68930161}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Drvo VELIKO
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 0
+        width: 262
+        height: 372
+      alignment: 9
+      pivot: {x: .514491677, y: .0560576729}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Listici 1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 386
+        width: 71
+        height: 53
+      alignment: 9
+      pivot: {x: .799217582, y: .523167431}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Listici 3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 323
+        width: 84
+        height: 61
+      alignment: 9
+      pivot: {x: .59504199, y: .64929831}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Listici 2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 388
+        width: 100
+        height: 55
+      alignment: 9
+      pivot: {x: .59566772, y: .360430896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Teren Platforma 1
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 0
+        width: 288
+        height: 140
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Teren Platforma 2 manja
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 141
+        width: 98
+        height: 181
+      alignment: 9
+      pivot: {x: .518321276, y: .703991532}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Lijana pozadina
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 142
+        width: 94
+        height: 182
+      alignment: 9
+      pivot: {x: .521049976, y: .835340321}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Teren sa strane
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 4
+        width: 120
+        height: 318
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 'Zbun 2 '
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 560
+        width: 192
+        height: 109
+      alignment: 9
+      pivot: {x: .47028479, y: .139470935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zbun 2 Blur
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 559
+        width: 208
+        height: 108
+      alignment: 9
+      pivot: {x: .488210231, y: .372842848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kamen 2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 443
+        width: 253
+        height: 114
+      alignment: 9
+      pivot: {x: .405714065, y: .145694926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zbun 3
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 386
+        width: 108
+        height: 171
+      alignment: 9
+      pivot: {x: .468210846, y: .82984364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Listici 4
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 322
+        width: 86
+        height: 62
+      alignment: 9
+      pivot: {x: .628308952, y: .733242035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Teren Nepropusno
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 36
+        width: 241
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Teren Gore Propusno
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 229
+        width: 269
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Teren Dole Propusno
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 254
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Senka 1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 322
+        width: 127
+        height: 121
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Lijana razvucena 1
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 146
+        width: 50
+        height: 170
+      alignment: 9
+      pivot: {x: .479094118, y: .887946904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Lijana razvucena 2
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 271
+        width: 59
+        height: 109
+      alignment: 9
+      pivot: {x: .522896886, y: .878710985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Lijana i lisce razvuceno
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 2
+        width: 65
+        height: 255
+      alignment: 9
+      pivot: {x: .575650752, y: .943522632}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cvet Crveni
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 546
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cvet Ljubicasti
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 546
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cvet Plavi
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 476
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cvet Beli
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 478
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cvet Drska 1
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 479
+        width: 33
+        height: 35
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cvet Drska 2
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 478
+        width: 31
+        height: 32
+      alignment: 9
+      pivot: {x: .880160451, y: .0428228378}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Most
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 324
+        width: 288
+        height: 119
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Most Drvo
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 323
+        width: 71
+        height: 28
+      alignment: 9
+      pivot: {x: .125955075, y: .804864049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Most Drvo 2
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 325
+        width: 18
+        height: 103
+      alignment: 9
+      pivot: {x: .445949972, y: .117454454}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WhiteGradientBananaTexture
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 394
+        width: 179
+        height: 83
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

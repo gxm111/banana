@@ -1,0 +1,173 @@
+﻿using UnityEngine;
+using System.Collections;
+using System;
+
+public class TimeReward : MonoBehaviour {
+
+	public static float VremeBrojaca;
+	float VremeZaOduzimanje;
+	int Minuti, Sekunde, Sati;
+	GameObject TimerText;
+	System.Globalization.DateTimeFormatInfo format;
+	private  DateTime  VremePokretanjaDateTime,VremeIzlaska;
+	string VremePokretanja,lastPlayDate,VremeQuitString,Vreme;
+	string danUlaska, mesecUlaska, godinaUlaska, danIzlaska, mesecIzlaska, godinaIzlaska;
+	public static bool PokupiTimeNagradu=false;
+
+
+	// Use this for initialization
+	void Start () {
+//		PlayerPrefs.DeleteAll();
+
+
+		TimerText = GameObject.Find("TimerText");
+		if(PlayerPrefs.HasKey("VremeBrojaca"))
+		{
+			VremeBrojaca=PlayerPrefs.GetFloat("VremeBrojaca");
+			VremeZaOduzimanje=(float)RacunanjeVremena.UkupnoSekundi;
+			Debug.Log("VremeZaOduzimanje: "+VremeZaOduzimanje+" VremeBrojaca"+VremeBrojaca);
+
+			if(VremeZaOduzimanje>10798)
+			{
+
+				VremeBrojaca=0;
+				Debug.Log("VremeZaOduzimanje: "+0);
+				PokupiTimeNagradu=true;
+			}
+			else
+			{
+				VremeBrojaca=VremeBrojaca-VremeZaOduzimanje;
+			}
+			
+			
+		}
+		else
+		{
+			Debug.Log("PrvoPokretanje");
+			VremeBrojaca=10800;
+			//Pokreni Notifikaciju za DailyReward na 24h
+		}
+	}
+	
+	// Update is called once per frame
+	void Update () {
+
+		Odbrojavanje();
+
+	}
+
+	void Odbrojavanje()
+	{
+		VremeBrojaca=(VremeBrojaca-Time.deltaTime);
+		
+
+		Minuti=(int)VremeBrojaca/60;
+		Sekunde=(int)VremeBrojaca%60;
+		Sati=Minuti/60;
+		Minuti=Minuti-60*Sati;
+
+//				TimerText.GetComponent<TextMesh>().text= VremeBrojaca.ToString("F0");
+		if(Sekunde<1 && Minuti<1 && Sati<1)
+		{
+			Debug.Log("IStekloVreme");
+			PokupiTimeNagradu=true;
+			TimerText.GetComponent<TextMesh>().text= "00:00:00";
+		}
+		else if(Sati>0)
+		{
+			if(Sekunde>=0 && Sekunde<=9)
+			{
+				
+				if(Minuti<10)
+				{
+					TimerText.GetComponent<TextMesh>().text= "0"+Sati.ToString()+":0"+Minuti.ToString()+":"+"0"+Sekunde.ToString();
+				}
+				else
+				{
+					TimerText.GetComponent<TextMesh>().text= "0"+Sati.ToString()+":"+Minuti.ToString()+":"+"0"+Sekunde.ToString();
+				}
+			}
+			else
+			{
+				if(Minuti<10)
+				{
+					TimerText.GetComponent<TextMesh>().text="0"+Sati.ToString()+":0"+Minuti.ToString()+":"+Sekunde.ToString();
+				}
+				else
+				{
+					TimerText.GetComponent<TextMesh>().text="0"+Sati.ToString()+":"+Minuti.ToString()+":"+Sekunde.ToString();
+				}
+			}
+		}
+		else
+		{
+			if(Sekunde>=0 && Sekunde<=9)
+			{
+				
+				if(Minuti<10)
+				{
+					TimerText.GetComponent<TextMesh>().text= "00:0"+Minuti.ToString()+":"+"0"+Sekunde.ToString();
+				}
+				else
+				{
+					TimerText.GetComponent<TextMesh>().text= "00:"+Minuti.ToString()+":"+"0"+Sekunde.ToString();
+				}
+			}
+			else
+			{
+				if(Minuti<10)
+				{
+					TimerText.GetComponent<TextMesh>().text="00:0"+Minuti.ToString()+":"+Sekunde.ToString();
+				}
+				else
+				{
+					TimerText.GetComponent<TextMesh>().text="00:"+Minuti.ToString()+":"+Sekunde.ToString();
+				}
+			}
+		}
+
+
+	}
+
+	void OnApplicationPause(bool pauseStatus) { //vraca false kad je aktivna app
+		if(pauseStatus)
+		{
+			//izasao iz aplikacuje
+
+			PlayerPrefs.SetFloat("VremeBrojaca", VremeBrojaca);
+			PlayerPrefs.Save();
+			
+		}
+		else
+		{
+			//usao u aplikacuju
+			Debug.Log("Usao nazad u aplikaciju iz Pause");
+			VremeBrojaca=PlayerPrefs.GetFloat("VremeBrojaca");
+			VremeZaOduzimanje=(float)RacunanjeVremena.UkupnoSekundi;
+
+			if(VremeZaOduzimanje>10798)
+			{
+				
+				VremeBrojaca=0;
+				Debug.Log("VremeZaOduzimanje: "+0);
+				PokupiTimeNagradu=true;
+			}
+			else
+			{
+				VremeBrojaca=VremeBrojaca-VremeZaOduzimanje;
+			}
+		}
+		
+		
+	}
+	
+	
+	
+	void OnApplicationQuit() {
+
+		PlayerPrefs.SetFloat("VremeBrojaca", VremeBrojaca);
+		PlayerPrefs.Save();
+		
+		//Pokreni Notifikaciju za DailyReward na 24h
+	}
+}

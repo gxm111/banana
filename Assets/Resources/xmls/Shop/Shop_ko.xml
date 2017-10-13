@@ -1,0 +1,38 @@
+<xml>
+	<xml kategorija="Hats" coins="1000" banana="0" popust="0" usi="1" kosa ="0">바이킹 헬멧</xml>
+	<xml kategorija="Hats" coins="2000" banana="0" popust="0" usi="1" kosa ="0">야구 모자</xml>
+	<xml kategorija="Hats" coins="3000" banana="0" popust="0" usi="1" kosa ="0">드레드락스</xml>
+	<xml kategorija="Hats" coins="4000" banana="0" popust="0" usi="1" kosa ="1">선글라스</xml>
+	<xml kategorija="Hats" coins="5000" banana="0" popust="0" usi="1" kosa ="0">해적 반다나</xml>
+	<xml kategorija="Hats" coins="6000" banana="0" popust="0" usi="1" kosa ="0">부두 마스크</xml>
+	<xml kategorija="Hats" coins="7000" banana="0" popust="0" usi="1" kosa ="0">카우보이 모자</xml>
+	<xml kategorija="Hats" coins="8000" banana="0" popust="0" usi="1" kosa ="0">대나무 모자</xml>
+	<xml kategorija="Hats" coins="2000" banana="0" popust="0" usi="1" kosa ="0">캡틴 멍키의 마스크</xml>
+	<xml kategorija="Hats" coins="3000" banana="0" popust="0" usi="1" kosa ="0">해적 모자</xml>
+	<xml kategorija="Hats" coins="4000" banana="0" popust="0" usi="0" kosa ="0">기사 헬멧</xml>
+	<xml kategorija="Hats" coins="5000" banana="0" popust="0" usi="1" kosa ="0">실린더 모자</xml>
+	<xml kategorija="Hats" coins="6000" banana="0" popust="0" usi="0" kosa ="0">페이버 마스크</xml>
+	<xml kategorija="Hats" coins="7000" banana="0" popust="0" usi="1" kosa ="0">마녀 모자</xml>
+	<xml kategorija="Hats" coins="8000" banana="0" popust="0" usi="0" kosa ="0">닌자 마스크</xml>
+	
+	<xml kategorija="Shirts" coins="1000" banana="0" popust="0">블랙 티셔츠</xml>
+	<xml kategorija="Shirts" coins="2000" banana="0" popust="0">화이트 티셔츠</xml>
+	<xml kategorija="Shirts" coins="3000" banana="0" popust="0">옐로우 티셔츠</xml>
+	<xml kategorija="Shirts" coins="4000" banana="0" popust="0">레드 티셔츠</xml>
+	<xml kategorija="Shirts" coins="5000" banana="0" popust="0">블루 티셔츠</xml>
+	<xml kategorija="Shirts" coins="6000" banana="0" popust="0">그린 티셔츠</xml>
+	<xml kategorija="Shirts" coins="7000" banana="0" popust="0">바나나 티셔츠</xml>
+	<xml kategorija="Shirts" coins="8000" banana="0" popust="0">타이 티셔츠</xml>
+	
+	<xml kategorija="BackPack" coins="1000" banana="0" popust="0">천사 날개</xml>
+	<xml kategorija="BackPack" coins="2000" banana="0" popust="0">캡틴 멍키의 방패</xml>
+	<xml kategorija="BackPack" coins="3000" banana="0" popust="0">거북이 등껍질</xml>
+	<xml kategorija="BackPack" coins="4000" banana="0" popust="0">벌집</xml>
+	<xml kategorija="BackPack" coins="5000" banana="0" popust="0">배낭</xml>
+	<xml kategorija="BackPack" coins="6000" banana="0" popust="0">박쥐 날개</xml>
+	
+	<xml kategorija="PowerUps" coins="300" popust="0">더블 코인</xml>
+	<xml kategorija="PowerUps" coins="150" popust="0">코인 자석</xml>
+	<xml kategorija="PowerUps" coins="600" popust="0">방패</xml>
+	<xml kategorija="Banana" coins="2000" popust="0">바나나</xml>
+</xml>

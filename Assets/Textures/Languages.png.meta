@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: b8c26b901b0a6024ab899669803b9c1a
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: US
+    21300002: GB
+    21300004: ES
+    21300006: RU
+    21300008: CH
+    21300010: KO
+    21300012: IT
+    21300014: SR
+    21300016: PT
+    21300018: FR
+    21300020: BR
+    21300022: TR
+    21300024: DE
+    21300026: TH
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: US
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 427
+        width: 126
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GB
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 427
+        width: 127
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ES
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 427
+        width: 127
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RU
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 427
+        width: 127
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CH
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KO
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 171
+        width: 126
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IT
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 256
+        width: 127
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SR
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 256
+        width: 127
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PT
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 341
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FR
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 342
+        width: 127
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BR
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 341
+        width: 127
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TR
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 171
+        width: 128
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DE
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 126
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TH
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 341
+        width: 127
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -1,0 +1,38 @@
+<xml>
+	<xml kategorija="Hats" coins="1000" banana="0" popust="0" usi="1" kosa ="0">Vikinški šlem</xml>
+	<xml kategorija="Hats" coins="2000" banana="0" popust="0" usi="1" kosa ="0">Bejzbol kapa</xml>
+	<xml kategorija="Hats" coins="3000" banana="0" popust="0" usi="1" kosa ="0">Dredovi</xml>
+	<xml kategorija="Hats" coins="4000" banana="0" popust="0" usi="1" kosa ="1">Cvidže</xml>
+	<xml kategorija="Hats" coins="5000" banana="0" popust="0" usi="1" kosa ="0">Gusarska marama</xml>
+	<xml kategorija="Hats" coins="6000" banana="0" popust="0" usi="1" kosa ="0">Vudu maska</xml>
+	<xml kategorija="Hats" coins="7000" banana="0" popust="0" usi="1" kosa ="0">Kaubojski šešir</xml>
+	<xml kategorija="Hats" coins="8000" banana="0" popust="0" usi="1" kosa ="0">Kineski šešir</xml>
+	<xml kategorija="Hats" coins="2000" banana="0" popust="0" usi="1" kosa ="0">Maska kapetana Majmuna</xml>
+	<xml kategorija="Hats" coins="3000" banana="0" popust="0" usi="1" kosa ="0">Gusarski šešir</xml>
+	<xml kategorija="Hats" coins="4000" banana="0" popust="0" usi="0" kosa ="0">Viteški šlem</xml>
+	<xml kategorija="Hats" coins="5000" banana="0" popust="0" usi="1" kosa ="0">Cilindar</xml>
+	<xml kategorija="Hats" coins="6000" banana="0" popust="0" usi="0" kosa ="0">Papirna maska</xml>
+	<xml kategorija="Hats" coins="7000" banana="0" popust="0" usi="1" kosa ="0">Veštičji šešir</xml>
+	<xml kategorija="Hats" coins="8000" banana="0" popust="0" usi="0" kosa ="0">Maska nindže</xml>
+	
+	<xml kategorija="Shirts" coins="1000" banana="0" popust="0">Crna majica</xml>
+	<xml kategorija="Shirts" coins="2000" banana="0" popust="0">Bela majica</xml>
+	<xml kategorija="Shirts" coins="3000" banana="0" popust="0">Žuta majica</xml>
+	<xml kategorija="Shirts" coins="4000" banana="0" popust="0">Crvena majica</xml>
+	<xml kategorija="Shirts" coins="5000" banana="0" popust="0">Plava majica</xml>
+	<xml kategorija="Shirts" coins="6000" banana="0" popust="0">Zelena majica</xml>
+	<xml kategorija="Shirts" coins="7000" banana="0" popust="0">Banana majica</xml>
+	<xml kategorija="Shirts" coins="8000" banana="0" popust="0">Kravata majica</xml>
+	
+	<xml kategorija="BackPack" coins="1000" banana="0" popust="0">Anđeoska krila</xml>
+	<xml kategorija="BackPack" coins="2000" banana="0" popust="0">Štit kapetana Majmuna</xml>
+	<xml kategorija="BackPack" coins="3000" banana="0" popust="0">Kornjačin oklop</xml>
+	<xml kategorija="BackPack" coins="4000" banana="0" popust="0">Košnica</xml>
+	<xml kategorija="BackPack" coins="5000" banana="0" popust="0">Ranac</xml>
+	<xml kategorija="BackPack" coins="6000" banana="0" popust="0">Šišmišova krila</xml>
+	
+	<xml kategorija="PowerUps" coins="300" popust="0">Dupli novčići</xml>
+	<xml kategorija="PowerUps" coins="150" popust="0">Magnet za novčiće</xml>
+	<xml kategorija="PowerUps" coins="600" popust="0">Štit</xml>
+	<xml kategorija="Banana" coins="2000" popust="0">Banana</xml>
+</xml>

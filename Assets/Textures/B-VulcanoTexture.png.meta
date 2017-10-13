@@ -1,0 +1,316 @@
+fileFormatVersion: 2
+guid: e1f34ee7c228b43ac92c2b359327b8b4
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: B-VulcanoTexture
+    21300002: Mapa Volcano
+    21300004: ThreeStar Volcano
+    21300006: TwoStar Volcano
+    21300008: OneStar Volcano
+    21300010: OpenLevel Volcano
+    21300012: FacebookPicture Volcano
+    21300014: Katanac Volcano
+    21300016: Kovceg Volcano
+    21300018: KovcegOtvoren Volcano
+    21300020: KovcegZatvoren Volcano
+    21300022: Gate Left Closed Volcano
+    21300024: Gate Left Open Volcano
+    21300026: Gate Front Closed Volcano
+    21300028: Gate Front Open Volcano
+    21300030: Svetlo Plava Volcano
+    21300032: Tamno Plava Volcano
+    21300034: Najtamnije Plava Volcano
+    21300036: Plava Prelaz Volcano
+    21300038: BankInApp Volcano
+    21300040: Shop Volcano
+    21300042: WatchVideo Volcano
+    21300044: FreeCoins Volcano
+    21300046: BankInAppBanana Volcano
+    21300048: Mapa Ice
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: 56
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 5
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: 33
+    compressionQuality: 100
+  spriteSheet:
+    sprites:
+    - name: Mapa Volcano
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1041
+        width: 1556
+        height: 986
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ThreeStar Volcano
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 894
+        width: 142
+        height: 113
+      alignment: 9
+      pivot: {x: .5, y: .300000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TwoStar Volcano
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 894
+        width: 142
+        height: 113
+      alignment: 9
+      pivot: {x: .5, y: .300000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: OneStar Volcano
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 894
+        width: 142
+        height: 113
+      alignment: 9
+      pivot: {x: .5, y: .300000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: OpenLevel Volcano
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 754
+        width: 142
+        height: 113
+      alignment: 9
+      pivot: {x: .5, y: .300000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FacebookPicture Volcano
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 761
+        width: 94
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Katanac Volcano
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 788
+        width: 79
+        height: 68
+      alignment: 9
+      pivot: {x: .448597997, y: .504264414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kovceg Volcano
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 1912
+        width: 70
+        height: 61
+      alignment: 9
+      pivot: {x: .465162486, y: .342226088}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KovcegOtvoren Volcano
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 1926
+        width: 56
+        height: 43
+      alignment: 9
+      pivot: {x: .454432905, y: .196210399}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KovcegZatvoren Volcano
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 1878
+        width: 68
+        height: 47
+      alignment: 9
+      pivot: {x: .539757311, y: .387321293}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gate Left Closed Volcano
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 1962
+        width: 81
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gate Left Open Volcano
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 1847
+        width: 118
+        height: 113
+      alignment: 9
+      pivot: {x: .558247209, y: .555536628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gate Front Closed Volcano
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 1978
+        width: 106
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gate Front Open Volcano
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1973
+        width: 128
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Svetlo Plava Volcano
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 1846
+        width: 129
+        height: 134
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tamno Plava Volcano
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 1714
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Najtamnije Plava Volcano
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 1579
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Plava Prelaz Volcano
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 1526
+        width: 289
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BankInApp Volcano
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1519
+        width: 161
+        height: 172
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shop Volcano
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1311
+        width: 156
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WatchVideo Volcano
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 1328
+        width: 132
+        height: 169
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FreeCoins Volcano
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1026
+        width: 190
+        height: 273
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BankInAppBanana Volcano
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 587
+        width: 162
+        height: 169
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mapa Ice
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 42
+        width: 1556
+        height: 986
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

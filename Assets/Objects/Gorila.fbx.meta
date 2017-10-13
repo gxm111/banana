@@ -1,0 +1,4620 @@
+fileFormatVersion: 2
+guid: 3822c82fc82474f87a4787e5e6d5efd8
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Chest
+    100002: custom_Cvikeri_B
+    100004: custom_Kapa_B
+    100006: Directional Light
+    100008: FullBodyIK_R_Arm
+    100010: //RootNode
+    100012: Gorila
+    100014: Head
+    100016: Hip
+    100018: Jaw
+    100020: Koplje
+    100022: L_Ankle_eff
+    100024: L_Ankle_rotation
+    100026: L_Ball_rotation
+    100028: L_Corner_Lips
+    100030: L_Corner_Lips_2
+    100032: L_Ear_2
+    100034: L_Eye
+    100036: L_Eye_2
+    100038: L_EyeMasterCtrl
+    100040: L_Foot
+    100042: L_Foot_rotation
+    100044: L_Foot_UpV
+    100046: L_Hand
+    100048: L_Hand_Goal
+    100050: L_Leg_goal
+    100052: L_Leg_Root
+    100054: L_LegMaster_controler
+    100056: L_LegUpV
+    100058: L_Low_Lid
+    100060: L_Low_Lip
+    100062: L_Low_Lip_2
+    100064: L_LowerArm
+    100066: L_LowerLeg
+    100068: L_Nose
+    100070: L_Nose_2
+    100072: L_Pivot_L_
+    100074: L_Pivot_Right
+    100076: L_Shoulder
+    100078: L_Toes
+    100080: L_Toes_rotation
+    100082: L_Toes_Target
+    100084: L_ToesTip
+    100086: L_ToesTip_eff
+    100088: L_Up_Lid
+    100090: L_Up_Lip_1
+    100092: L_Up_Lip_1_2
+    100094: L_Up_Lip_2
+    100096: L_Up_Lip_2_2
+    100098: L_UpperArm
+    100100: L_UpperLeg
+    100102: M_Hip
+    100104: M_Hip_2
+    100106: M_Lip
+    100108: M_Lip_2
+    100110: MASTER
+    100112: Mesh
+    100114: Neck
+    100116: R_Ankle_eff
+    100118: R_Ankle_rotation
+    100120: R_Ball_rotation
+    100122: R_Corner_Lip
+    100124: R_Corner_Lip_2
+    100126: R_Ear
+    100128: R_Ear_2
+    100130: R_Eye
+    100132: R_Eye_2
+    100134: R_EyeMasterCtrl
+    100136: R_Foot
+    100138: R_Foot_rotation
+    100140: R_Foot_UpV
+    100142: R_Hand
+    100144: R_Hand_Goal
+    100146: R_Leg_goal
+    100148: R_Leg_Root
+    100150: R_LegMaster_controler
+    100152: R_LegUpV
+    100154: R_Low_Lid
+    100156: R_Low_Lip
+    100158: R_Low_Lip_2
+    100160: R_LowerArm
+    100162: R_LowerLeg
+    100164: R_Nose
+    100166: R_Nose_2
+    100168: R_Pivot_Left
+    100170: R_Pivot_R_
+    100172: R_Shoulder_2
+    100174: R_Toes
+    100176: R_Toes_rotation
+    100178: R_Toes_Target
+    100180: R_ToesTip
+    100182: R_ToesTip_eff
+    100184: R_Up_Lid
+    100186: R_Up_Lip_1
+    100188: R_Up_Lip_1_2
+    100190: R_Up_Lip_2
+    100192: R_Up_Lip_2_2
+    100194: R_UpperArm
+    100196: R_UpperLeg
+    100198: ROOT
+    100200: Skeleton_FullBodyIK_L_Arm
+    100202: Skeleton_L_Ear
+    100204: Spine
+    100206: Texture Group_2
+    100208: WC_Eyes
+    100210: WCon_cvikeri
+    100212: WCon_KAPA
+    400000: Chest
+    400002: custom_Cvikeri_B
+    400004: custom_Kapa_B
+    400006: Directional Light
+    400008: FullBodyIK_R_Arm
+    400010: //RootNode
+    400012: Gorila
+    400014: Head
+    400016: Hip
+    400018: Jaw
+    400020: Koplje
+    400022: L_Ankle_eff
+    400024: L_Ankle_rotation
+    400026: L_Ball_rotation
+    400028: L_Corner_Lips
+    400030: L_Corner_Lips_2
+    400032: L_Ear_2
+    400034: L_Eye
+    400036: L_Eye_2
+    400038: L_EyeMasterCtrl
+    400040: L_Foot
+    400042: L_Foot_rotation
+    400044: L_Foot_UpV
+    400046: L_Hand
+    400048: L_Hand_Goal
+    400050: L_Leg_goal
+    400052: L_Leg_Root
+    400054: L_LegMaster_controler
+    400056: L_LegUpV
+    400058: L_Low_Lid
+    400060: L_Low_Lip
+    400062: L_Low_Lip_2
+    400064: L_LowerArm
+    400066: L_LowerLeg
+    400068: L_Nose
+    400070: L_Nose_2
+    400072: L_Pivot_L_
+    400074: L_Pivot_Right
+    400076: L_Shoulder
+    400078: L_Toes
+    400080: L_Toes_rotation
+    400082: L_Toes_Target
+    400084: L_ToesTip
+    400086: L_ToesTip_eff
+    400088: L_Up_Lid
+    400090: L_Up_Lip_1
+    400092: L_Up_Lip_1_2
+    400094: L_Up_Lip_2
+    400096: L_Up_Lip_2_2
+    400098: L_UpperArm
+    400100: L_UpperLeg
+    400102: M_Hip
+    400104: M_Hip_2
+    400106: M_Lip
+    400108: M_Lip_2
+    400110: MASTER
+    400112: Mesh
+    400114: Neck
+    400116: R_Ankle_eff
+    400118: R_Ankle_rotation
+    400120: R_Ball_rotation
+    400122: R_Corner_Lip
+    400124: R_Corner_Lip_2
+    400126: R_Ear
+    400128: R_Ear_2
+    400130: R_Eye
+    400132: R_Eye_2
+    400134: R_EyeMasterCtrl
+    400136: R_Foot
+    400138: R_Foot_rotation
+    400140: R_Foot_UpV
+    400142: R_Hand
+    400144: R_Hand_Goal
+    400146: R_Leg_goal
+    400148: R_Leg_Root
+    400150: R_LegMaster_controler
+    400152: R_LegUpV
+    400154: R_Low_Lid
+    400156: R_Low_Lip
+    400158: R_Low_Lip_2
+    400160: R_LowerArm
+    400162: R_LowerLeg
+    400164: R_Nose
+    400166: R_Nose_2
+    400168: R_Pivot_Left
+    400170: R_Pivot_R_
+    400172: R_Shoulder_2
+    400174: R_Toes
+    400176: R_Toes_rotation
+    400178: R_Toes_Target
+    400180: R_ToesTip
+    400182: R_ToesTip_eff
+    400184: R_Up_Lid
+    400186: R_Up_Lip_1
+    400188: R_Up_Lip_1_2
+    400190: R_Up_Lip_2
+    400192: R_Up_Lip_2_2
+    400194: R_UpperArm
+    400196: R_UpperLeg
+    400198: ROOT
+    400200: Skeleton_FullBodyIK_L_Arm
+    400202: Skeleton_L_Ear
+    400204: Spine
+    400206: Texture Group_2
+    400208: WC_Eyes
+    400210: WCon_cvikeri
+    400212: WCon_KAPA
+    2300000: custom_Cvikeri_B
+    2300002: custom_Kapa_B
+    2300004: Koplje
+    3300000: custom_Cvikeri_B
+    3300002: custom_Kapa_B
+    3300004: Koplje
+    4300000: custom_Cvikeri_B
+    4300002: custom_Kapa_B
+    4300004: Koplje
+    4300006: Gorila
+    7400000: Idle_L__B
+    7400002: Death__B
+    7400004: Sricke_2__B
+    7400006: Stricke_1__B
+    7400008: Run__B
+    7400010: Patrol__B
+    7400012: Jump__B
+    7400014: Jump_2_B
+    7400016: Glide__B
+    7400018: Shoot_R_B
+    7400020: Shoot_L_B
+    7400022: Death_pose__B
+    7400024: Idle_R__B
+    7400026: Chest_drum
+    7400028: koplje
+    7400030: start-pose
+    7400032: start-pose_koplje
+    7400034: ubod_poza
+    7400036: Idle_koplje
+    9500000: //RootNode
+    13700000: Gorila
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle_L__B
+      takeName: Idle_L__B
+      firstFrame: -1
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Directional Light
+        weight: 0
+      - path: Gorila
+        weight: 0
+      - path: Koplje
+        weight: 0
+      - path: MASTER
+        weight: 0
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip/L_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/M_Hip/M_Hip_2
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip/R_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/Spine
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm/L_Hand
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/Skeleton_FullBodyIK_L_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Cvikeri_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Kapa_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye/L_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Mesh
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear/R_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye/R_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear/L_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/FullBodyIK_R_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm/R_Hand
+        weight: 1
+      - path: ROOT/L_Hand_Goal
+        weight: 0
+      - path: ROOT/L_Leg_goal
+        weight: 0
+      - path: ROOT/L_LegMaster_controler
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation/L_Ankle_eff
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Foot_UpV
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation/L_Toes_Target
+        weight: 0
+      - path: ROOT/L_LegUpV
+        weight: 0
+      - path: ROOT/R_Hand_Goal
+        weight: 0
+      - path: ROOT/R_Leg_goal
+        weight: 0
+      - path: ROOT/R_LegMaster_controler
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation/R_Ankle_eff
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Foot_UpV
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation/R_Toes_Target
+        weight: 0
+      - path: ROOT/R_LegUpV
+        weight: 0
+      - path: Texture Group_2
+        weight: 0
+      - path: WC_Eyes
+        weight: 0
+      - path: WCon_cvikeri
+        weight: 0
+      - path: WCon_KAPA
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death__B
+      takeName: Death__B
+      firstFrame: -1
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Directional Light
+        weight: 0
+      - path: Gorila
+        weight: 0
+      - path: Koplje
+        weight: 0
+      - path: MASTER
+        weight: 0
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip/L_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/M_Hip/M_Hip_2
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip/R_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/Spine
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm/L_Hand
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/Skeleton_FullBodyIK_L_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Cvikeri_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Kapa_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye/L_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Mesh
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear/R_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye/R_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear/L_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/FullBodyIK_R_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm/R_Hand
+        weight: 1
+      - path: ROOT/L_Hand_Goal
+        weight: 0
+      - path: ROOT/L_Leg_goal
+        weight: 0
+      - path: ROOT/L_LegMaster_controler
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation/L_Ankle_eff
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Foot_UpV
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation/L_Toes_Target
+        weight: 0
+      - path: ROOT/L_LegUpV
+        weight: 0
+      - path: ROOT/R_Hand_Goal
+        weight: 0
+      - path: ROOT/R_Leg_goal
+        weight: 0
+      - path: ROOT/R_LegMaster_controler
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation/R_Ankle_eff
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Foot_UpV
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation/R_Toes_Target
+        weight: 0
+      - path: ROOT/R_LegUpV
+        weight: 0
+      - path: Texture Group_2
+        weight: 0
+      - path: WC_Eyes
+        weight: 0
+      - path: WCon_cvikeri
+        weight: 0
+      - path: WCon_KAPA
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Sricke_2__B
+      takeName: Sricke_2__B
+      firstFrame: -1
+      lastFrame: 105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Directional Light
+        weight: 0
+      - path: Gorila
+        weight: 0
+      - path: Koplje
+        weight: 0
+      - path: MASTER
+        weight: 0
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip/L_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/M_Hip/M_Hip_2
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip/R_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/Spine
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm/L_Hand
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/Skeleton_FullBodyIK_L_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Cvikeri_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Kapa_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye/L_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Mesh
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear/R_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye/R_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear/L_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/FullBodyIK_R_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm/R_Hand
+        weight: 1
+      - path: ROOT/L_Hand_Goal
+        weight: 0
+      - path: ROOT/L_Leg_goal
+        weight: 0
+      - path: ROOT/L_LegMaster_controler
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation/L_Ankle_eff
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Foot_UpV
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation/L_Toes_Target
+        weight: 0
+      - path: ROOT/L_LegUpV
+        weight: 0
+      - path: ROOT/R_Hand_Goal
+        weight: 0
+      - path: ROOT/R_Leg_goal
+        weight: 0
+      - path: ROOT/R_LegMaster_controler
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation/R_Ankle_eff
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Foot_UpV
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation/R_Toes_Target
+        weight: 0
+      - path: ROOT/R_LegUpV
+        weight: 0
+      - path: Texture Group_2
+        weight: 0
+      - path: WC_Eyes
+        weight: 0
+      - path: WCon_cvikeri
+        weight: 0
+      - path: WCon_KAPA
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Stricke_1__B
+      takeName: Stricke_1__B
+      firstFrame: -1
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Directional Light
+        weight: 0
+      - path: Gorila
+        weight: 0
+      - path: Koplje
+        weight: 0
+      - path: MASTER
+        weight: 0
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip/L_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/M_Hip/M_Hip_2
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip/R_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/Spine
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm/L_Hand
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/Skeleton_FullBodyIK_L_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Cvikeri_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Kapa_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye/L_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Mesh
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear/R_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye/R_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear/L_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/FullBodyIK_R_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm/R_Hand
+        weight: 1
+      - path: ROOT/L_Hand_Goal
+        weight: 0
+      - path: ROOT/L_Leg_goal
+        weight: 0
+      - path: ROOT/L_LegMaster_controler
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation/L_Ankle_eff
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Foot_UpV
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation/L_Toes_Target
+        weight: 0
+      - path: ROOT/L_LegUpV
+        weight: 0
+      - path: ROOT/R_Hand_Goal
+        weight: 0
+      - path: ROOT/R_Leg_goal
+        weight: 0
+      - path: ROOT/R_LegMaster_controler
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation/R_Ankle_eff
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Foot_UpV
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation/R_Toes_Target
+        weight: 0
+      - path: ROOT/R_LegUpV
+        weight: 0
+      - path: Texture Group_2
+        weight: 0
+      - path: WC_Eyes
+        weight: 0
+      - path: WCon_cvikeri
+        weight: 0
+      - path: WCon_KAPA
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run__B
+      takeName: Run__B
+      firstFrame: -1
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Directional Light
+        weight: 0
+      - path: Gorila
+        weight: 0
+      - path: Koplje
+        weight: 0
+      - path: MASTER
+        weight: 0
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip/L_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/M_Hip/M_Hip_2
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip/R_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/Spine
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm/L_Hand
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/Skeleton_FullBodyIK_L_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Cvikeri_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Kapa_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye/L_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Mesh
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear/R_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye/R_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear/L_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/FullBodyIK_R_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm/R_Hand
+        weight: 1
+      - path: ROOT/L_Hand_Goal
+        weight: 0
+      - path: ROOT/L_Leg_goal
+        weight: 0
+      - path: ROOT/L_LegMaster_controler
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation/L_Ankle_eff
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Foot_UpV
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation/L_Toes_Target
+        weight: 0
+      - path: ROOT/L_LegUpV
+        weight: 0
+      - path: ROOT/R_Hand_Goal
+        weight: 0
+      - path: ROOT/R_Leg_goal
+        weight: 0
+      - path: ROOT/R_LegMaster_controler
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation/R_Ankle_eff
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Foot_UpV
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation/R_Toes_Target
+        weight: 0
+      - path: ROOT/R_LegUpV
+        weight: 0
+      - path: Texture Group_2
+        weight: 0
+      - path: WC_Eyes
+        weight: 0
+      - path: WCon_cvikeri
+        weight: 0
+      - path: WCon_KAPA
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Patrol__B
+      takeName: Patrol__B
+      firstFrame: -3
+      lastFrame: 164
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Directional Light
+        weight: 0
+      - path: Gorila
+        weight: 0
+      - path: Koplje
+        weight: 0
+      - path: MASTER
+        weight: 0
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip/L_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/M_Hip/M_Hip_2
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip/R_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/Spine
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm/L_Hand
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/Skeleton_FullBodyIK_L_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Cvikeri_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Kapa_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye/L_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Mesh
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear/R_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye/R_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear/L_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/FullBodyIK_R_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm/R_Hand
+        weight: 1
+      - path: ROOT/L_Hand_Goal
+        weight: 0
+      - path: ROOT/L_Leg_goal
+        weight: 0
+      - path: ROOT/L_LegMaster_controler
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation/L_Ankle_eff
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Foot_UpV
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation/L_Toes_Target
+        weight: 0
+      - path: ROOT/L_LegUpV
+        weight: 0
+      - path: ROOT/R_Hand_Goal
+        weight: 0
+      - path: ROOT/R_Leg_goal
+        weight: 0
+      - path: ROOT/R_LegMaster_controler
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation/R_Ankle_eff
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Foot_UpV
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation/R_Toes_Target
+        weight: 0
+      - path: ROOT/R_LegUpV
+        weight: 0
+      - path: Texture Group_2
+        weight: 0
+      - path: WC_Eyes
+        weight: 0
+      - path: WCon_cvikeri
+        weight: 0
+      - path: WCon_KAPA
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump__B
+      takeName: Jump__B
+      firstFrame: -3
+      lastFrame: 78
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Directional Light
+        weight: 0
+      - path: Gorila
+        weight: 0
+      - path: Koplje
+        weight: 0
+      - path: MASTER
+        weight: 0
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip/L_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/M_Hip/M_Hip_2
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip/R_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/Spine
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm/L_Hand
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/Skeleton_FullBodyIK_L_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Cvikeri_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Kapa_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye/L_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Mesh
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear/R_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye/R_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear/L_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/FullBodyIK_R_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm/R_Hand
+        weight: 1
+      - path: ROOT/L_Hand_Goal
+        weight: 0
+      - path: ROOT/L_Leg_goal
+        weight: 0
+      - path: ROOT/L_LegMaster_controler
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation/L_Ankle_eff
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Foot_UpV
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation/L_Toes_Target
+        weight: 0
+      - path: ROOT/L_LegUpV
+        weight: 0
+      - path: ROOT/R_Hand_Goal
+        weight: 0
+      - path: ROOT/R_Leg_goal
+        weight: 0
+      - path: ROOT/R_LegMaster_controler
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation/R_Ankle_eff
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Foot_UpV
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation/R_Toes_Target
+        weight: 0
+      - path: ROOT/R_LegUpV
+        weight: 0
+      - path: Texture Group_2
+        weight: 0
+      - path: WC_Eyes
+        weight: 0
+      - path: WCon_cvikeri
+        weight: 0
+      - path: WCon_KAPA
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump_2_B
+      takeName: Jump_2_B
+      firstFrame: -3
+      lastFrame: 78
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Directional Light
+        weight: 0
+      - path: Gorila
+        weight: 0
+      - path: Koplje
+        weight: 0
+      - path: MASTER
+        weight: 0
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip/L_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/M_Hip/M_Hip_2
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip/R_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/Spine
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm/L_Hand
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/Skeleton_FullBodyIK_L_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Cvikeri_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Kapa_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye/L_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Mesh
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear/R_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye/R_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear/L_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/FullBodyIK_R_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm/R_Hand
+        weight: 1
+      - path: ROOT/L_Hand_Goal
+        weight: 0
+      - path: ROOT/L_Leg_goal
+        weight: 0
+      - path: ROOT/L_LegMaster_controler
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation/L_Ankle_eff
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Foot_UpV
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation/L_Toes_Target
+        weight: 0
+      - path: ROOT/L_LegUpV
+        weight: 0
+      - path: ROOT/R_Hand_Goal
+        weight: 0
+      - path: ROOT/R_Leg_goal
+        weight: 0
+      - path: ROOT/R_LegMaster_controler
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation/R_Ankle_eff
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Foot_UpV
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation/R_Toes_Target
+        weight: 0
+      - path: ROOT/R_LegUpV
+        weight: 0
+      - path: Texture Group_2
+        weight: 0
+      - path: WC_Eyes
+        weight: 0
+      - path: WCon_cvikeri
+        weight: 0
+      - path: WCon_KAPA
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Glide__B
+      takeName: Glide__B
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Directional Light
+        weight: 0
+      - path: Gorila
+        weight: 0
+      - path: Koplje
+        weight: 0
+      - path: MASTER
+        weight: 0
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip/L_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/M_Hip/M_Hip_2
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip/R_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/Spine
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm/L_Hand
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/Skeleton_FullBodyIK_L_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Cvikeri_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Kapa_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye/L_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Mesh
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear/R_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye/R_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear/L_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/FullBodyIK_R_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm/R_Hand
+        weight: 1
+      - path: ROOT/L_Hand_Goal
+        weight: 0
+      - path: ROOT/L_Leg_goal
+        weight: 0
+      - path: ROOT/L_LegMaster_controler
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation/L_Ankle_eff
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Foot_UpV
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation/L_Toes_Target
+        weight: 0
+      - path: ROOT/L_LegUpV
+        weight: 0
+      - path: ROOT/R_Hand_Goal
+        weight: 0
+      - path: ROOT/R_Leg_goal
+        weight: 0
+      - path: ROOT/R_LegMaster_controler
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation/R_Ankle_eff
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Foot_UpV
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation/R_Toes_Target
+        weight: 0
+      - path: ROOT/R_LegUpV
+        weight: 0
+      - path: Texture Group_2
+        weight: 0
+      - path: WC_Eyes
+        weight: 0
+      - path: WCon_cvikeri
+        weight: 0
+      - path: WCon_KAPA
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Shoot_R_B
+      takeName: Shoot_R_B
+      firstFrame: -2
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Directional Light
+        weight: 0
+      - path: Gorila
+        weight: 0
+      - path: Koplje
+        weight: 0
+      - path: MASTER
+        weight: 0
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip/L_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/M_Hip/M_Hip_2
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip/R_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/Spine
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm/L_Hand
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/Skeleton_FullBodyIK_L_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Cvikeri_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Kapa_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye/L_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Mesh
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear/R_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye/R_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear/L_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/FullBodyIK_R_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm/R_Hand
+        weight: 1
+      - path: ROOT/L_Hand_Goal
+        weight: 0
+      - path: ROOT/L_Leg_goal
+        weight: 0
+      - path: ROOT/L_LegMaster_controler
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation/L_Ankle_eff
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Foot_UpV
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation/L_Toes_Target
+        weight: 0
+      - path: ROOT/L_LegUpV
+        weight: 0
+      - path: ROOT/R_Hand_Goal
+        weight: 0
+      - path: ROOT/R_Leg_goal
+        weight: 0
+      - path: ROOT/R_LegMaster_controler
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation/R_Ankle_eff
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Foot_UpV
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation/R_Toes_Target
+        weight: 0
+      - path: ROOT/R_LegUpV
+        weight: 0
+      - path: Texture Group_2
+        weight: 0
+      - path: WC_Eyes
+        weight: 0
+      - path: WCon_cvikeri
+        weight: 0
+      - path: WCon_KAPA
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Shoot_L_B
+      takeName: Shoot_L_B
+      firstFrame: -2
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Directional Light
+        weight: 0
+      - path: Gorila
+        weight: 0
+      - path: Koplje
+        weight: 0
+      - path: MASTER
+        weight: 0
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip/L_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/M_Hip/M_Hip_2
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip/R_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/Spine
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm/L_Hand
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/Skeleton_FullBodyIK_L_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Cvikeri_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Kapa_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye/L_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Mesh
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear/R_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye/R_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear/L_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/FullBodyIK_R_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm/R_Hand
+        weight: 1
+      - path: ROOT/L_Hand_Goal
+        weight: 0
+      - path: ROOT/L_Leg_goal
+        weight: 0
+      - path: ROOT/L_LegMaster_controler
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation/L_Ankle_eff
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Foot_UpV
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation/L_Toes_Target
+        weight: 0
+      - path: ROOT/L_LegUpV
+        weight: 0
+      - path: ROOT/R_Hand_Goal
+        weight: 0
+      - path: ROOT/R_Leg_goal
+        weight: 0
+      - path: ROOT/R_LegMaster_controler
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation/R_Ankle_eff
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Foot_UpV
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation/R_Toes_Target
+        weight: 0
+      - path: ROOT/R_LegUpV
+        weight: 0
+      - path: Texture Group_2
+        weight: 0
+      - path: WC_Eyes
+        weight: 0
+      - path: WCon_cvikeri
+        weight: 0
+      - path: WCon_KAPA
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death_pose__B
+      takeName: Death_pose__B
+      firstFrame: -1
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Directional Light
+        weight: 0
+      - path: Gorila
+        weight: 0
+      - path: Koplje
+        weight: 0
+      - path: MASTER
+        weight: 0
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip/L_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/M_Hip/M_Hip_2
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip/R_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/Spine
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm/L_Hand
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/Skeleton_FullBodyIK_L_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Cvikeri_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Kapa_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye/L_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Mesh
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear/R_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye/R_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear/L_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/FullBodyIK_R_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm/R_Hand
+        weight: 1
+      - path: ROOT/L_Hand_Goal
+        weight: 0
+      - path: ROOT/L_Leg_goal
+        weight: 0
+      - path: ROOT/L_LegMaster_controler
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation/L_Ankle_eff
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Foot_UpV
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation/L_Toes_Target
+        weight: 0
+      - path: ROOT/L_LegUpV
+        weight: 0
+      - path: ROOT/R_Hand_Goal
+        weight: 0
+      - path: ROOT/R_Leg_goal
+        weight: 0
+      - path: ROOT/R_LegMaster_controler
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation/R_Ankle_eff
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Foot_UpV
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation/R_Toes_Target
+        weight: 0
+      - path: ROOT/R_LegUpV
+        weight: 0
+      - path: Texture Group_2
+        weight: 0
+      - path: WC_Eyes
+        weight: 0
+      - path: WCon_cvikeri
+        weight: 0
+      - path: WCon_KAPA
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle_R__B
+      takeName: Idle_R__B
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Directional Light
+        weight: 0
+      - path: Gorila
+        weight: 0
+      - path: Koplje
+        weight: 0
+      - path: MASTER
+        weight: 0
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip/L_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/M_Hip/M_Hip_2
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip/R_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/Spine
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm/L_Hand
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/Skeleton_FullBodyIK_L_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Cvikeri_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Kapa_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye/L_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Mesh
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear/R_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye/R_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear/L_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/FullBodyIK_R_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm/R_Hand
+        weight: 1
+      - path: ROOT/L_Hand_Goal
+        weight: 0
+      - path: ROOT/L_Leg_goal
+        weight: 0
+      - path: ROOT/L_LegMaster_controler
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation/L_Ankle_eff
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Foot_UpV
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation/L_Toes_Target
+        weight: 0
+      - path: ROOT/L_LegUpV
+        weight: 0
+      - path: ROOT/R_Hand_Goal
+        weight: 0
+      - path: ROOT/R_Leg_goal
+        weight: 0
+      - path: ROOT/R_LegMaster_controler
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation/R_Ankle_eff
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Foot_UpV
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation/R_Toes_Target
+        weight: 0
+      - path: ROOT/R_LegUpV
+        weight: 0
+      - path: Texture Group_2
+        weight: 0
+      - path: WC_Eyes
+        weight: 0
+      - path: WCon_cvikeri
+        weight: 0
+      - path: WCon_KAPA
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Chest_drum
+      takeName: Chest_drum
+      firstFrame: 0
+      lastFrame: 101
+      wrapMode: 0
+      orientationOffsetY: 90
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Directional Light
+        weight: 0
+      - path: Gorila
+        weight: 0
+      - path: Koplje
+        weight: 0
+      - path: MASTER
+        weight: 0
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip/L_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/M_Hip/M_Hip_2
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip/R_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/Spine
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm/L_Hand
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/Skeleton_FullBodyIK_L_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Cvikeri_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Kapa_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye/L_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Mesh
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear/R_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye/R_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear/L_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/FullBodyIK_R_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm/R_Hand
+        weight: 1
+      - path: ROOT/L_Hand_Goal
+        weight: 0
+      - path: ROOT/L_Leg_goal
+        weight: 0
+      - path: ROOT/L_LegMaster_controler
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation/L_Ankle_eff
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Foot_UpV
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation/L_Toes_Target
+        weight: 0
+      - path: ROOT/L_LegUpV
+        weight: 0
+      - path: ROOT/R_Hand_Goal
+        weight: 0
+      - path: ROOT/R_Leg_goal
+        weight: 0
+      - path: ROOT/R_LegMaster_controler
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation/R_Ankle_eff
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Foot_UpV
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation/R_Toes_Target
+        weight: 0
+      - path: ROOT/R_LegUpV
+        weight: 0
+      - path: Texture Group_2
+        weight: 0
+      - path: WC_Eyes
+        weight: 0
+      - path: WCon_cvikeri
+        weight: 0
+      - path: WCon_KAPA
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: koplje
+      takeName: koplje
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 90
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Directional Light
+        weight: 0
+      - path: Gorila
+        weight: 0
+      - path: Koplje
+        weight: 0
+      - path: MASTER
+        weight: 0
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip/L_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/M_Hip/M_Hip_2
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip/R_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/Spine
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm/L_Hand
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/Skeleton_FullBodyIK_L_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Cvikeri_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Kapa_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye/L_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Mesh
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear/R_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye/R_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear/L_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/FullBodyIK_R_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm/R_Hand
+        weight: 1
+      - path: ROOT/L_Hand_Goal
+        weight: 0
+      - path: ROOT/L_Leg_goal
+        weight: 0
+      - path: ROOT/L_LegMaster_controler
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation/L_Ankle_eff
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Foot_UpV
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation/L_Toes_Target
+        weight: 0
+      - path: ROOT/L_LegUpV
+        weight: 0
+      - path: ROOT/R_Hand_Goal
+        weight: 0
+      - path: ROOT/R_Leg_goal
+        weight: 0
+      - path: ROOT/R_LegMaster_controler
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation/R_Ankle_eff
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Foot_UpV
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation/R_Toes_Target
+        weight: 0
+      - path: ROOT/R_LegUpV
+        weight: 0
+      - path: Texture Group_2
+        weight: 0
+      - path: WC_Eyes
+        weight: 0
+      - path: WCon_cvikeri
+        weight: 0
+      - path: WCon_KAPA
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: start-pose
+      takeName: start-pose
+      firstFrame: -3
+      lastFrame: 165
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Directional Light
+        weight: 0
+      - path: Gorila
+        weight: 0
+      - path: Koplje
+        weight: 0
+      - path: MASTER
+        weight: 0
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip/L_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/M_Hip/M_Hip_2
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip/R_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/Spine
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm/L_Hand
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/Skeleton_FullBodyIK_L_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Cvikeri_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Kapa_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye/L_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Mesh
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear/R_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye/R_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear/L_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/FullBodyIK_R_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm/R_Hand
+        weight: 1
+      - path: ROOT/L_Hand_Goal
+        weight: 0
+      - path: ROOT/L_Leg_goal
+        weight: 0
+      - path: ROOT/L_LegMaster_controler
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation/L_Ankle_eff
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Foot_UpV
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation/L_Toes_Target
+        weight: 0
+      - path: ROOT/L_LegUpV
+        weight: 0
+      - path: ROOT/R_Hand_Goal
+        weight: 0
+      - path: ROOT/R_Leg_goal
+        weight: 0
+      - path: ROOT/R_LegMaster_controler
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation/R_Ankle_eff
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Foot_UpV
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation/R_Toes_Target
+        weight: 0
+      - path: ROOT/R_LegUpV
+        weight: 0
+      - path: Texture Group_2
+        weight: 0
+      - path: WC_Eyes
+        weight: 0
+      - path: WCon_cvikeri
+        weight: 0
+      - path: WCon_KAPA
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: start-pose_koplje
+      takeName: start-pose_koplje
+      firstFrame: -3
+      lastFrame: 165
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Directional Light
+        weight: 0
+      - path: Gorila
+        weight: 0
+      - path: Koplje
+        weight: 0
+      - path: MASTER
+        weight: 0
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip/L_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/M_Hip/M_Hip_2
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip/R_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/Spine
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm/L_Hand
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/Skeleton_FullBodyIK_L_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Cvikeri_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Kapa_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye/L_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Mesh
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear/R_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye/R_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear/L_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/FullBodyIK_R_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm/R_Hand
+        weight: 1
+      - path: ROOT/L_Hand_Goal
+        weight: 0
+      - path: ROOT/L_Leg_goal
+        weight: 0
+      - path: ROOT/L_LegMaster_controler
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation/L_Ankle_eff
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Foot_UpV
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation/L_Toes_Target
+        weight: 0
+      - path: ROOT/L_LegUpV
+        weight: 0
+      - path: ROOT/R_Hand_Goal
+        weight: 0
+      - path: ROOT/R_Leg_goal
+        weight: 0
+      - path: ROOT/R_LegMaster_controler
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation/R_Ankle_eff
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Foot_UpV
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation/R_Toes_Target
+        weight: 0
+      - path: ROOT/R_LegUpV
+        weight: 0
+      - path: Texture Group_2
+        weight: 0
+      - path: WC_Eyes
+        weight: 0
+      - path: WCon_cvikeri
+        weight: 0
+      - path: WCon_KAPA
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ubod_poza
+      takeName: ubod_poza
+      firstFrame: -3
+      lastFrame: 165
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Directional Light
+        weight: 0
+      - path: Gorila
+        weight: 0
+      - path: Koplje
+        weight: 0
+      - path: MASTER
+        weight: 0
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip/L_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/M_Hip/M_Hip_2
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip/R_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/Spine
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm/L_Hand
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/Skeleton_FullBodyIK_L_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Cvikeri_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Kapa_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye/L_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Mesh
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear/R_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye/R_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear/L_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/FullBodyIK_R_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm/R_Hand
+        weight: 1
+      - path: ROOT/L_Hand_Goal
+        weight: 0
+      - path: ROOT/L_Leg_goal
+        weight: 0
+      - path: ROOT/L_LegMaster_controler
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation/L_Ankle_eff
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Foot_UpV
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation/L_Toes_Target
+        weight: 0
+      - path: ROOT/L_LegUpV
+        weight: 0
+      - path: ROOT/R_Hand_Goal
+        weight: 0
+      - path: ROOT/R_Leg_goal
+        weight: 0
+      - path: ROOT/R_LegMaster_controler
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation/R_Ankle_eff
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Foot_UpV
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation/R_Toes_Target
+        weight: 0
+      - path: ROOT/R_LegUpV
+        weight: 0
+      - path: Texture Group_2
+        weight: 0
+      - path: WC_Eyes
+        weight: 0
+      - path: WCon_cvikeri
+        weight: 0
+      - path: WCon_KAPA
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle_koplje
+      takeName: Idle_L__B_koplje
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 90
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Directional Light
+        weight: 0
+      - path: Gorila
+        weight: 0
+      - path: Koplje
+        weight: 0
+      - path: MASTER
+        weight: 0
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/L_Leg_Root/L_UpperLeg/L_LowerLeg/L_Foot/L_Toes/L_ToesTip/L_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/M_Hip/M_Hip_2
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot
+        weight: 1
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip
+        weight: 0
+      - path: ROOT/Hip/M_Hip/R_Leg_Root/R_UpperLeg/R_LowerLeg/R_Foot/R_Toes/R_ToesTip/R_ToesTip_eff
+        weight: 0
+      - path: ROOT/Hip/Spine
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/L_LowerArm/L_Hand
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/L_Shoulder/L_UpperArm/Skeleton_FullBodyIK_L_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Cvikeri_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/custom_Kapa_B
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Eye/L_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/L_EyeMasterCtrl/L_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_Ear/R_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Eye/R_Eye_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Low_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/R_EyeMasterCtrl/R_Up_Lid
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/Neck/Head/Skeleton_L_Ear/L_Ear_2
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/FullBodyIK_R_Arm
+        weight: 0
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm
+        weight: 1
+      - path: ROOT/Hip/Spine/Chest/R_Shoulder_2/R_UpperArm/R_LowerArm/R_Hand
+        weight: 1
+      - path: ROOT/L_Hand_Goal
+        weight: 0
+      - path: ROOT/L_Leg_goal
+        weight: 0
+      - path: ROOT/L_LegMaster_controler
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Ball_rotation/L_Ankle_rotation/L_Ankle_eff
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Foot_UpV
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation
+        weight: 0
+      - path: ROOT/L_LegMaster_controler/L_Pivot_L_/L_Pivot_Right/L_Foot_rotation/L_Toes_rotation/L_Toes_Target
+        weight: 0
+      - path: ROOT/L_LegUpV
+        weight: 0
+      - path: ROOT/R_Hand_Goal
+        weight: 0
+      - path: ROOT/R_Leg_goal
+        weight: 0
+      - path: ROOT/R_LegMaster_controler
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Ball_rotation/R_Ankle_rotation/R_Ankle_eff
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Foot_UpV
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation
+        weight: 0
+      - path: ROOT/R_LegMaster_controler/R_Pivot_Left/R_Pivot_R_/R_Foot_rotation/R_Toes_rotation/R_Toes_Target
+        weight: 0
+      - path: ROOT/R_LegUpV
+        weight: 0
+      - path: Texture Group_2
+        weight: 0
+      - path: WC_Eyes
+        weight: 0
+      - path: WCon_cvikeri
+        weight: 0
+      - path: WCon_KAPA
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0500000007
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Hip
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_UpperLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_LowerLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Shoulder_2
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_LowerArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaw
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_EyeMasterCtrl
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Eye
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Shoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_LowerArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_UpperLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_LowerLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Gorila(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Directional Light
+      position: {x: 2.60000014, y: 32.4000015, z: 1.19845438}
+      rotation: {x: .0043148566, y: .751686335, z: -.00406790944, w: .659494162}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Gorila
+      position: {x: 6.08395283e-07, y: -.00999999978, z: -4.95749191e-06}
+      rotation: {x: .000247874268, y: 1.17754362e-05, z: 3.04226833e-05, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Koplje
+      position: {x: 3.62779021, y: -2.63504672, z: -5.15656376}
+      rotation: {x: -.550525665, y: -.298940092, z: .647821307, w: .433455735}
+      scale: {x: .99999994, y: 1, z: .99999994}
+      transformModified: 1
+    - name: MASTER
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -6.12323426e-17, y: 1, z: 6.12323426e-17, w: 4.37113883e-08}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ROOT
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Hand_Goal
+      position: {x: -3.79493713, y: 3.45737147, z: .85264492}
+      rotation: {x: .0163730681, y: -.62623924, z: -.0514730178, w: .777757585}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Leg_goal
+      position: {x: -.785000026, y: .280000061, z: -.0076674181}
+      rotation: {x: .17954421, y: -.0353677757, z: .00645928876, w: .983092725}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_LegMaster_controler
+      position: {x: -.785000026, y: 0, z: -.00766739948}
+      rotation: {x: 0, y: -.0359527618, z: -0, w: .999353528}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Pivot_L_
+      position: {x: .248810276, y: 0, z: .728425026}
+      rotation: {x: 0, y: .0359527618, z: -0, w: .999353528}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Pivot_Right
+      position: {x: -.493025303, y: 0, z: -.00402829703}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Foot_rotation
+      position: {x: .242516384, y: .00410962105, z: .259516567}
+      rotation: {x: .00532355299, y: .031561207, z: -.000277445361, w: .999487638}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Ball_rotation
+      position: {x: .0202324409, y: .00849066954, z: -.256842345}
+      rotation: {x: -.0377892442, y: -.0196616426, z: .995700955, w: .0822495148}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Ankle_rotation
+      position: {x: 8.32667268e-16, y: -.0669882447, z: -.250037462}
+      rotation: {x: -.130509377, y: -1.092939e-15, z: 4.67182028e-16, w: .991447091}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Ankle_eff
+      position: {x: -8.32667268e-16, y: -.0322211348, z: -.530288398}
+      rotation: {x: -.0303388033, y: 1.35709745e-15, z: -4.69051906e-16, w: .999539673}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Foot_UpV
+      position: {x: -.00021767267, y: .995833814, z: -.0106153581}
+      rotation: {x: -.00532355299, y: -.031561207, z: .00027744539, w: .999487638}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Toes_rotation
+      position: {x: .0202324409, y: .00849066954, z: -.256842345}
+      rotation: {x: -.0377892442, y: -.0196616426, z: .995700955, w: .0822495148}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Toes_Target
+      position: {x: -1.38777878e-16, y: 5.20417043e-17, z: .25777784}
+      rotation: {x: -.0377892517, y: -.0196616426, z: .995701015, w: -.0822494626}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_LegUpV
+      position: {x: -.574999988, y: 1.52499998, z: -2.51861143}
+      rotation: {x: -.0806352645, y: -.632593632, z: .769176364, w: .0411212705}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Hand_Goal
+      position: {x: 3.79493713, y: 3.45737147, z: .85264492}
+      rotation: {x: .0163730681, y: .62623924, z: .0514730178, w: .777757585}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Leg_goal
+      position: {x: .785000026, y: .280000091, z: -.0076674209}
+      rotation: {x: .181618989, y: .0234703831, z: -.00433603628, w: .983079314}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_LegMaster_controler
+      position: {x: .785000026, y: 0, z: -.00766739249}
+      rotation: {x: 0, y: .0238675419, z: -0, w: .999715149}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Pivot_Left
+      position: {x: .243200451, y: 0, z: .758959711}
+      rotation: {x: 0, y: -.0238675419, z: -0, w: .999715149}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Pivot_R_
+      position: {x: -.492955208, y: 0, z: -.00832130481}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Foot_rotation
+      position: {x: .24420464, y: 1.08479944e-05, z: .261635751}
+      rotation: {x: .00737617677, y: -.0437302701, z: .000384396291, w: .999016106}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Ball_rotation
+      position: {x: -.0202324484, y: .00849066954, z: -.256842315}
+      rotation: {x: .0377892591, y: -.0196616389, z: .995700955, w: -.0822495148}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Ankle_rotation
+      position: {x: 1.38777878e-16, y: -.0669882521, z: -.250037462}
+      rotation: {x: -.130509377, y: -3.26000184e-17, z: -4.89276712e-18, w: .991447091}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Ankle_eff
+      position: {x: -2.77555756e-16, y: -.032221131, z: -.530288398}
+      rotation: {x: -.0303388014, y: 4.77516412e-16, z: -6.53400818e-17, w: .999539673}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Foot_UpV
+      position: {x: .000122910467, y: .999880016, z: -.0147712966}
+      rotation: {x: -.00737617677, y: .0437302664, z: -.00038439632, w: .999016106}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Toes_rotation
+      position: {x: -.0202324484, y: .00849066954, z: -.256842315}
+      rotation: {x: .0377892591, y: -.0196616389, z: .995700955, w: -.0822495148}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Toes_Target
+      position: {x: -0, y: 1.73472348e-17, z: .25777784}
+      rotation: {x: .0377892666, y: -.0196616407, z: .995701015, w: .0822494626}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_LegUpV
+      position: {x: .574999988, y: 1.52499998, z: -2.51861143}
+      rotation: {x: .0806352645, y: -.632593632, z: .769176364, w: -.0411212705}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hip
+      position: {x: -0, y: 1.84000003, z: -.0300000012}
+      rotation: {x: -.54893446, y: -4.41283376e-13, z: 6.71159742e-13, w: .835865438}
+      scale: {x: 1, y: 1.00000048, z: 1}
+      transformModified: 1
+    - name: Spine
+      position: {x: 3.69778549e-31, y: -1.38777878e-16, z: .52851212}
+      rotation: {x: -.189369202, y: -2.23451683e-13, z: 5.33844887e-13, w: .981905997}
+      scale: {x: 1, y: .999999583, z: .999999881}
+      transformModified: 1
+    - name: Chest
+      position: {x: 4.93038066e-31, y: 0, z: .725275815}
+      rotation: {x: .106965706, y: 4.87217417e-13, z: 1.3231689e-12, w: .994262755}
+      scale: {x: 1, y: 1.00000012, z: 1.00000024}
+      transformModified: 1
+    - name: Neck
+      position: {x: -4.17673501e-17, y: -.00813269336, z: .67665273}
+      rotation: {x: -.0673146695, y: .0673146695, z: .70389539, w: .70389539}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -1.49011576e-08, y: 1.49011576e-08, z: 4.47034729e-08, w: 1}
+      scale: {x: .999999881, y: 1, z: 1}
+      transformModified: 1
+    - name: custom_Cvikeri_B
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: custom_Kapa_B
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_EyeMasterCtrl
+      position: {x: -1.19483995, y: .284999996, z: 1.49815965}
+      rotation: {x: .497359842, y: -.499111325, z: -.5026263, w: .500887096}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Low_Lid
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: .270600319, y: .000840106921, z: -.000236143387, w: .962691367}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Up_Lid
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -.21643953, y: .000851978897, z: .000188879188, w: .97629565}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Eye
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: .00436332123, y: .000872651755, z: -3.78771756e-06, w: .999990106}
+      scale: {x: 1.00000024, y: .999999583, z: .99999994}
+      transformModified: 1
+    - name: L_Eye_2
+      position: {x: 5.61364184e-11, y: -.0017268766, z: .948051393}
+      rotation: {x: -.00436330959, y: 2.88787645e-17, z: 6.56734356e-17, w: .999990523}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mesh
+      position: {x: -1.38777878e-16, y: -2.77555756e-16, z: 0}
+      rotation: {x: 2.08166817e-17, y: -1.38777878e-17, z: 5.55111512e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_L_Ear
+      position: {x: -.473345369, y: 1.10000002, z: 1.60161328}
+      rotation: {x: .243152946, y: .485846132, z: .820997179, w: .175481975}
+      scale: {x: .999999642, y: .999999821, z: .999999821}
+      transformModified: 1
+    - name: L_Ear_2
+      position: {x: -5.55111512e-16, y: 1.11022302e-15, z: .326352924}
+      rotation: {x: 1.0776563e-09, y: 2.93706677e-08, z: -1.00622026e-08, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Ear
+      position: {x: -.473345488, y: -1.10000002, z: 1.60161328}
+      rotation: {x: .485846281, y: .243152753, z: .175481722, w: .820997119}
+      scale: {x: 1, y: 1, z: .999999821}
+      transformModified: 1
+    - name: R_Ear_2
+      position: {x: -5.55111512e-16, y: 5.55111512e-16, z: .326352924}
+      rotation: {x: -1.73472348e-17, y: 5.55111512e-17, z: 1.38777878e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Jaw
+      position: {x: -.976793289, y: 4.425846e-08, z: .380525678}
+      rotation: {x: .500041664, y: -.512031257, z: -.493191063, w: .494515002}
+      scale: {x: 1, y: .999999583, z: .999999702}
+      transformModified: 1
+    - name: R_EyeMasterCtrl
+      position: {x: -1.19483995, y: -.284999967, z: 1.49815965}
+      rotation: {x: .498236299, y: -.498236358, z: -.501757503, w: .501757383}
+      scale: {x: 1, y: .999999762, z: 1}
+      transformModified: 1
+    - name: R_Low_Lid
+      position: {x: -2.08166817e-16, y: 2.22044605e-15, z: 0}
+      rotation: {x: .270600468, y: -1.05338105e-24, z: -6.906883e-25, w: .962691784}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Up_Lid
+      position: {x: -2.08166817e-16, y: 2.22044605e-15, z: 0}
+      rotation: {x: -.21643962, y: -1.9398033e-25, z: -1.03589211e-24, w: .976296008}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Eye
+      position: {x: -2.08166817e-16, y: 2.22044605e-15, z: 0}
+      rotation: {x: 1.55084908e-05, y: 4.60678712e-06, z: -.0268660448, w: .999639034}
+      scale: {x: 1.00000024, y: .999999762, z: 1.00000024}
+      transformModified: 1
+    - name: R_Eye_2
+      position: {x: -5.80471893e-09, y: 8.53917115e-08, z: .948000133}
+      rotation: {x: -1.58364543e-07, y: -6.49669119e-09, z: .0268692337, w: .999638975}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Shoulder
+      position: {x: -.435000002, y: .0564395674, z: .253871739}
+      rotation: {x: .349952728, y: -.559032679, z: -.525944948, w: .537026465}
+      scale: {x: 1.00000036, y: .999999702, z: 1.00000036}
+      transformModified: 1
+    - name: L_UpperArm
+      position: {x: -6.9388939e-17, y: -5.55111512e-16, z: .931812584}
+      rotation: {x: .0871540233, y: .128773496, z: .0134004867, w: .987745941}
+      scale: {x: .999999464, y: 1.00000012, z: .999999583}
+      transformModified: 1
+    - name: Skeleton_FullBodyIK_L_Arm
+      position: {x: -.0471336022, y: .284929395, z: .0270684157}
+      rotation: {x: 2.77826807e-19, y: -5.55111512e-17, z: -1.35525272e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_LowerArm
+      position: {x: 1.06268132e-08, y: -1.30775577e-08, z: 1.02605045}
+      rotation: {x: .0386133008, y: -.00488847308, z: -.000954897725, w: .999241829}
+      scale: {x: .999999762, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Hand
+      position: {x: -.00419374136, y: .116110913, z: 1.58481717}
+      rotation: {x: -.0564278215, y: -.11304716, z: -.0474057719, w: .990852594}
+      scale: {x: .999999762, y: .99999994, z: .999999762}
+      transformModified: 1
+    - name: R_Shoulder_2
+      position: {x: .435000002, y: .0564395748, z: .253871739}
+      rotation: {x: .349952698, y: .559032738, z: .525945008, w: .537026465}
+      scale: {x: .999999702, y: .999999523, z: 1}
+      transformModified: 1
+    - name: R_UpperArm
+      position: {x: 1.04083409e-16, y: -5.55111512e-16, z: .931812465}
+      rotation: {x: .087154001, y: -.128773689, z: -.0134004755, w: .987745941}
+      scale: {x: .999999881, y: 1.00000024, z: .999999702}
+      transformModified: 1
+    - name: FullBodyIK_R_Arm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1.8973538e-19, y: 1.38777878e-17, z: 5.42101086e-20, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_LowerArm
+      position: {x: -1.06268132e-08, y: -1.30775559e-08, z: 1.02605045}
+      rotation: {x: .0386134312, y: .00488844328, z: .000954953604, w: .999241769}
+      scale: {x: .999999881, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: R_Hand
+      position: {x: .00419374136, y: .116110913, z: 1.58481717}
+      rotation: {x: -.0564277135, y: .113047145, z: .0474057756, w: .990852654}
+      scale: {x: 1.00000048, y: 1.00000036, z: 1.00000048}
+      transformModified: 1
+    - name: M_Hip
+      position: {x: 3.97364762e-17, y: -.0355231464, z: -.0784325525}
+      rotation: {x: 1.01376356e-20, y: 5.45933148e-08, z: -9.85346382e-09, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Leg_Root
+      position: {x: -.574999988, y: -.100090645, z: -.206108555}
+      rotation: {x: .969745576, y: -.101482786, z: -.0634895042, w: .212753102}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_UpperLeg
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: .00745412987, y: .0893451273, z: .992524564, w: .0828070566}
+      scale: {x: .999999762, y: .999999762, z: 1.00000012}
+      transformModified: 1
+    - name: L_LowerLeg
+      position: {x: 1.38777878e-16, y: -6.9388939e-17, z: .667342246}
+      rotation: {x: .185781404, y: 3.72528985e-09, z: 1.86264497e-08, w: -.982591152}
+      scale: {x: .999999881, y: .999999583, z: 1.00000036}
+      transformModified: 1
+    - name: L_Foot
+      position: {x: -0, y: 1.47451495e-16, z: .617627859}
+      rotation: {x: -.0517080799, y: -.637651205, z: .766073108, w: -.0621220097}
+      scale: {x: 1.00000072, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: L_Toes
+      position: {x: 1.38777878e-16, y: 2.42861287e-16, z: .531266391}
+      rotation: {x: -.0299381334, y: .0049144323, z: .00087247428, w: .999539316}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_ToesTip
+      position: {x: -1.38777878e-16, y: 1.04083409e-16, z: .258855462}
+      rotation: {x: -.128728673, y: .0214854777, z: .00179049978, w: .991445482}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_ToesTip_eff
+      position: {x: -2.77555756e-16, y: 5.20417043e-17, z: .25777784}
+      rotation: {x: -.0377892517, y: -.0196616426, z: .995701015, w: -.0822494626}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: M_Hip_2
+      position: {x: -.000778128917, y: -.0706148222, z: -.154696792}
+      rotation: {x: -2.17630514e-09, y: 5.49453461e-08, z: -7.64957431e-09, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Leg_Root
+      position: {x: .575000048, y: -.100090645, z: -.206108406}
+      rotation: {x: .554559886, y: -.0367637053, z: -.0236837342, w: .830993891}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_UpperLeg
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: .0806352794, y: -.632593572, z: .769176364, w: -.0411213227}
+      scale: {x: 1.00000024, y: 1.00000036, z: 1.00000012}
+      transformModified: 1
+    - name: R_LowerLeg
+      position: {x: -0, y: 0, z: .667342246}
+      rotation: {x: .185781226, y: -2.79396808e-08, z: 1.4901163e-08, w: -.982591152}
+      scale: {x: .999999106, y: .999999166, z: .999999881}
+      transformModified: 1
+    - name: R_Foot
+      position: {x: 2.77555756e-16, y: -9.54097912e-17, z: .617627859}
+      rotation: {x: .0518625677, y: -.637638628, z: .766058028, w: .062307626}
+      scale: {x: 1.00000143, y: 1.00000072, z: 1.00000048}
+      transformModified: 1
+    - name: R_Toes
+      position: {x: -4.16333634e-16, y: 0, z: .531266391}
+      rotation: {x: -.0299358685, y: -.00492819631, z: -.000847765594, w: .999539316}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_ToesTip
+      position: {x: -0, y: 0, z: .258855462}
+      rotation: {x: -.128721535, y: -.0215281565, z: -.00168787909, w: .991445661}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_ToesTip_eff
+      position: {x: 1.38777878e-16, y: 8.67361738e-18, z: .25777784}
+      rotation: {x: .0377892666, y: -.0196616407, z: .995701015, w: .0822494626}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Texture Group_2
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: WC_Eyes
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: WCon_cvikeri
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: WCon_KAPA
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 44a97b8061a4a450ba225bfd15ac0fca,
+    type: 3}
+  animationType: 3
+  additionalBone: 0
+  userData: 

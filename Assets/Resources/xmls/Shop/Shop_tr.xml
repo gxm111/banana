@@ -1,0 +1,38 @@
+<xml>
+	<xml kategorija="Hats" coins="1000" banana="0" popust="0" usi="1" kosa ="0">Viking başlığı</xml>
+	<xml kategorija="Hats" coins="2000" banana="0" popust="0" usi="1" kosa ="0">Beyzbol şapkası</xml>
+	<xml kategorija="Hats" coins="3000" banana="0" popust="0" usi="1" kosa ="0">Rasta</xml>
+	<xml kategorija="Hats" coins="4000" banana="0" popust="0" usi="1" kosa ="1">Güneş Gözlükleri</xml>
+	<xml kategorija="Hats" coins="5000" banana="0" popust="0" usi="1" kosa ="0">Korsan bandanası</xml>
+	<xml kategorija="Hats" coins="6000" banana="0" popust="0" usi="1" kosa ="0">Vudu maskesi</xml>
+	<xml kategorija="Hats" coins="7000" banana="0" popust="0" usi="1" kosa ="0">Kovboy şapkası</xml>
+	<xml kategorija="Hats" coins="8000" banana="0" popust="0" usi="1" kosa ="0">Bambu şapka</xml>
+	<xml kategorija="Hats" coins="2000" banana="0" popust="0" usi="1" kosa ="0">Kaptan Maymun'un maskesi</xml>
+	<xml kategorija="Hats" coins="3000" banana="0" popust="0" usi="1" kosa ="0">Korsan şapkası</xml>
+	<xml kategorija="Hats" coins="4000" banana="0" popust="0" usi="0" kosa ="0">Şövalye başlığı</xml>
+	<xml kategorija="Hats" coins="5000" banana="0" popust="0" usi="1" kosa ="0">Silindir şapka</xml>
+	<xml kategorija="Hats" coins="6000" banana="0" popust="0" usi="0" kosa ="0">Kağıt maske</xml>
+	<xml kategorija="Hats" coins="7000" banana="0" popust="0" usi="1" kosa ="0">Cadı şapkası</xml>
+	<xml kategorija="Hats" coins="8000" banana="0" popust="0" usi="0" kosa ="0">Ninja maskesi</xml>
+	
+	<xml kategorija="Shirts" coins="1000" banana="0" popust="0">Siyah t-shirt</xml>
+	<xml kategorija="Shirts" coins="2000" banana="0" popust="0">Beyaz t-shirt</xml>
+	<xml kategorija="Shirts" coins="3000" banana="0" popust="0">Sarı t-shirt</xml>
+	<xml kategorija="Shirts" coins="4000" banana="0" popust="0">Kırmızı t-shirt</xml>
+	<xml kategorija="Shirts" coins="5000" banana="0" popust="0">Mavi t-shirt</xml>
+	<xml kategorija="Shirts" coins="6000" banana="0" popust="0">Yeşil t-shirt</xml>
+	<xml kategorija="Shirts" coins="7000" banana="0" popust="0">Muz t-shirt</xml>
+	<xml kategorija="Shirts" coins="8000" banana="0" popust="0">Kravat t-shirt</xml>
+	
+	<xml kategorija="BackPack" coins="1000" banana="0" popust="0">Melek kanatları</xml>
+	<xml kategorija="BackPack" coins="2000" banana="0" popust="0">Kaptan Maymun'un kalkanı</xml>
+	<xml kategorija="BackPack" coins="3000" banana="0" popust="0">Kaplumbağa kabuğu</xml>
+	<xml kategorija="BackPack" coins="4000" banana="0" popust="0">Arı kovanı</xml>
+	<xml kategorija="BackPack" coins="5000" banana="0" popust="0">Sırt çantası</xml>
+	<xml kategorija="BackPack" coins="6000" banana="0" popust="0">Yarasa kanatları</xml>
+	
+	<xml kategorija="PowerUps" coins="300" popust="0">Çift Para</xml>
+	<xml kategorija="PowerUps" coins="150" popust="0">Para Mıknatısı</xml>
+	<xml kategorija="PowerUps" coins="600" popust="0">Kalkan</xml>
+	<xml kategorija="Banana" coins="2000" popust="0">Muz</xml>
+</xml>

@@ -1,0 +1,117 @@
+fileFormatVersion: 2
+guid: 186f035b5e36b4f0bb5a5804ca37482e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bg1_Plan1_Banana
+    21300002: Bg1_Plan2_Banana
+    21300004: Oblak Banana 1
+    21300006: Oblak Banana 2
+    21300008: Oblak Banana 3
+    21300010: Oblak Banana 4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: 56
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 5
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: 33
+    compressionQuality: 100
+  spriteSheet:
+    sprites:
+    - name: Bg1_Plan1_Banana
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 513
+        width: 1024
+        height: 200
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bg1_Plan2_Banana
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 200
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oblak Banana 1
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 839
+        width: 354
+        height: 107
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oblak Banana 2
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 834
+        width: 267
+        height: 118
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oblak Banana 3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 952
+        width: 274
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oblak Banana 4
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 979
+        width: 522
+        height: 41
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -1,0 +1,38 @@
+<xml>
+	<xml kategorija="Hats" coins="1000" banana="0" popust="0" usi="1" kosa ="0">Elmo da vichingo</xml>
+	<xml kategorija="Hats" coins="2000" banana="0" popust="0" usi="1" kosa ="0">Cappellino da baseball</xml>
+	<xml kategorija="Hats" coins="3000" banana="0" popust="0" usi="1" kosa ="0">Capelli rasta</xml>
+	<xml kategorija="Hats" coins="4000" banana="0" popust="0" usi="1" kosa ="1">Occhiali da sole</xml>
+	<xml kategorija="Hats" coins="5000" banana="0" popust="0" usi="1" kosa ="0">Bandana da pirata</xml>
+	<xml kategorija="Hats" coins="6000" banana="0" popust="0" usi="1" kosa ="0">Maschera voodoo</xml>
+	<xml kategorija="Hats" coins="7000" banana="0" popust="0" usi="1" kosa ="0">Cappello da cowboy</xml>
+	<xml kategorija="Hats" coins="8000" banana="0" popust="0" usi="1" kosa ="0">Cappello di bamboo</xml>
+	<xml kategorija="Hats" coins="2000" banana="0" popust="0" usi="1" kosa ="0">Maschera di Capitan Scimmia</xml>
+	<xml kategorija="Hats" coins="3000" banana="0" popust="0" usi="1" kosa ="0">Cappello da pirata</xml>
+	<xml kategorija="Hats" coins="4000" banana="0" popust="0" usi="0" kosa ="0">Elmo da cavaliere</xml>
+	<xml kategorija="Hats" coins="5000" banana="0" popust="0" usi="1" kosa ="0">Cappello a cilindro</xml>
+	<xml kategorija="Hats" coins="6000" banana="0" popust="0" usi="0" kosa ="0">Maschera di carta</xml>
+	<xml kategorija="Hats" coins="7000" banana="0" popust="0" usi="1" kosa ="0">Cappello da strega</xml>
+	<xml kategorija="Hats" coins="8000" banana="0" popust="0" usi="0" kosa ="0">Maschera ninja</xml>
+	
+	<xml kategorija="Shirts" coins="1000" banana="0" popust="0">T-shirt nera</xml>
+	<xml kategorija="Shirts" coins="2000" banana="0" popust="0">T-shirt bianca</xml>
+	<xml kategorija="Shirts" coins="3000" banana="0" popust="0">T-shirt gialla</xml>
+	<xml kategorija="Shirts" coins="4000" banana="0" popust="0">T-shirt rossa</xml>
+	<xml kategorija="Shirts" coins="5000" banana="0" popust="0">T-shirt blu</xml>
+	<xml kategorija="Shirts" coins="6000" banana="0" popust="0">T-shirt verde</xml>
+	<xml kategorija="Shirts" coins="7000" banana="0" popust="0">T-shirt con banana</xml>
+	<xml kategorija="Shirts" coins="8000" banana="0" popust="0">T-shirt con cravatta</xml>
+	
+	<xml kategorija="BackPack" coins="1000" banana="0" popust="0">Ali d'angelo</xml>
+	<xml kategorija="BackPack" coins="2000" banana="0" popust="0">Scudo di Capitan Scimmia</xml>
+	<xml kategorija="BackPack" coins="3000" banana="0" popust="0">Guscio di tartaruga</xml>
+	<xml kategorija="BackPack" coins="4000" banana="0" popust="0">Alveare</xml>
+	<xml kategorija="BackPack" coins="5000" banana="0" popust="0">Zaino</xml>
+	<xml kategorija="BackPack" coins="6000" banana="0" popust="0">Ali di pipistrello</xml>
+	
+	<xml kategorija="PowerUps" coins="300" popust="0">Monete doppie</xml>
+	<xml kategorija="PowerUps" coins="150" popust="0">Calamita per monete</xml>
+	<xml kategorija="PowerUps" coins="600" popust="0">Scudo</xml>
+	<xml kategorija="Banana" coins="2000" popust="0">Banana</xml>
+</xml>

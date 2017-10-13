@@ -1,0 +1,271 @@
+fileFormatVersion: 2
+guid: 6bed25b5545b90a4d9f28bb9670ca155
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BananaAllMapls
+    21300002: SavanaAllMapls
+    21300004: JungleAllMapls
+    21300006: TempleAllMapls
+    21300008: VolcanoAllMapls
+    21300010: AllMapsKatanac
+    21300012: WhiteCircleAllMaps
+    21300014: WhiteSquareAllMaps
+    21300016: Cloud1AllMapls
+    21300018: Cloud2AllMapls
+    21300020: Cloud3AllMapls
+    21300022: WhiteGradiantAllMaps
+    21300024: BelaSenkaAllMaps
+    21300026: AllMapsKatanacOtvoren
+    21300028: BananaVrhAllMaps
+    21300030: ostrvceVolcano
+    21300032: ostrvceBanana
+    21300034: ostrvceSavanna
+    21300036: ostrvceJungle
+    21300038: ostrvceTemple
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: 56
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 5
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: 33
+    compressionQuality: 100
+  spriteSheet:
+    sprites:
+    - name: BananaAllMapls
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 688
+        width: 496
+        height: 336
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SavanaAllMapls
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 659
+        width: 493
+        height: 337
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JungleAllMapls
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 324
+        width: 450
+        height: 355
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TempleAllMapls
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 323
+        width: 447
+        height: 334
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: VolcanoAllMapls
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 8
+        width: 449
+        height: 314
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllMapsKatanac
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 117
+        width: 89
+        height: 113
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WhiteCircleAllMaps
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 233
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WhiteSquareAllMaps
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 69
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cloud1AllMapls
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 221
+        width: 245
+        height: 95
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cloud2AllMapls
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 116
+        width: 227
+        height: 102
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cloud3AllMapls
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 0
+        width: 113
+        height: 226
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WhiteGradiantAllMaps
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 238
+        width: 179
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BelaSenkaAllMaps
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 0
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllMapsKatanacOtvoren
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 0
+        width: 86
+        height: 115
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BananaVrhAllMaps
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 901
+        width: 336
+        height: 123
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ostrvceVolcano
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 57
+        width: 81
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ostrvceBanana
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 57
+        width: 81
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ostrvceSavanna
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 57
+        width: 78
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ostrvceJungle
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1
+        width: 81
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ostrvceTemple
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1
+        width: 81
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -1,0 +1,492 @@
+fileFormatVersion: 2
+guid: 966e471d5c0d74064a8b1680cc29462d
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Directional Light
+    100004: Drvena_platforma
+    100006: FullBodyIK
+    100008: Goal
+    100010: Mesh
+    100012: //RootNode
+    100014: ROOT_spiral
+    100016: Skeleton_Goal
+    100018: Skeleton_Goal_10
+    100020: Skeleton_Goal_11
+    100022: Skeleton_Goal_12
+    100024: Skeleton_Goal_2
+    100026: Skeleton_Goal_3
+    100028: Skeleton_Goal_4
+    100030: Skeleton_Goal_5
+    100032: Skeleton_Goal_6
+    100034: Skeleton_Goal_7
+    100036: Skeleton_Goal_8
+    100038: Skeleton_Goal_9
+    100040: Skeleton_GoalLeft
+    100042: Skeleton_GoalLeft_10
+    100044: Skeleton_GoalLeft_11
+    100046: Skeleton_GoalLeft_12
+    100048: Skeleton_GoalLeft_13
+    100050: Skeleton_GoalLeft_14
+    100052: Skeleton_GoalLeft_15
+    100054: Skeleton_GoalLeft_16
+    100056: Skeleton_GoalLeft_17
+    100058: Skeleton_GoalLeft_18
+    100060: Skeleton_GoalLeft_2
+    100062: Skeleton_GoalLeft_3
+    100064: Skeleton_GoalLeft_4
+    100066: Skeleton_GoalLeft_5
+    100068: Skeleton_GoalLeft_6
+    100070: Skeleton_GoalLeft_7
+    100072: Skeleton_GoalLeft_8
+    100074: Skeleton_GoalLeft_9
+    100076: Skeleton_GoalRight
+    100078: Skeleton_GoalRight_10
+    100080: Skeleton_GoalRight_11
+    100082: Skeleton_GoalRight_12
+    100084: Skeleton_GoalRight_13
+    100086: Skeleton_GoalRight_14
+    100088: Skeleton_GoalRight_15
+    100090: Skeleton_GoalRight_16
+    100092: Skeleton_GoalRight_17
+    100094: Skeleton_GoalRight_18
+    100096: Skeleton_GoalRight_2
+    100098: Skeleton_GoalRight_3
+    100100: Skeleton_GoalRight_4
+    100102: Skeleton_GoalRight_5
+    100104: Skeleton_GoalRight_6
+    100106: Skeleton_GoalRight_7
+    100108: Skeleton_GoalRight_8
+    100110: Skeleton_GoalRight_9
+    100112: Spiral
+    100114: Spiral_2
+    100116: Spiral_3
+    100118: Spiral_4
+    100120: Spiral_5
+    100122: Texture Group
+    100124: Opruga
+    400000: Camera
+    400002: Directional Light
+    400004: Drvena_platforma
+    400006: FullBodyIK
+    400008: Goal
+    400010: Mesh
+    400012: //RootNode
+    400014: ROOT_spiral
+    400016: Skeleton_Goal
+    400018: Skeleton_Goal_10
+    400020: Skeleton_Goal_11
+    400022: Skeleton_Goal_12
+    400024: Skeleton_Goal_2
+    400026: Skeleton_Goal_3
+    400028: Skeleton_Goal_4
+    400030: Skeleton_Goal_5
+    400032: Skeleton_Goal_6
+    400034: Skeleton_Goal_7
+    400036: Skeleton_Goal_8
+    400038: Skeleton_Goal_9
+    400040: Skeleton_GoalLeft
+    400042: Skeleton_GoalLeft_10
+    400044: Skeleton_GoalLeft_11
+    400046: Skeleton_GoalLeft_12
+    400048: Skeleton_GoalLeft_13
+    400050: Skeleton_GoalLeft_14
+    400052: Skeleton_GoalLeft_15
+    400054: Skeleton_GoalLeft_16
+    400056: Skeleton_GoalLeft_17
+    400058: Skeleton_GoalLeft_18
+    400060: Skeleton_GoalLeft_2
+    400062: Skeleton_GoalLeft_3
+    400064: Skeleton_GoalLeft_4
+    400066: Skeleton_GoalLeft_5
+    400068: Skeleton_GoalLeft_6
+    400070: Skeleton_GoalLeft_7
+    400072: Skeleton_GoalLeft_8
+    400074: Skeleton_GoalLeft_9
+    400076: Skeleton_GoalRight
+    400078: Skeleton_GoalRight_10
+    400080: Skeleton_GoalRight_11
+    400082: Skeleton_GoalRight_12
+    400084: Skeleton_GoalRight_13
+    400086: Skeleton_GoalRight_14
+    400088: Skeleton_GoalRight_15
+    400090: Skeleton_GoalRight_16
+    400092: Skeleton_GoalRight_17
+    400094: Skeleton_GoalRight_18
+    400096: Skeleton_GoalRight_2
+    400098: Skeleton_GoalRight_3
+    400100: Skeleton_GoalRight_4
+    400102: Skeleton_GoalRight_5
+    400104: Skeleton_GoalRight_6
+    400106: Skeleton_GoalRight_7
+    400108: Skeleton_GoalRight_8
+    400110: Skeleton_GoalRight_9
+    400112: Spiral
+    400114: Spiral_2
+    400116: Spiral_3
+    400118: Spiral_4
+    400120: Spiral_5
+    400122: Texture Group
+    400124: Opruga
+    4300000: Drvena_platforma
+    4300002: Opruga
+    7400000: Katapulting
+    7400002: crack
+    9500000: //RootNode
+    13700000: Drvena_platforma
+    13700002: Opruga
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Katapulting
+      takeName: Katapulting
+      firstFrame: 0
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Directional Light
+        weight: 1
+      - path: Drvena_platforma
+        weight: 1
+      - path: Goal
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft/Skeleton_GoalLeft_2
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft/Skeleton_GoalRight_7
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft/Skeleton_GoalRight_7/Skeleton_GoalRight_8
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft/Skeleton_GoalRight_9
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft/Skeleton_GoalRight_9/Skeleton_GoalRight_10
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft/Skeleton_GoalRight_11
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft/Skeleton_GoalRight_11/Skeleton_GoalRight_12
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft/Skeleton_GoalRight_13
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft/Skeleton_GoalRight_13/Skeleton_GoalRight_14
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft/Skeleton_GoalRight_15
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft/Skeleton_GoalRight_15/Skeleton_GoalRight_16
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft/Skeleton_GoalRight_17
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft/Skeleton_GoalRight_17/Skeleton_GoalRight_18
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft_3
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft_3/Skeleton_GoalLeft_4
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft_5
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft_5/Skeleton_GoalLeft_6
+        weight: 1
+      - path: Goal/Skeleton_GoalRight
+        weight: 1
+      - path: Goal/Skeleton_GoalRight/Skeleton_GoalLeft_7
+        weight: 1
+      - path: Goal/Skeleton_GoalRight/Skeleton_GoalLeft_7/Skeleton_GoalLeft_18
+        weight: 1
+      - path: Goal/Skeleton_GoalRight/Skeleton_GoalLeft_8
+        weight: 1
+      - path: Goal/Skeleton_GoalRight/Skeleton_GoalLeft_8/Skeleton_GoalLeft_17
+        weight: 1
+      - path: Goal/Skeleton_GoalRight/Skeleton_GoalLeft_11
+        weight: 1
+      - path: Goal/Skeleton_GoalRight/Skeleton_GoalLeft_11/Skeleton_GoalLeft_12
+        weight: 1
+      - path: Goal/Skeleton_GoalRight/Skeleton_GoalLeft_13
+        weight: 1
+      - path: Goal/Skeleton_GoalRight/Skeleton_GoalLeft_13/Skeleton_GoalLeft_10
+        weight: 1
+      - path: Goal/Skeleton_GoalRight/Skeleton_GoalLeft_14
+        weight: 1
+      - path: Goal/Skeleton_GoalRight/Skeleton_GoalLeft_14/Skeleton_GoalLeft_9
+        weight: 1
+      - path: Goal/Skeleton_GoalRight/Skeleton_GoalLeft_15
+        weight: 1
+      - path: Goal/Skeleton_GoalRight/Skeleton_GoalLeft_15/Skeleton_GoalLeft_16
+        weight: 1
+      - path: Goal/Skeleton_GoalRight/Skeleton_GoalRight_2
+        weight: 1
+      - path: Goal/Skeleton_GoalRight_3
+        weight: 1
+      - path: Goal/Skeleton_GoalRight_3/Skeleton_GoalRight_4
+        weight: 1
+      - path: Goal/Skeleton_GoalRight_5
+        weight: 1
+      - path: Goal/Skeleton_GoalRight_5/Skeleton_GoalRight_6
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: ROOT_spiral
+        weight: 1
+      - path: ROOT_spiral/FullBodyIK
+        weight: 1
+      - path: ROOT_spiral/Spiral
+        weight: 1
+      - path: ROOT_spiral/Spiral/Spiral_2
+        weight: 1
+      - path: ROOT_spiral/Spiral/Spiral_2/Spiral_3
+        weight: 1
+      - path: ROOT_spiral/Spiral/Spiral_2/Spiral_3/Spiral_4
+        weight: 1
+      - path: ROOT_spiral/Spiral/Spiral_2/Spiral_3/Spiral_4/Spiral_5
+        weight: 1
+      - path: Skeleton_Goal
+        weight: 1
+      - path: Skeleton_Goal/Skeleton_Goal_11
+        weight: 1
+      - path: Skeleton_Goal_2
+        weight: 1
+      - path: Skeleton_Goal_2/Skeleton_Goal_3
+        weight: 1
+      - path: Skeleton_Goal_4
+        weight: 1
+      - path: Skeleton_Goal_4/Skeleton_Goal_12
+        weight: 1
+      - path: Skeleton_Goal_6
+        weight: 1
+      - path: Skeleton_Goal_6/Skeleton_Goal_5
+        weight: 1
+      - path: Skeleton_Goal_8
+        weight: 1
+      - path: Skeleton_Goal_8/Skeleton_Goal_7
+        weight: 1
+      - path: Skeleton_Goal_10
+        weight: 1
+      - path: Skeleton_Goal_10/Skeleton_Goal_9
+        weight: 1
+      - path: Texture Group
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: crack
+      takeName: crack
+      firstFrame: 0
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Directional Light
+        weight: 1
+      - path: Drvena_platforma
+        weight: 1
+      - path: Goal
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft/Skeleton_GoalLeft_2
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft/Skeleton_GoalRight_7
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft/Skeleton_GoalRight_7/Skeleton_GoalRight_8
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft/Skeleton_GoalRight_9
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft/Skeleton_GoalRight_9/Skeleton_GoalRight_10
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft/Skeleton_GoalRight_11
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft/Skeleton_GoalRight_11/Skeleton_GoalRight_12
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft/Skeleton_GoalRight_13
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft/Skeleton_GoalRight_13/Skeleton_GoalRight_14
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft/Skeleton_GoalRight_15
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft/Skeleton_GoalRight_15/Skeleton_GoalRight_16
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft/Skeleton_GoalRight_17
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft/Skeleton_GoalRight_17/Skeleton_GoalRight_18
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft_3
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft_3/Skeleton_GoalLeft_4
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft_5
+        weight: 1
+      - path: Goal/Skeleton_GoalLeft_5/Skeleton_GoalLeft_6
+        weight: 1
+      - path: Goal/Skeleton_GoalRight
+        weight: 1
+      - path: Goal/Skeleton_GoalRight/Skeleton_GoalLeft_7
+        weight: 1
+      - path: Goal/Skeleton_GoalRight/Skeleton_GoalLeft_7/Skeleton_GoalLeft_18
+        weight: 1
+      - path: Goal/Skeleton_GoalRight/Skeleton_GoalLeft_8
+        weight: 1
+      - path: Goal/Skeleton_GoalRight/Skeleton_GoalLeft_8/Skeleton_GoalLeft_17
+        weight: 1
+      - path: Goal/Skeleton_GoalRight/Skeleton_GoalLeft_11
+        weight: 1
+      - path: Goal/Skeleton_GoalRight/Skeleton_GoalLeft_11/Skeleton_GoalLeft_12
+        weight: 1
+      - path: Goal/Skeleton_GoalRight/Skeleton_GoalLeft_13
+        weight: 1
+      - path: Goal/Skeleton_GoalRight/Skeleton_GoalLeft_13/Skeleton_GoalLeft_10
+        weight: 1
+      - path: Goal/Skeleton_GoalRight/Skeleton_GoalLeft_14
+        weight: 1
+      - path: Goal/Skeleton_GoalRight/Skeleton_GoalLeft_14/Skeleton_GoalLeft_9
+        weight: 1
+      - path: Goal/Skeleton_GoalRight/Skeleton_GoalLeft_15
+        weight: 1
+      - path: Goal/Skeleton_GoalRight/Skeleton_GoalLeft_15/Skeleton_GoalLeft_16
+        weight: 1
+      - path: Goal/Skeleton_GoalRight/Skeleton_GoalRight_2
+        weight: 1
+      - path: Goal/Skeleton_GoalRight_3
+        weight: 1
+      - path: Goal/Skeleton_GoalRight_3/Skeleton_GoalRight_4
+        weight: 1
+      - path: Goal/Skeleton_GoalRight_5
+        weight: 1
+      - path: Goal/Skeleton_GoalRight_5/Skeleton_GoalRight_6
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: ROOT_spiral
+        weight: 1
+      - path: ROOT_spiral/FullBodyIK
+        weight: 1
+      - path: ROOT_spiral/Spiral
+        weight: 1
+      - path: ROOT_spiral/Spiral/Spiral_2
+        weight: 1
+      - path: ROOT_spiral/Spiral/Spiral_2/Spiral_3
+        weight: 1
+      - path: ROOT_spiral/Spiral/Spiral_2/Spiral_3/Spiral_4
+        weight: 1
+      - path: ROOT_spiral/Spiral/Spiral_2/Spiral_3/Spiral_4/Spiral_5
+        weight: 1
+      - path: Skeleton_Goal
+        weight: 1
+      - path: Skeleton_Goal/Skeleton_Goal_11
+        weight: 1
+      - path: Skeleton_Goal_2
+        weight: 1
+      - path: Skeleton_Goal_2/Skeleton_Goal_3
+        weight: 1
+      - path: Skeleton_Goal_4
+        weight: 1
+      - path: Skeleton_Goal_4/Skeleton_Goal_12
+        weight: 1
+      - path: Skeleton_Goal_6
+        weight: 1
+      - path: Skeleton_Goal_6/Skeleton_Goal_5
+        weight: 1
+      - path: Skeleton_Goal_8
+        weight: 1
+      - path: Skeleton_Goal_8/Skeleton_Goal_7
+        weight: 1
+      - path: Skeleton_Goal_10
+        weight: 1
+      - path: Skeleton_Goal_10/Skeleton_Goal_9
+        weight: 1
+      - path: Texture Group
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0199999996
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,531 @@
+fileFormatVersion: 2
+guid: 415820328c70cc2438796465f95c2c05
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: List u Shopu
+    21300002: List U shopu ONE COLOR
+    21300004: Shop Button
+    21300006: Shop Button Click
+    21300008: Buy Button
+    21300010: FB Like Icon
+    21300012: Polje za unos COINA U shopu - Shop
+    21300014: Shop Tab Element
+    21300016: Costumization BG
+    21300018: Zid Shop
+    21300020: Zid Header Shop
+    21300022: Zid Footer Shop
+    21300024: Bedz Shop
+    21300026: Customize Plavi Bedz
+    21300028: Customize Zeleni Bedz
+    21300030: Coin Shop
+    21300032: Coin Senka Shop
+    21300034: Banana Shop
+    21300036: Banana Senka Shop
+    21300038: Gameplay interface COINS Shop
+    21300040: Gameplay interface Unos COINS Shop
+    21300042: FB Shop
+    21300044: Sipka za FB Shop
+    21300046: Drzac Sipke FB Shop
+    21300048: Leaderboard name
+    21300050: Leaderboard You
+    21300052: Leaderboard Cup Small
+    21300054: Leaderboard Large Cup
+    21300056: Katanac
+    21300058: Glow Shop
+    21300060: Shop Shadow
+    21300062: Instagram Icon
+    21300064: Twitter Icon
+    21300066: Watch Video FC
+    21300068: Like BananaIsland FC
+    21300070: Like Webelinx FC
+    21300072: Back Button Shop
+    21300074: Back Icon Shop
+    21300076: Za leaderboards polje
+    21300078: Customize Tab
+    21300080: 'Liderboards FB Invite '
+    21300082: Stikla
+    21300084: ClearAll
+    21300086: RemoveAll
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: List u Shopu
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 759
+        width: 161
+        height: 253
+      alignment: 9
+      pivot: {x: .533955693, y: .161405787}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: List U shopu ONE COLOR
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 629
+        width: 82
+        height: 130
+      alignment: 9
+      pivot: {x: .424662262, y: .174843103}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shop Button
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 944
+        width: 249
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shop Button Click
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 944
+        width: 248
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Buy Button
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 944
+        width: 182
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB Like Icon
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 920
+        width: 119
+        height: 100
+      alignment: 9
+      pivot: {x: .447275877, y: .367543936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Polje za unos COINA U shopu - Shop
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 880
+        width: 141
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shop Tab Element
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 800
+        width: 365
+        height: 132
+      alignment: 9
+      pivot: {x: .453482509, y: .620932817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Costumization BG
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 553
+        width: 307
+        height: 376
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zid Shop
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 8
+        width: 494
+        height: 529
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zid Header Shop
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 450
+        width: 494
+        height: 87
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zid Footer Shop
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 8
+        width: 494
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bedz Shop
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 740
+        width: 139
+        height: 137
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Customize Plavi Bedz
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 612
+        width: 130
+        height: 127
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Customize Zeleni Bedz
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 483
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Coin Shop
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 443
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Coin Senka Shop
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 362
+        width: 95
+        height: 67
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Banana Shop
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 438
+        width: 75
+        height: 65
+      alignment: 9
+      pivot: {x: .329693198, y: .30758667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Banana Senka Shop
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 363
+        width: 91
+        height: 68
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gameplay interface COINS Shop
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 432
+        width: 221
+        height: 73
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gameplay interface Unos COINS Shop
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 312
+        width: 152
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB Shop
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 190
+        width: 121
+        height: 119
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sipka za FB Shop
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 4
+        width: 189
+        height: 7
+      alignment: 9
+      pivot: {x: .0197508465, y: .500000656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Drzac Sipke FB Shop
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 334
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leaderboard name
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 8
+        width: 74
+        height: 418
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leaderboard You
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 8
+        width: 74
+        height: 418
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leaderboard Cup Small
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 108
+        width: 93
+        height: 88
+      alignment: 9
+      pivot: {x: .508048117, y: .185307756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leaderboard Large Cup
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 0
+        width: 104
+        height: 104
+      alignment: 9
+      pivot: {x: .485877842, y: .197737589}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Katanac
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 198
+        width: 89
+        height: 113
+      alignment: 9
+      pivot: {x: .542048395, y: .360906005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow Shop
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 326
+        width: 158
+        height: 155
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shop Shadow
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 3
+        width: 52
+        height: 311
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Instagram Icon
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 621
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Twitter Icon
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 544
+        width: 76
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Watch Video FC
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 679
+        width: 323
+        height: 120
+      alignment: 9
+      pivot: {x: .488274068, y: .409259528}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Like BananaIsland FC
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 595
+        width: 321
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Like Webelinx FC
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 508
+        width: 322
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Back Button Shop
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 96
+        width: 121
+        height: 91
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Back Icon Shop
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 260
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Za leaderboards polje
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 442
+        width: 173
+        height: 53
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Customize Tab
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 800
+        width: 130
+        height: 132
+      alignment: 9
+      pivot: {x: .990804791, y: .632422268}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 'Liderboards FB Invite '
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 134
+        width: 74
+        height: 292
+      alignment: 9
+      pivot: {x: .506050706, y: .284529656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stikla
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 14
+        width: 84
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClearAll
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 697
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RemoveAll
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 17
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

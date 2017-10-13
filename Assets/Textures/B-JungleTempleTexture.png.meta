@@ -1,0 +1,316 @@
+fileFormatVersion: 2
+guid: 63a1ac2570de64470a06f96aa2247c2d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: B-JungleTempleTexture
+    21300002: Mapa Jungle
+    21300004: Mapa Temple
+    21300006: Gate Left Closed Jungle
+    21300008: Gate Left Open Jungle
+    21300010: Gate Front Open Jungle
+    21300012: Gate Front Closed Jungle
+    21300014: Kovceg Jungle
+    21300016: Kovceg Otvoren Jungle
+    21300018: Kovceg Zatvoren Jungle
+    21300020: Svetlo Plava Jungle
+    21300022: Tamno Plava Jungle
+    21300024: Najtamnije Plava Jungle
+    21300026: PlavaPrelaz Jungle
+    21300028: BankInApp Jungle
+    21300030: Shop Jungle
+    21300032: FreeCoins Jungle
+    21300034: WatchVideo Jungle
+    21300036: ThreeStar Jungle
+    21300038: TwoStar Jungle
+    21300040: OneStar Jungle
+    21300042: OpenLevel Jungle
+    21300044: Facebook Picture Jungle
+    21300046: Katanac Jungle
+    21300048: BankInAppBanana Jungle
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: 56
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 5
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: 33
+    compressionQuality: 100
+  spriteSheet:
+    sprites:
+    - name: Mapa Jungle
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1007
+        width: 1473
+        height: 1040
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mapa Temple
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 11
+        width: 1475
+        height: 995
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gate Left Closed Jungle
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 1962
+        width: 81
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gate Left Open Jungle
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 1847
+        width: 118
+        height: 113
+      alignment: 9
+      pivot: {x: .558247209, y: .555536628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gate Front Open Jungle
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1973
+        width: 128
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gate Front Closed Jungle
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 1978
+        width: 106
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kovceg Jungle
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 1912
+        width: 70
+        height: 61
+      alignment: 9
+      pivot: {x: .465162486, y: .342226088}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kovceg Otvoren Jungle
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 1926
+        width: 56
+        height: 43
+      alignment: 9
+      pivot: {x: .454432905, y: .196210399}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kovceg Zatvoren Jungle
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 1878
+        width: 68
+        height: 47
+      alignment: 9
+      pivot: {x: .539757311, y: .387321293}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Svetlo Plava Jungle
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 1846
+        width: 130
+        height: 131
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tamno Plava Jungle
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 1714
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Najtamnije Plava Jungle
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 1579
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlavaPrelaz Jungle
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 1526
+        width: 289
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BankInApp Jungle
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 1519
+        width: 162
+        height: 169
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shop Jungle
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1311
+        width: 156
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FreeCoins Jungle
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1020
+        width: 190
+        height: 279
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WatchVideo Jungle
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 1328
+        width: 132
+        height: 169
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ThreeStar Jungle
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 894
+        width: 142
+        height: 113
+      alignment: 9
+      pivot: {x: .5, y: .300000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TwoStar Jungle
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 894
+        width: 142
+        height: 113
+      alignment: 9
+      pivot: {x: .5, y: .300000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: OneStar Jungle
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 894
+        width: 142
+        height: 113
+      alignment: 9
+      pivot: {x: .5, y: .300000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: OpenLevel Jungle
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 754
+        width: 142
+        height: 113
+      alignment: 9
+      pivot: {x: .5, y: .300000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Facebook Picture Jungle
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 761
+        width: 94
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Katanac Jungle
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 788
+        width: 79
+        height: 68
+      alignment: 9
+      pivot: {x: .448597997, y: .504264414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BankInAppBanana Jungle
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 587
+        width: 162
+        height: 169
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{80ADD304-D828-A978-D99A-3F6E0E678664}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_2;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/install/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/install/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\ArabicSupport\Scripts\Fix3dTextCS.cs" />
+     <Compile Include="Assets\ArabicSupport\Scripts\FixGUITextCS.cs" />
+     <Compile Include="Assets\ArabicSupport\Scripts\SetArabicTextExample.cs" />
+     <Compile Include="Assets\Examples\Scripts\InteractiveConsole.cs" />
+     <Compile Include="Assets\Facebook\Scripts\AndroidFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\AndroidFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\CanvasFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\EditorFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\EditorFacebookAccessToken.cs" />
+     <Compile Include="Assets\Facebook\Scripts\EditorFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FB.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FBScreen.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FBSettings.cs" />
+     <Compile Include="Assets\Facebook\Scripts\IOSFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\IOSFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\NativeDialogModes.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdFailedToLoadEventArgs.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdPosition.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdRequest.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdSize.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\BannerView.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\Gender.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\IInAppPurchaseHandler.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\IInAppPurchaseResult.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\InterstitialAd.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\DummyClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\IAdListener.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\IGoogleMobileAdsBannerClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\IGoogleMobileAdsInterstitialClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\IInAppPurchaseListener.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\AdListener.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\AndroidBannerClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\AndroidInterstitialClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\InAppPurchaseListener.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\InAppPurchaseResult.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\Utils.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\GoogleMobileAdsClientFactory.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\Externs.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\IOSBannerClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\IOSInterstitialClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\MonoPInvokeCallbackAttribute.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutoDestructShuriken.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Demo\Assets\GUIT_Button.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Demo\Assets\GUIT_Button_Simple.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Demo\Assets\GUIText_Color.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Demo\Assets\TGPDemo.cs" />
+     <Compile Include="Assets\Objects\test\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Scripts\AllMapsScene\AllMapsManageFull.cs" />
+     <Compile Include="Assets\Scripts\AnimationExtensions.cs" />
+     <Compile Include="Assets\Scripts\BabunAnimationEvents.cs" />
+     <Compile Include="Assets\Scripts\BabunDogadjaji.cs" />
+     <Compile Include="Assets\Scripts\BabunDogadjaji_new.cs" />
+     <Compile Include="Assets\Scripts\BarrelExplode.cs" />
+     <Compile Include="Assets\Scripts\BiljkaEvents.cs" />
+     <Compile Include="Assets\Scripts\BossScript.cs" />
+     <Compile Include="Assets\Scripts\ButtonsScript.cs" />
+     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\CameraFollow2D_new.cs" />
+     <Compile Include="Assets\Scripts\ChangeWorldBgd.cs" />
+     <Compile Include="Assets\Scripts\CheckGroundUp.cs" />
+     <Compile Include="Assets\Scripts\CheckInternetConnection.cs" />
+     <Compile Include="Assets\Scripts\CoinMagnet.cs" />
+     <Compile Include="Assets\Scripts\CoinVisibility.cs" />
+     <Compile Include="Assets\Scripts\CollectCoin.cs" />
+     <Compile Include="Assets\Scripts\CollectKey.cs" />
+     <Compile Include="Assets\Scripts\DailyReward\DailyRewards.cs" />
+     <Compile Include="Assets\Scripts\DestroySpearGorilla.cs" />
+     <Compile Include="Assets\Scripts\EnemyPool.cs" />
+     <Compile Include="Assets\Scripts\EntityProperties.cs" />
+     <Compile Include="Assets\Scripts\FacebookManager.cs" />
+     <Compile Include="Assets\Scripts\FadeText.cs" />
+     <Compile Include="Assets\Scripts\FinishEvent.cs" />
+     <Compile Include="Assets\Scripts\FreezeRotation.cs" />
+     <Compile Include="Assets\Scripts\HUDFPS.cs" />
+     <Compile Include="Assets\Scripts\HUDFPS1.cs" />
+     <Compile Include="Assets\Scripts\ItemIndent.cs" />
+     <Compile Include="Assets\Scripts\KillTheBaboon.cs" />
+     <Compile Include="Assets\Scripts\LanguageManager.cs" />
+     <Compile Include="Assets\Scripts\LanguageManager_bekap.cs" />
+     <Compile Include="Assets\Scripts\LastScene.cs" />
+     <Compile Include="Assets\Scripts\LevelFactory.cs" />
+     <Compile Include="Assets\Scripts\LevelPrefabProperties.cs" />
+     <Compile Include="Assets\Scripts\LianaAnimationEvent.cs" />
+     <Compile Include="Assets\Scripts\Loading.cs" />
+     <Compile Include="Assets\Scripts\LoadingManager.cs" />
+     <Compile Include="Assets\Scripts\LoadingScreen.cs" />
+     <Compile Include="Assets\Scripts\MainMenuManage.cs" />
+     <Compile Include="Assets\Scripts\MainMenuManageFull.cs" />
+     <Compile Include="Assets\Scripts\MainMenuManager.cs" />
+     <Compile Include="Assets\Scripts\Manage.cs" />
+     <Compile Include="Assets\Scripts\ManageFull.cs" />
+     <Compile Include="Assets\Scripts\MissionManager.cs" />
+     <Compile Include="Assets\Scripts\MissionTemplate.cs" />
+     <Compile Include="Assets\Scripts\Monkey Rush\MainScene.cs" />
+     <Compile Include="Assets\Scripts\Monkey Rush\ShopManagerFull.cs" />
+     <Compile Include="Assets\Scripts\MonkeyController2D.cs" />
+     <Compile Include="Assets\Scripts\MonkeyController2D_bekapce.cs" />
+     <Compile Include="Assets\Scripts\MonkeyController2D_new.cs" />
+     <Compile Include="Assets\Scripts\MonkeyParticles.cs" />
+     <Compile Include="Assets\Scripts\MushroomAnimationEvents.cs" />
+     <Compile Include="Assets\Scripts\MushroomDogadjaji.cs" />
+     <Compile Include="Assets\Scripts\NivoManager.cs" />
+     <Compile Include="Assets\Scripts\Ostrva\IslandHolderManager.cs" />
+     <Compile Include="Assets\Scripts\Ostrva\KameraMovement.cs" />
+     <Compile Include="Assets\Scripts\Ostrva\KameraZoom.cs" />
+     <Compile Include="Assets\Scripts\PlaySounds.cs" />
+     <Compile Include="Assets\Scripts\PrepareScript.cs" />
+     <Compile Include="Assets\Scripts\ReappearItem.cs" />
+     <Compile Include="Assets\Scripts\RotateLogo.cs" />
+     <Compile Include="Assets\Scripts\RotationInfinity.cs" />
+     <Compile Include="Assets\Scripts\RunWithSpeed.cs" />
+     <Compile Include="Assets\Scripts\RunWithSpeed_jednakamera.cs" />
+     <Compile Include="Assets\Scripts\ScenaReklama.cs" />
+     <Compile Include="Assets\Scripts\Set.cs" />
+     <Compile Include="Assets\Scripts\SetRandomStarsManager.cs" />
+     <Compile Include="Assets\Scripts\Shop\ObjCustomization.cs" />
+     <Compile Include="Assets\Scripts\Shop\ObjCustomizationBackPacks.cs" />
+     <Compile Include="Assets\Scripts\Shop\ObjCustomizationHats.cs" />
+     <Compile Include="Assets\Scripts\Shop\ObjCustomizationShirts.cs" />
+     <Compile Include="Assets\Scripts\Shop\ObjFreeCoins.cs" />
+     <Compile Include="Assets\Scripts\Shop\ObjLanguages.cs" />
+     <Compile Include="Assets\Scripts\Shop\ObjLeaderboard.cs" />
+     <Compile Include="Assets\Scripts\Shop\ObjPowerUps.cs" />
+     <Compile Include="Assets\Scripts\Shop\ObjSettingsTabs.cs" />
+     <Compile Include="Assets\Scripts\Shop\ObjShop.cs" />
+     <Compile Include="Assets\Scripts\Shop\SwipeControlCustomization.cs" />
+     <Compile Include="Assets\Scripts\Shop\SwipeControlCustomizationBackPacks.cs" />
+     <Compile Include="Assets\Scripts\Shop\SwipeControlCustomizationHats.cs" />
+     <Compile Include="Assets\Scripts\Shop\SwipeControlCustomizationShirts.cs" />
+     <Compile Include="Assets\Scripts\Shop\SwipeControlFreeCoins.cs" />
+     <Compile Include="Assets\Scripts\Shop\SwipeControlLanguages.cs" />
+     <Compile Include="Assets\Scripts\Shop\SwipeControlLeaderboard.cs" />
+     <Compile Include="Assets\Scripts\Shop\SwipeControlPowerUps.cs" />
+     <Compile Include="Assets\Scripts\Shop\SwipeControlSettingsTabs.cs" />
+     <Compile Include="Assets\Scripts\Shop\SwipeControlShop.cs" />
+     <Compile Include="Assets\Scripts\ShopManager.cs" />
+     <Compile Include="Assets\Scripts\SlotProperties.cs" />
+     <Compile Include="Assets\Scripts\SoundManager.cs" />
+     <Compile Include="Assets\Scripts\StagesParser.cs" />
+     <Compile Include="Assets\Scripts\TextMeshEffects.cs" />
+     <Compile Include="Assets\Scripts\TextMeshExtensions.cs" />
+     <Compile Include="Assets\Scripts\TextMeshPlugin.cs" />
+     <Compile Include="Assets\Scripts\TextOutline.cs" />
+     <Compile Include="Assets\Scripts\TimeManager.cs" />
+     <Compile Include="Assets\Scripts\TimeReward\RacunanjeVremena.cs" />
+     <Compile Include="Assets\Scripts\TimeReward\TimeReward.cs" />
+     <Compile Include="Assets\Scripts\TutorialEvents.cs" />
+     <Compile Include="Assets\Scripts\UbrzanjeTest.cs" />
+     <Compile Include="Assets\Scripts\UnistiteljEvents.cs" />
+     <Compile Include="Assets\Scripts\VerticalScroll.cs" />
+     <Compile Include="Assets\Scripts\WatchVideoProperties.cs" />
+     <None Include="Assets\Plugins\Android\unityads\res\layout\unityads_view_video_play.xml" />
+     <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\attrs.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sk\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\unityads\proguard-project.txt" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_activity_circle_row.xml" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\Shaders\3DTextShader.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-nl\common_strings.xml" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Shaders\rimBumpedColorDecalColorZaSminke.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Bump_Rim_OneLight.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-nb\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\common_strings.xml" />
+     <None Include="Assets\Resources\xmls\inGameText\Language_pt.xml" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_OutlineCst_BumpSpec_OneLight.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\wallet_attrs.xml" />
+     <None Include="Assets\Resources\xmls\inGameText\Language_ch.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-da\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-iw\strings.xml" />
+     <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_top_button.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_search_box.xml" />
+     <None Include="Assets\Resources\xmls\Shop\Shop_us.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\cast_ic_notification_connecting.xml" />
+     <None Include="Assets\Plugins\Android\unityads\build.xml" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAdd_Alpha8.shader" />
+     <None Include="Assets\Shaders\ToonShadowed.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-tl\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rHK\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-ldpi\dimens.xml" />
+     <None Include="Assets\Shaders\FlagWaveShader.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_icon_dark.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pt-rBR\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sl\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\colors.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_friendpickerfragment.xml" />
+     <None Include="Assets\Resources\xmls\inGameText\Language_tch.xml" />
+     <None Include="Assets\Resources\xmls\Shop\Shop_de.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\cast_strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\bin\proguard.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-km-rKH\common_strings.xml" />
+     <None Include="Assets\Resources\LoadingBackground\Loading_srb.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_text_light.xml" />
+     <None Include="Assets\Resources\xmls\Shop\Shop_tch.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\wallet_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-lv\common_strings.xml" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\!ToonyColorsPro Readme.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-uz-rUZ\common_strings.xml" />
+     <None Include="Assets\Resources\xmls\inGameText\Language_us.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fr-rCA\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-lt\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\unityads\res\layout\unityads_button_audio_toggle.xml" />
+     <None Include="Assets\Resources\xmls\Shop\Shop_br.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_top_button.xml" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Outline_BumpSpec_Rim_OneLight.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pl\common_strings.xml" />
+     <None Include="Assets\Resources\xmls\Shop\Shop_pt.xml" />
+     <None Include="Assets\Resources\LoadingBackground\Loading_fr.xml" />
+     <None Include="Assets\Resources\xmls\Shop\Shop_ch.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fr\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-my-rMM\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fi\common_strings.xml" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_BumpSpec_Rim_OneLight.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\cast_ids.xml" />
+     <None Include="Assets\Resources\LoadingBackground\Loading_th.xml" />
+     <None Include="Assets\Resources\LoadingBackground\Loading_ru.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_usersettingsfragment.xml" />
+     <None Include="Assets\Resources\LoadingBackground\Loading_us.xml" />
+     <None Include="Assets\Scripts\Monkey Rush\Zastava.shader" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_checkbox.xml" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_OutlineCst_Spec_OneLight.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\auth_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\color\wallet_primary_text_holo_light.xml" />
+     <None Include="Assets\Plugins\Android\facebook\bin\R.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Outline_Bump_Rim_OneLight.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hy-rAM\common_strings.xml" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_OutlineCst_Basic_Rim_OneLight.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\wallet_colors.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\color\common_signin_btn_text_dark.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hi\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_title_bar_stub.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-am\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-in\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\strings.xml" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Outline_BumpSpec_OneLight.shader" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_item_background.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_image.xml" />
+     <None Include="Assets\Resources\LoadingBackground\Loading_es.xml" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_RimOutline_Basic_OneLight.shader" />
+     <None Include="Assets\Shaders\CFX_Demo_WaterWiggle.shader" />
+     <None Include="Assets\Resources\LoadingBackground\Loading_br.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\color\common_signin_btn_text_light.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ca\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_top_background.xml" />
+     <None Include="Assets\Resources\xmls\Shop\Shop_ko.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ne-rNP\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-hdpi\dimens.xml" />
+     <None Include="Assets\StreamingAssets\Missions.xml" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Outline_Spec_OneLight.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-te-rIN\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_icon_light.xml" />
+     <None Include="Assets\link.xml" />
+     <None Include="Assets\Plugins\Android\facebook\build.xml" />
+     <None Include="Assets\Plugins\Android\unityads\res\drawable\unityads_background_button_pause.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-kn-rIN\common_strings.xml" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Outline.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-is-rIS\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-af\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-es\common_strings.xml" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-en-rAU\common_strings.xml" />
+     <None Include="Assets\Resources\xmls\inGameText\Language_th.xml" />
+     <None Include="Assets\Shaders\TextOutline.shader" />
+     <None Include="Assets\Resources\LoadingBackground\Loading_pt.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\proguard.txt" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_button_blue.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\version.xml" />
+     <None Include="Assets\Resources\LoadingBackground\Loading_ko.xml" />
+     <None Include="Assets\Resources\xmls\Shop\Shop_it.xml" />
+     <None Include="Assets\Resources\xmls\Shop\Shop_en.xml" />
+     <None Include="Assets\Parse.Unity\Parse.Unity.xml" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_RimOutline_BumpSpec_OneLight.shader" />
+     <None Include="Assets\Resources\xmls\inGameText\Language_srb.xml" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_OutlineCst_BumpSpec_Rim_OneLight.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-bn-rBD\common_strings.xml" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\Resources\xmls\Shop\Shop_ru.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-si-rLK\common_strings.xml" />
+     <None Include="Assets\Resources\LoadingBackground\Loading_ch.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-iw\common_strings.xml" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_list_selector.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-es-rUS\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-es\wallet_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-en-rGB\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\common_attrs.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hr\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\unityads\res\drawable\unityads_icon_speaker_triangle.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_search_bar_layout.xml" />
+     <None Include="Assets\Plugins\Android\unityads\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\bin\AndroidManifest.xml" />
+     <None Include="Assets\Resources\xmls\inGameText\Language_de.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ru\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\unityads\res\drawable\unityads_icon_speaker_waves.xml" />
+     <None Include="Assets\Resources\xmls\inGameText\Language_fr.xml" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\Resources\xmls\Shop\Shop_tr.xml" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\Shaders\CartoonShader.shader" />
+     <None Include="Assets\Shaders\OutlineToonShader.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-kk-rKZ\common_strings.xml" />
+     <None Include="Assets\Resources\LoadingBackground\Loading_de.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pt\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_text_dark.xml" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_OutlineCst_Bump_Rim_OneLight.shader" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_login_activity_layout.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fa\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\unityads\res\drawable\unityads_icon_speaker_base.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\maps_attrs.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-bg\common_strings.xml" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_OutlineCst_Spec_Rim_OneLight.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ro\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-mk-rMK\common_strings.xml" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Outline_Basic_OneLight.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rCN\common_strings.xml" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_RimOutline_Bump_OneLight.shader" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-mdpi\dimens.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zu\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-uk\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sr\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-eu-rES\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_list_section_header.xml" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_OutlineCst_Bump_OneLight.shader" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_title_bar.xml" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Spec_Rim_OneLight.shader" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_usersettingsfragment_background_gradient.xml" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_OutlineCst_Basic_OneLight.shader" />
+     <None Include="Assets\Shaders\ToonBasicTransparent.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\admob_ads_attrs.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ky-rKG\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\color\wallet_secondary_text_holo_dark.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_placepickerfragment.xml" />
+     <None Include="Assets\Shaders\OutlinedDiffuse.shader" />
+     <None Include="Assets\Plugins\Android\unityads\res\drawable\unityads_icon_play.xml" />
+     <None Include="Assets\Resources\xmls\inGameText\Language_it.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-mr-rIN\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-cs\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-th\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ka-rGE\common_strings.xml" />
+     <None Include="Assets\Resources\LoadingBackground\Loading_tr.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Resources\xmls\inGameText\Language_tr.xml" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Spec_OneLight.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-vi\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rTW\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_placepickerfragment_list_row.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-mn-rMN\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ja\common_strings.xml" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Outline_Basic_Rim_OneLight.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\README.txt" />
+     <None Include="Assets\Resources\LoadingBackground\Loading_it.xml" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Basic_OneLight.shader" />
+     <None Include="Assets\Shaders\GLSLToonShader.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-it\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ms-rMY\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ml-rIN\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\drawables.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\admob_iap_style.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pt-rPT\common_strings.xml" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Include.cginc" />
+     <None Include="Assets\Shaders\SpriteTry.shader" />
+     <None Include="Assets\Shaders\Zastava.shader" />
+     <None Include="Assets\Plugins\Android\facebook\proguard-project.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Outline_Bump_OneLight.shader" />
+     <None Include="Assets\Resources\LoadingBackground\Loading_tch.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-tr\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_loginbutton_silver.xml" />
+     <None Include="Assets\Shaders\OutlinedDiffuse2.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Bump_OneLight.shader" />
+     <None Include="Assets\Resources\xmls\Shop\Shop_th.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_list_selector_background_transition.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ur-rPK\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ko\common_strings.xml" />
+     <None Include="Assets\Resources\xmls\inGameText\Language_ko.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\admob_strings.xml" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Basic_Rim_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Outline_Spec_Rim_OneLight.shader" />
+     <None Include="Assets\Resources\xmls\inGameText\Language_es.xml" />
+     <None Include="Assets\Resources\xmls\inGameText\Language_ru.xml" />
+     <None Include="Assets\Resources\xmls\Shop\Shop_fr.xml" />
+     <None Include="Assets\Resources\xmls\inGameText\Language_en.xml" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_BumpSpec_OneLight.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sw\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-et-rEE\common_strings.xml" />
+     <None Include="Assets\Resources\LoadingBackground\Loading_en.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-lo-rLA\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-en-rIN\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\unityads\res\layout\unityads_button_pause.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ar\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-gl-rES\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ta-rIN\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-he\strings.xml" />
+     <None Include="Assets\Plugins\Android\unityads\res\layout\unityads_view_video_paused.xml" />
+     <None Include="Assets\Plugins\Android\facebook\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\wallet_styles.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-es\strings.xml" />
+     <None Include="Assets\Resources\xmls\inGameText\Language_br.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_button_check.xml" />
+     <None Include="Assets\Gem Shader\diamond shader.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-el\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_list_row.xml" />
+     <None Include="Assets\Resources\xmls\Shop\Shop_es.xml" />
+     <None Include="Assets\Shaders\rimBumpedColor.shader" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-de\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-xhdpi\dimens.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sv\common_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\common_colors.xml" />
+     <None Include="Assets\Plugins\Android\unityads\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hu\common_strings.xml" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_RimOutline_Spec_OneLight.shader" />
+     <None Include="Assets\Resources\xmls\Shop\Shop_srb.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/install/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="ArabicSupport">
+ <HintPath>D:/work/unity/Banana Island/Assets/ArabicSupport/Plugins/ArabicSupport.dll</HintPath>
+ </Reference>
+ <Reference Include="IFacebook">
+ <HintPath>D:/work/unity/Banana Island/Assets/Facebook/Scripts/IFacebook.dll</HintPath>
+ </Reference>
+ <Reference Include="Parse.Unity">
+ <HintPath>D:/work/unity/Banana Island/Assets/Parse.Unity/Parse.Unity.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>D:/install/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{C80CD817-B219-A907-4A12-D43A7AAEDA63}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

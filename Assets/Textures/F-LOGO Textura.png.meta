@@ -1,0 +1,436 @@
+fileFormatVersion: 2
+guid: 814f9d082d05c3443bce6a1a400ba218
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Kamenje Pozadina
+    21300002: Drvo Sredina
+    21300004: Drvo Levo
+    21300006: Drvo Desno
+    21300008: Logo - List 1
+    21300010: Logo - List 2
+    21300012: Logo - List 3
+    21300014: Logo - List 4
+    21300016: Logo - List 5
+    21300018: Logo - List 6
+    21300020: Logo - List 7
+    21300022: B
+    21300024: A
+    21300026: N
+    21300028: I
+    21300030: S
+    21300032: L
+    21300034: A-Z
+    21300036: N-Z
+    21300038: D
+    21300040: Bobo's Epic Tale BG
+    21300042: B-Podnaslov
+    21300044: O-Podnaslov
+    21300046: '''-Podnaslov'
+    21300048: S-Podnaslov
+    21300050: E-Podnaslov
+    21300052: P-Podnaslov
+    21300054: I-Podnaslov
+    21300056: C-Podnaslov
+    21300058: T-Podnaslov
+    21300060: A-Podnaslov
+    21300062: L-Podnaslov
+    21300064: E2-Podnaslov
+    21300066: LOGO Beli Glow
+    21300068: LOGO beli spothlight
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: 56
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 5
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: 33
+    compressionQuality: 100
+  spriteSheet:
+    sprites:
+    - name: Kamenje Pozadina
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 639
+        width: 748
+        height: 385
+      alignment: 9
+      pivot: {x: .505984724, y: .441118419}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Drvo Sredina
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 515
+        width: 825
+        height: 121
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Drvo Levo
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 892
+        width: 214
+        height: 127
+      alignment: 9
+      pivot: {x: .73508805, y: .615941823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Drvo Desno
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 762
+        width: 214
+        height: 125
+      alignment: 9
+      pivot: {x: .333718568, y: .637429178}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Logo - List 1
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 681
+        width: 105
+        height: 76
+      alignment: 9
+      pivot: {x: .857203305, y: .279821306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Logo - List 2
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 673
+        width: 52
+        height: 84
+      alignment: 9
+      pivot: {x: .549933791, y: .177142918}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Logo - List 3
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 675
+        width: 52
+        height: 83
+      alignment: 9
+      pivot: {x: .533288836, y: .19410944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Logo - List 4
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 599
+        width: 90
+        height: 72
+      alignment: 9
+      pivot: {x: .19546102, y: .331702352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Logo - List 5
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 598
+        width: 44
+        height: 76
+      alignment: 9
+      pivot: {x: .427871704, y: .234266579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Logo - List 6
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 600
+        width: 43
+        height: 69
+      alignment: 9
+      pivot: {x: .439613521, y: .203126773}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Logo - List 7
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 554
+        width: 69
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 343
+        width: 131
+        height: 169
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 369
+        width: 134
+        height: 141
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: N
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 350
+        width: 140
+        height: 160
+      alignment: 9
+      pivot: {x: .46825105, y: .548615277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: I
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 353
+        width: 72
+        height: 158
+      alignment: 9
+      pivot: {x: .403694659, y: .535164535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 351
+        width: 116
+        height: 161
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 351
+        width: 107
+        height: 160
+      alignment: 9
+      pivot: {x: .394900888, y: .507598519}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A-Z
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 351
+        width: 153
+        height: 163
+      alignment: 9
+      pivot: {x: .466229618, y: .486947656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: N-Z
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 346
+        width: 134
+        height: 166
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: D
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 180
+        width: 132
+        height: 161
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bobo's Epic Tale BG
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 256
+        width: 680
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B-Podnaslov
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 198
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: O-Podnaslov
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 197
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: '''-Podnaslov'
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 231
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S-Podnaslov
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 197
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: E-Podnaslov
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 189
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: P-Podnaslov
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 189
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: I-Podnaslov
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 189
+        width: 23
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C-Podnaslov
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 189
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: T-Podnaslov
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 201
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A-Podnaslov
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 200
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: L-Podnaslov
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 202
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: E2-Podnaslov
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 201
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LOGO Beli Glow
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 182
+        width: 162
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LOGO beli spothlight
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 179
+      alignment: 9
+      pivot: {x: .966171622, y: .5078668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

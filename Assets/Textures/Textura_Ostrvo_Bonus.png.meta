@@ -1,0 +1,476 @@
+fileFormatVersion: 2
+guid: 1671ca7b5d4cb4012b1bcc30ad0dfad1
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Drvo1
+    21300002: Zbun 1
+    21300004: Zbun 1 Blur
+    21300006: Drvo2
+    21300008: Zombi
+    21300010: Panj
+    21300012: Strelice Panj
+    21300014: Finish Natpis
+    21300016: Platforma Kamena
+    21300018: Kamen 1
+    21300020: Zbun leteci
+    21300022: Kaktus
+    21300024: Listici 1
+    21300026: Listici 3
+    21300028: Listici 2
+    21300030: Teren Platforma 1
+    21300032: Teren Platforma 2 manja
+    21300034: Lijana pozadina
+    21300036: Teren sa strane
+    21300038: 'Zbun 2 '
+    21300040: Zbun 2 Blur
+    21300042: Kamen 2
+    21300044: Zbun 3
+    21300046: Listici 4
+    21300048: Teren Nepropusno
+    21300050: Teren Gore Propusno
+    21300052: Teren Dole Propusno
+    21300054: Senka 1
+    21300056: Lijana razvucena 1
+    21300058: Lijana razvucena 2
+    21300060: Lijana i lisce razvuceno
+    21300062: Cvet Crveni
+    21300064: Cvet Ljubicasti
+    21300066: Cvet Plavi
+    21300068: Cvet Beli
+    21300070: Cvet Drska 1
+    21300072: Cvet Drska 2
+    21300074: Grana 1
+    21300076: Grana 2
+    21300078: Grana 3
+    21300080: Grana 4
+    21300082: Grana 5
+    21300084: Grana 6
+    21300086: Grana 7
+    21300088: Travica 1
+    21300090: ravica 2
+    21300092: Razvuceno
+    21300094: Lijancica 1
+    21300096: Lijancica 2
+    21300098: Lijancica 3
+    21300100: Lijancica 4
+    21300102: Lijancica 5
+    21300104: Lijancica 6
+    21300106: Cudna travica
+    21300108: Zbun J 1
+    21300110: Zbun J 2
+    21300112: List J 1
+    21300114: List J 1 senka
+    21300116: List J 2
+    21300118: List J 2 senka
+    21300120: List J 3
+    21300122: List J 3 senka
+    21300124: Zeleno za drvo 1
+    21300126: Zeleno za drvo 2
+    21300128: Zeleno za drvo 3
+    21300130: Zeleno za drvo 4
+    21300132: Cudna travica 2
+    21300134: Cudna travica 3
+    21300136: Cudna travica 4
+    21300138: Cudna travica 5
+    21300140: Most
+    21300142: Most drvo
+    21300144: Most drvo 2
+    21300146: WhiteGradiantBonusTexture
+    21300148: Textura_Ostrvo_Bonus_74
+    21300150: Textura_Ostrvo_Bonus_75
+    21300152: CoinsBagBig
+    21300154: CoinsBagMedium
+    21300156: CoinsBagSmall
+    21300158: BonusTemple
+    21300160: ZnakPitanja2
+    21300162: ZnakPitanja1
+    21300164: BonusLevelKovcegFinish
+    21300166: KovcegSenka
+    21300168: BonusLevelCompletedPicture
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: 54
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 20
+  alphaIsTransparency: 1
+  textureType: 5
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: 33
+    compressionQuality: 100
+  spriteSheet:
+    sprites:
+    - name: Drvo2
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 743
+        width: 199
+        height: 281
+      alignment: 9
+      pivot: {x: .359945565, y: .0246686283}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Panj
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 565
+        width: 169
+        height: 98
+      alignment: 9
+      pivot: {x: .533911228, y: .24192743}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Strelice Panj
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 574
+        width: 67
+        height: 95
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kamen 1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 455
+        width: 196
+        height: 102
+      alignment: 9
+      pivot: {x: .38745895, y: .25457412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Teren Platforma 1
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 0
+        width: 288
+        height: 140
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kamen 2
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 460
+        width: 212
+        height: 103
+      alignment: 9
+      pivot: {x: .405714065, y: .145694926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Teren Nepropusno
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 36
+        width: 241
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Teren Gore Propusno
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 229
+        width: 269
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Teren Dole Propusno
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 254
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Senka 1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 324
+        width: 125
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Grana 1
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 918
+        width: 197
+        height: 106
+      alignment: 9
+      pivot: {x: .112897381, y: .754882216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Grana 2
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 855
+        width: 142
+        height: 62
+      alignment: 9
+      pivot: {x: .91485554, y: .650745034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Grana 3
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 797
+        width: 111
+        height: 50
+      alignment: 9
+      pivot: {x: .0739666373, y: .396068126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Grana 4
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 745
+        width: 139
+        height: 48
+      alignment: 9
+      pivot: {x: .911247611, y: .586612701}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Grana 5
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 698
+        width: 129
+        height: 43
+      alignment: 9
+      pivot: {x: .916942537, y: .15557009}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Grana 6
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 857
+        width: 48
+        height: 53
+      alignment: 9
+      pivot: {x: .142729446, y: .808859766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Grana 7
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 743
+        width: 47
+        height: 112
+      alignment: 9
+      pivot: {x: .32862106, y: .912950218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Travica 1
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 201
+        width: 63
+        height: 118
+      alignment: 9
+      pivot: {x: .86238122, y: .468905687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ravica 2
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 154
+        width: 25
+        height: 44
+      alignment: 9
+      pivot: {x: .728299558, y: .12938343}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Most
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 321
+        width: 352
+        height: 133
+      alignment: 9
+      pivot: {x: .495472908, y: .384502858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Most drvo
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 265
+        width: 83
+        height: 31
+      alignment: 9
+      pivot: {x: .920976698, y: .153883934}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Most drvo 2
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 299
+        width: 119
+        height: 21
+      alignment: 9
+      pivot: {x: .93911463, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WhiteGradiantBonusTexture
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 942
+        width: 179
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Textura_Ostrvo_Bonus_74
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 37
+        width: 91
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Textura_Ostrvo_Bonus_75
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 34
+        width: 84
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CoinsBagBig
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 0
+        width: 184
+        height: 202
+      alignment: 9
+      pivot: {x: .484520286, y: .145921379}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CoinsBagMedium
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 0
+        width: 159
+        height: 181
+      alignment: 9
+      pivot: {x: .496019274, y: .164289221}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CoinsBagSmall
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 206
+        width: 142
+        height: 153
+      alignment: 9
+      pivot: {x: .484399498, y: .169043452}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BonusTemple
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 409
+        width: 467
+        height: 520
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ZnakPitanja2
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 907
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ZnakPitanja1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 943
+        width: 78
+        height: 79
+      alignment: 9
+      pivot: {x: .465849847, y: .159447774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BonusLevelKovcegFinish
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 820
+        width: 89
+        height: 84
+      alignment: 9
+      pivot: {x: .480426133, y: .223479494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KovcegSenka
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 772
+        width: 152
+        height: 36
+      alignment: 9
+      pivot: {x: .2841506, y: .548389018}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BonusLevelCompletedPicture
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 220
+        width: 351
+        height: 172
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

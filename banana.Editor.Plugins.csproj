@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C6F7C015-9679-216C-18C9-4927A716789C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>EditorPlugins:7</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.6.2f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_2;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_2;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\UnityAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TestRunner">
+      <HintPath>Library\UnityAssemblies\UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TreeEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.TreeEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEditor.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VR">
+      <HintPath>Library\UnityAssemblies\UnityEditor.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>Library\UnityAssemblies\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="ArabicSupport">
+      <HintPath>Assets\ArabicSupport\Plugins\ArabicSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="IFacebook">
+      <HintPath>Assets\Facebook\Scripts\IFacebook.dll</HintPath>
+    </Reference>
+    <Reference Include="JMOAssets">
+      <HintPath>Assets\JMO Assets\Editor\JMOAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="Parse.Unity">
+      <HintPath>Assets\Parse.Unity\Parse.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="banana.Plugins.csproj">
+      <Project>{91D60B5C-6628-E75A-A1E1-C08770F258B7}</Project>
+      <Name>banana.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="banana.csproj">
+      <Project>{C12CAAE6-C852-D3EA-7C35-81FC75E856CF}</Project>
+      <Name>banana</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Standard Assets\Editor\UnityAds\Scripts\UnityAdsPackageGenerator.cs" />
+    <Compile Include="Assets\Standard Assets\Editor\UnityAds\Scripts\UnityAdsPostprocessor.cs" />
+    <Compile Include="Assets\Standard Assets\Editor\UnityAds\XCodeEditor\PBXBuildFile.cs" />
+    <Compile Include="Assets\Standard Assets\Editor\UnityAds\XCodeEditor\PBXBuildPhase.cs" />
+    <Compile Include="Assets\Standard Assets\Editor\UnityAds\XCodeEditor\PBXDictionary.cs" />
+    <Compile Include="Assets\Standard Assets\Editor\UnityAds\XCodeEditor\PBXFileReference.cs" />
+    <Compile Include="Assets\Standard Assets\Editor\UnityAds\XCodeEditor\PBXGroup.cs" />
+    <Compile Include="Assets\Standard Assets\Editor\UnityAds\XCodeEditor\PBXList.cs" />
+    <Compile Include="Assets\Standard Assets\Editor\UnityAds\XCodeEditor\PBXObject.cs" />
+    <Compile Include="Assets\Standard Assets\Editor\UnityAds\XCodeEditor\PBXParser.cs" />
+    <Compile Include="Assets\Standard Assets\Editor\UnityAds\XCodeEditor\PBXProject.cs" />
+    <Compile Include="Assets\Standard Assets\Editor\UnityAds\XCodeEditor\XCBuildConfiguration.cs" />
+    <Compile Include="Assets\Standard Assets\Editor\UnityAds\XCodeEditor\XCConfigurationList.cs" />
+    <Compile Include="Assets\Standard Assets\Editor\UnityAds\XCodeEditor\XCFileOperationQueue.cs" />
+    <Compile Include="Assets\Standard Assets\Editor\UnityAds\XCodeEditor\XCMod.cs" />
+    <Compile Include="Assets\Standard Assets\Editor\UnityAds\XCodeEditor\XCProject.cs" />
+    <Compile Include="Assets\Standard Assets\Editor\UnityAds\XCodeEditor\XCSourceFile.cs" />
+    <Compile Include="Assets\Standard Assets\Editor\UnityAds\XCodeEditor\XCTarget.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Gem Shader\diamond shader.shader" />
+    <None Include="Assets\JMO Assets\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAdd_Alpha8.shader" />
+    <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\!ToonyColorsPro Readme.txt" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Basic_OneLight.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Basic_Rim_OneLight.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_BumpSpec_OneLight.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_BumpSpec_Rim_OneLight.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Bump_OneLight.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Bump_Rim_OneLight.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Include.cginc" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Outline.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_OutlineCst_Basic_OneLight.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_OutlineCst_Basic_Rim_OneLight.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_OutlineCst_BumpSpec_OneLight.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_OutlineCst_BumpSpec_Rim_OneLight.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_OutlineCst_Bump_OneLight.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_OutlineCst_Bump_Rim_OneLight.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_OutlineCst_Spec_OneLight.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_OutlineCst_Spec_Rim_OneLight.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Outline_Basic_OneLight.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Outline_Basic_Rim_OneLight.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Outline_BumpSpec_OneLight.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Outline_BumpSpec_Rim_OneLight.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Outline_Bump_OneLight.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Outline_Bump_Rim_OneLight.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Outline_Spec_OneLight.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Outline_Spec_Rim_OneLight.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_RimOutline_Basic_OneLight.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_RimOutline_BumpSpec_OneLight.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_RimOutline_Bump_OneLight.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_RimOutline_Spec_OneLight.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Spec_OneLight.shader" />
+    <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\TGP_Spec_Rim_OneLight.shader" />
+    <None Include="Assets\Parse.Unity\Parse.Unity.xml" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\facebook\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\facebook\bin\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\facebook\bin\R.txt" />
+    <None Include="Assets\Plugins\Android\facebook\bin\proguard.txt" />
+    <None Include="Assets\Plugins\Android\facebook\build.xml" />
+    <None Include="Assets\Plugins\Android\facebook\proguard-project.txt" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_button_blue.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_button_check.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_loginbutton_silver.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_item_background.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_list_selector.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_list_selector_background_transition.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_top_button.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_top_background.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_top_button.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_usersettingsfragment_background_gradient.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_friendpickerfragment.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_login_activity_layout.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_activity_circle_row.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_checkbox.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_image.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_list_row.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_list_section_header.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_search_box.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_title_bar.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_title_bar_stub.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_placepickerfragment.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_placepickerfragment_list_row.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_search_bar_layout.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_usersettingsfragment.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values-es\strings.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values-hdpi\dimens.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values-he\strings.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values-iw\strings.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values-ldpi\dimens.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values-mdpi\dimens.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values-xhdpi\dimens.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values\attrs.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values\colors.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values\drawables.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values\strings.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values\styles.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\README.txt" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\proguard.txt" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\color\common_signin_btn_text_dark.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\color\common_signin_btn_text_light.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\color\wallet_primary_text_holo_light.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\color\wallet_secondary_text_holo_dark.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\cast_ic_notification_connecting.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_icon_dark.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_icon_light.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_text_dark.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_text_light.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-af\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-am\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ar\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-bg\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-bn-rBD\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ca\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-cs\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-da\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-de\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-el\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-en-rAU\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-en-rGB\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-en-rIN\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-es-rUS\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-es\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-es\wallet_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-et-rEE\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-eu-rES\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fa\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fi\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fr-rCA\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fr\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-gl-rES\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hi\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hr\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hu\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hy-rAM\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-in\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-is-rIS\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-it\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-iw\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ja\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ka-rGE\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-kk-rKZ\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-km-rKH\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-kn-rIN\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ko\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ky-rKG\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-lo-rLA\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-lt\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-lv\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-mk-rMK\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ml-rIN\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-mn-rMN\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-mr-rIN\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ms-rMY\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-my-rMM\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-nb\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ne-rNP\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-nl\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pl\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pt-rBR\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pt-rPT\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pt\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ro\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ru\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-si-rLK\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sk\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sl\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sr\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sv\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sw\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ta-rIN\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-te-rIN\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-th\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-tl\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-tr\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-uk\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ur-rPK\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-uz-rUZ\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-vi\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rCN\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rHK\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rTW\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zu\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\admob_ads_attrs.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\admob_iap_style.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\admob_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\auth_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\cast_ids.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\cast_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\common_attrs.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\common_colors.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\common_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\maps_attrs.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\version.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\wallet_attrs.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\wallet_colors.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\wallet_strings.xml" />
+    <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\wallet_styles.xml" />
+    <None Include="Assets\Plugins\Android\unityads\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\unityads\build.xml" />
+    <None Include="Assets\Plugins\Android\unityads\proguard-project.txt" />
+    <None Include="Assets\Plugins\Android\unityads\res\drawable\unityads_background_button_pause.xml" />
+    <None Include="Assets\Plugins\Android\unityads\res\drawable\unityads_icon_play.xml" />
+    <None Include="Assets\Plugins\Android\unityads\res\drawable\unityads_icon_speaker_base.xml" />
+    <None Include="Assets\Plugins\Android\unityads\res\drawable\unityads_icon_speaker_triangle.xml" />
+    <None Include="Assets\Plugins\Android\unityads\res\drawable\unityads_icon_speaker_waves.xml" />
+    <None Include="Assets\Plugins\Android\unityads\res\layout\unityads_button_audio_toggle.xml" />
+    <None Include="Assets\Plugins\Android\unityads\res\layout\unityads_button_pause.xml" />
+    <None Include="Assets\Plugins\Android\unityads\res\layout\unityads_view_video_paused.xml" />
+    <None Include="Assets\Plugins\Android\unityads\res\layout\unityads_view_video_play.xml" />
+    <None Include="Assets\Plugins\Android\unityads\res\values\strings.xml" />
+    <None Include="Assets\Resources\LoadingBackground\Loading_br.xml" />
+    <None Include="Assets\Resources\LoadingBackground\Loading_ch.xml" />
+    <None Include="Assets\Resources\LoadingBackground\Loading_de.xml" />
+    <None Include="Assets\Resources\LoadingBackground\Loading_en.xml" />
+    <None Include="Assets\Resources\LoadingBackground\Loading_es.xml" />
+    <None Include="Assets\Resources\LoadingBackground\Loading_fr.xml" />
+    <None Include="Assets\Resources\LoadingBackground\Loading_it.xml" />
+    <None Include="Assets\Resources\LoadingBackground\Loading_ko.xml" />
+    <None Include="Assets\Resources\LoadingBackground\Loading_pt.xml" />
+    <None Include="Assets\Resources\LoadingBackground\Loading_ru.xml" />
+    <None Include="Assets\Resources\LoadingBackground\Loading_srb.xml" />
+    <None Include="Assets\Resources\LoadingBackground\Loading_tch.xml" />
+    <None Include="Assets\Resources\LoadingBackground\Loading_th.xml" />
+    <None Include="Assets\Resources\LoadingBackground\Loading_tr.xml" />
+    <None Include="Assets\Resources\LoadingBackground\Loading_us.xml" />
+    <None Include="Assets\Resources\xmls\Shop\Shop_br.xml" />
+    <None Include="Assets\Resources\xmls\Shop\Shop_ch.xml" />
+    <None Include="Assets\Resources\xmls\Shop\Shop_de.xml" />
+    <None Include="Assets\Resources\xmls\Shop\Shop_en.xml" />
+    <None Include="Assets\Resources\xmls\Shop\Shop_es.xml" />
+    <None Include="Assets\Resources\xmls\Shop\Shop_fr.xml" />
+    <None Include="Assets\Resources\xmls\Shop\Shop_it.xml" />
+    <None Include="Assets\Resources\xmls\Shop\Shop_ko.xml" />
+    <None Include="Assets\Resources\xmls\Shop\Shop_pt.xml" />
+    <None Include="Assets\Resources\xmls\Shop\Shop_ru.xml" />
+    <None Include="Assets\Resources\xmls\Shop\Shop_srb.xml" />
+    <None Include="Assets\Resources\xmls\Shop\Shop_tch.xml" />
+    <None Include="Assets\Resources\xmls\Shop\Shop_th.xml" />
+    <None Include="Assets\Resources\xmls\Shop\Shop_tr.xml" />
+    <None Include="Assets\Resources\xmls\Shop\Shop_us.xml" />
+    <None Include="Assets\Resources\xmls\inGameText\Language_br.xml" />
+    <None Include="Assets\Resources\xmls\inGameText\Language_ch.xml" />
+    <None Include="Assets\Resources\xmls\inGameText\Language_de.xml" />
+    <None Include="Assets\Resources\xmls\inGameText\Language_en.xml" />
+    <None Include="Assets\Resources\xmls\inGameText\Language_es.xml" />
+    <None Include="Assets\Resources\xmls\inGameText\Language_fr.xml" />
+    <None Include="Assets\Resources\xmls\inGameText\Language_it.xml" />
+    <None Include="Assets\Resources\xmls\inGameText\Language_ko.xml" />
+    <None Include="Assets\Resources\xmls\inGameText\Language_pt.xml" />
+    <None Include="Assets\Resources\xmls\inGameText\Language_ru.xml" />
+    <None Include="Assets\Resources\xmls\inGameText\Language_srb.xml" />
+    <None Include="Assets\Resources\xmls\inGameText\Language_tch.xml" />
+    <None Include="Assets\Resources\xmls\inGameText\Language_th.xml" />
+    <None Include="Assets\Resources\xmls\inGameText\Language_tr.xml" />
+    <None Include="Assets\Resources\xmls\inGameText\Language_us.xml" />
+    <None Include="Assets\Scripts\Monkey Rush\Zastava.shader" />
+    <None Include="Assets\Shaders\3DTextShader.shader" />
+    <None Include="Assets\Shaders\CFX_Demo_WaterWiggle.shader" />
+    <None Include="Assets\Shaders\CartoonShader.shader" />
+    <None Include="Assets\Shaders\FlagWaveShader.shader" />
+    <None Include="Assets\Shaders\GLSLToonShader.shader" />
+    <None Include="Assets\Shaders\OutlineToonShader.shader" />
+    <None Include="Assets\Shaders\OutlinedDiffuse.shader" />
+    <None Include="Assets\Shaders\OutlinedDiffuse2.shader" />
+    <None Include="Assets\Shaders\SpriteTry.shader" />
+    <None Include="Assets\Shaders\TextOutline.shader" />
+    <None Include="Assets\Shaders\ToonBasicTransparent.shader" />
+    <None Include="Assets\Shaders\ToonShadowed.shader" />
+    <None Include="Assets\Shaders\Zastava.shader" />
+    <None Include="Assets\Shaders\rimBumpedColor.shader" />
+    <None Include="Assets\Shaders\rimBumpedColorDecalColorZaSminke.shader" />
+    <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+    <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+    <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+    <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+    <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+    <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+    <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+    <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+    <None Include="Assets\StreamingAssets\Missions.xml" />
+    <None Include="Assets\link.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

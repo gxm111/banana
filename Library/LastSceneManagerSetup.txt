@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/VerticalScroll.unity
+- path: Assets/Scenes/_World 1 Banana.unity
   isLoaded: 1
   isActive: 1

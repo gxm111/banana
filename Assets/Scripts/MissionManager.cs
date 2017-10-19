@@ -75,8 +75,8 @@ public class MissionManager : MonoBehaviour {
 	{
 		get
 		{
-			if(instance == null)
-				instance = FindObjectOfType(typeof(MissionManager)) as MissionManager;
+            if (instance == null)
+                instance = new MissionManager();//FindObjectOfType(typeof(MissionManager)) as MissionManager;
 
 			return instance;
 		}

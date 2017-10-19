@@ -163,7 +163,7 @@ public class FacebookSettingsEditor : Editor
                 EditorGUILayout.HelpBox(msg, MessageType.Warning);
             }
             EditorGUILayout.HelpBox("Copy and Paste these into your \"Native Android App\" Settings on developers.facebook.com/apps", MessageType.None);
-            SelectableLabelField(packageNameLabel, PlayerSettings.bundleIdentifier);
+            SelectableLabelField(packageNameLabel, PlayerSettings.applicationIdentifier);
             SelectableLabelField(classNameLabel, ManifestMod.DeepLinkingActivityName);
             SelectableLabelField(debugAndroidKeyLabel, FacebookAndroidUtil.DebugKeyHash);
             if (GUILayout.Button("Regenerate Android Manifest"))

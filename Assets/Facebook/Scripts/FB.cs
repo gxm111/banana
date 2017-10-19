@@ -356,52 +356,52 @@ public sealed class FB : ScriptableObject
             }
 
 #if !UNITY_WINRT
-			//#if UNITY_4_5
-//			var authTokenWww = new WWW(IntegratedPluginCanvasLocation.KeyUrl);
-//			yield return authTokenWww;
-//			if (authTokenWww.error != null)
-//			{
-//				FbDebug.Error("Cannot load from " + IntegratedPluginCanvasLocation.KeyUrl + ": " + authTokenWww.error);
-//				authTokenWww.Dispose();
-//				yield break;
-//			}
-//			var assembly = Security.LoadAndVerifyAssembly(www.bytes, authTokenWww.text);
-//			//#else
-//			//var assembly = Security.LoadAndVerifyAssembly(www.bytes);
-//			//#endif
+            //#if UNITY_4_5
+            //			var authTokenWww = new WWW(IntegratedPluginCanvasLocation.KeyUrl);
+            //			yield return authTokenWww;
+            //			if (authTokenWww.error != null)
+            //			{
+            //				FbDebug.Error("Cannot load from " + IntegratedPluginCanvasLocation.KeyUrl + ": " + authTokenWww.error);
+            //				authTokenWww.Dispose();
+            //				yield break;
+            //			}
+            //			var assembly = Security.LoadAndVerifyAssembly(www.bytes, authTokenWww.text);
+            //			//#else
+            //			//var assembly = Security.LoadAndVerifyAssembly(www.bytes);
+            //			//#endif
             //var assembly = Security.LoadAndVerifyAssembly(www.bytes);
-			//var assembly = Security.LoadAndVerifyAssembly(www.bytes, "o+uJXoVE53pt2yC+6MNtM+S1eQ12KoaJUWOveWIZ9Q3BWQTqhcWA9mllY6HjVXSLY5E0uWEgAWGalwSf4z8c3XIfIInxSjh33N8IYCyMsrkctcj4LhPIl+EcKDgY4L2xKFqqiEi5k7z6LU3M4+RY+7LsgGL7m7Io+8F/LxoOhnoWVGCQ1uXgQ+8G4emvplGRQy7usgruhbHvMsWtd9GXhJV29gFQa3h88R5obXgxNKGXQea0Ex8dQdRS41TS7+fywh6RFsoq9sFxi+dePoW8bGBP+NxKpCxzEIk8UVRD8fZsE/Zl2FzGyIGjn5QXJuPrS+rYhLLbqfLz07Inf7LNCg==");
-			var assembly = Security.LoadAndVerifyAssembly(www.bytes, "B8GvecdX0rQ47kzhCEwlrRzYKA8LKeiZxy1HI3HfnhdgUATvBwQQViji8ot44dADM55QuHk5+hwrLsoau32IDmRDQTclMSsTsIywGRo/nE5vbmRMMIECYXBFhliz+kvK0RWZ57XPxw0s7YhGnNLav0EE2QH/m+9ajlLOY+2ckxSoSEHLpotllyZLktRK+oFiDPvmzXLDUMOnwK9RFRSh2VBmoyWTZx8BYqWjqug3kAljJk/XwTYZT9Ie+HvzLO5DBSqMNYbEX03WaNfpaq9GKBF/Oz37AHelf1Es36amP1v2Aut3nmIk2xxN6zwzBXyEyw90vJ/O8suikU+8kDDbZA==");
-            if (assembly == null)
-            {
-                FbDebug.Error("Could not securely load assembly from " + url);
-                www.Dispose();
-                yield break;
-            }
+            //var assembly = Security.LoadAndVerifyAssembly(www.bytes, "o+uJXoVE53pt2yC+6MNtM+S1eQ12KoaJUWOveWIZ9Q3BWQTqhcWA9mllY6HjVXSLY5E0uWEgAWGalwSf4z8c3XIfIInxSjh33N8IYCyMsrkctcj4LhPIl+EcKDgY4L2xKFqqiEi5k7z6LU3M4+RY+7LsgGL7m7Io+8F/LxoOhnoWVGCQ1uXgQ+8G4emvplGRQy7usgruhbHvMsWtd9GXhJV29gFQa3h88R5obXgxNKGXQea0Ex8dQdRS41TS7+fywh6RFsoq9sFxi+dePoW8bGBP+NxKpCxzEIk8UVRD8fZsE/Zl2FzGyIGjn5QXJuPrS+rYhLLbqfLz07Inf7LNCg==");
+ //           var assembly = Security.LoadAndVerifyAssembly(www.bytes, "B8GvecdX0rQ47kzhCEwlrRzYKA8LKeiZxy1HI3HfnhdgUATvBwQQViji8ot44dADM55QuHk5+hwrLsoau32IDmRDQTclMSsTsIywGRo/nE5vbmRMMIECYXBFhliz+kvK0RWZ57XPxw0s7YhGnNLav0EE2QH/m+9ajlLOY+2ckxSoSEHLpotllyZLktRK+oFiDPvmzXLDUMOnwK9RFRSh2VBmoyWTZx8BYqWjqug3kAljJk/XwTYZT9Ie+HvzLO5DBSqMNYbEX03WaNfpaq9GKBF/Oz37AHelf1Es36amP1v2Aut3nmIk2xxN6zwzBXyEyw90vJ/O8suikU+8kDDbZA==");
+ //           if (assembly == null)
+ //           {
+  //              FbDebug.Error("Could not securely load assembly from " + url);
+  //              www.Dispose();
+ //               yield break;
+ //           }
 
-            var facebookClass = assembly.GetType(facebookNamespace + className);
-            if (facebookClass == null)
-            {
-                FbDebug.Error(className + " not found in assembly!");
-                www.Dispose();
-                yield break;
-            }
+ //           var facebookClass = assembly.GetType(facebookNamespace + className);
+ //           if (facebookClass == null)
+ //           {
+ //               FbDebug.Error(className + " not found in assembly!");
+ //               www.Dispose();
+ //               yield break;
+ //           }
 
             // load the Facebook component into the gameobject
             // using the "as" cast so it'll null if it fails to cast, instead of exception
-            var fb = typeof(FBComponentFactory)
-                    .GetMethod("GetComponent")
-                    .MakeGenericMethod(facebookClass)
-                    .Invoke(null, new object[] { IfNotExist.AddNew }) as IFacebook;
+ //           var fb = typeof(FBComponentFactory)
+ //                   .GetMethod("GetComponent")
+//                    .MakeGenericMethod(facebookClass)
+ //                   .Invoke(null, new object[] { IfNotExist.AddNew }) as IFacebook;
 
-            if (fb == null)
-            {
-                FbDebug.Error(className + " couldn't be created.");
-                www.Dispose();
-                yield break;
-            }
+ //           if (fb == null)
+ //           {
+  //              FbDebug.Error(className + " couldn't be created.");
+  //              www.Dispose();
+  //              yield break;
+ //           }
 
-            callback(fb);
+ //           callback(fb);
 #endif
             www.Dispose();
         }

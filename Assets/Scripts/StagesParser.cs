@@ -138,8 +138,8 @@ public class StagesParser : MonoBehaviour {
 	{
 		get
 		{
-			if(instance == null)
-				instance = GameObject.FindObjectOfType(typeof(StagesParser)) as StagesParser;
+            if (instance == null)
+                instance = new StagesParser();//GameObject.FindObjectOfType(typeof(StagesParser)) as StagesParser;
 
 			return instance;
 		}
